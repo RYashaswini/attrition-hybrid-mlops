@@ -1,0 +1,4 @@
+{
+  "attrition": "s3://attrition-hybrid-mlops-131746731280/models/attrition/model.tar.gz",
+  "promotion": "s3://attrition-hybrid-mlops-131746731280/models/promotion/model.tar.gz"
+}
