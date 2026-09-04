@@ -1,0 +1,32 @@
+[project]
+name = "attrition-hybrid-mlops"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "RYashaswini", email = "r.yashaswini94@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "boto3>=1.43.88",
+    "mlflow>=3.16.0",
+    "numpy>=2.4.6",
+    "pandas>=3.0.5",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+    "sagemaker<3",
+    "scikit-learn>=1.9.0",
+]
+
+[project.scripts]
+attrition-hybrid-mlops = "attrition_hybrid_mlops:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+]
