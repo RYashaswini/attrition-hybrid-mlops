@@ -1,0 +1,3001 @@
+employee_id,department,current_designation,tenure_months,months_since_last_promotion,performance_rating,avg_performance_rating_last_2yrs,project_completion_rate,training_hours_completed,peer_review_score,manager_rating,leadership_flag,certifications_count,PromotionReady
+1,Operations,Team Lead,103,19,2,2.84,54.4,45,2.66,4,1,1,0
+2,Sales,Team Lead,96,36,1,2.17,74.7,17,4.29,1,0,2,0
+3,Finance,Team Lead,111,39,5,3.7,69.9,45,2.84,1,0,2,1
+4,Finance,Senior Associate,51,49,1,1.02,64.9,38,1.81,5,1,0,0
+5,Operations,Senior Associate,18,29,5,3.5,82.2,3,2.27,3,0,2,0
+6,Sales,Senior Associate,100,48,1,2.9,80.3,65,1.19,4,0,2,0
+7,Engineering,Manager,67,40,2,3.95,98.8,20,4.64,5,0,3,0
+8,Sales,Senior Associate,75,50,1,4.54,85.9,33,3.11,1,1,4,1
+9,HR,Senior Associate,100,29,5,2.31,84.5,75,3.37,4,0,0,0
+10,HR,Senior Associate,13,0,1,1.13,57.9,48,2.07,1,0,0,0
+11,Engineering,Manager,68,8,2,1.44,89.5,50,4.51,2,0,2,1
+12,Operations,Manager,29,30,3,1.6,66.8,44,2.43,4,0,0,0
+13,Engineering,Associate,11,8,5,4.72,60.3,30,1.19,3,1,1,1
+14,Operations,Manager,31,11,5,4.45,86.8,66,4.23,2,0,2,1
+15,Engineering,Manager,13,59,5,2.02,93.1,31,4.32,1,0,1,0
+16,Finance,Associate,8,40,3,3.5,55.1,7,3.49,1,1,1,0
+17,HR,Team Lead,53,37,3,2.72,82.0,24,2.46,2,0,4,1
+18,Finance,Team Lead,61,43,5,2.88,62.8,11,4.03,1,0,1,0
+19,Operations,Associate,110,56,1,4.22,81.3,25,3.66,2,0,3,0
+20,Operations,Team Lead,110,25,3,1.83,83.0,33,1.41,5,0,3,0
+21,Marketing,Associate,80,13,1,4.93,51.6,8,4.58,4,0,2,0
+22,Engineering,Team Lead,87,36,2,2.79,53.3,44,2.82,5,0,0,0
+23,Engineering,Senior Associate,80,14,5,4.38,54.0,72,1.52,1,0,1,0
+24,Marketing,Associate,81,54,5,2.3,73.2,51,3.39,3,0,3,0
+25,Engineering,Senior Associate,5,18,3,3.25,79.8,47,1.12,4,0,5,1
+26,Finance,Senior Associate,89,52,4,1.34,81.6,44,3.41,2,0,3,0
+27,Marketing,Team Lead,46,57,4,2.96,52.2,39,2.3,3,0,1,0
+28,Engineering,Team Lead,17,25,2,2.17,99.0,67,2.57,2,0,2,0
+29,HR,Associate,43,15,1,2.52,84.5,54,2.93,5,0,1,0
+30,Engineering,Senior Associate,92,47,1,4.37,89.2,27,1.82,3,0,1,0
+31,Sales,Senior Associate,56,2,1,4.84,79.5,4,3.96,1,0,3,0
+32,Operations,Senior Associate,31,27,5,1.65,65.8,6,2.38,2,0,1,0
+33,Sales,Team Lead,41,8,3,4.24,69.6,18,3.41,4,0,3,0
+34,Finance,Senior Associate,13,3,3,4.4,54.4,30,1.81,1,0,1,0
+35,Finance,Senior Associate,72,14,1,3.61,94.6,77,2.63,4,1,1,0
+36,Engineering,Team Lead,16,0,5,2.44,81.5,44,1.78,4,1,0,1
+37,Finance,Senior Associate,13,13,4,3.93,89.4,7,3.66,2,0,2,0
+38,Engineering,Associate,111,48,4,1.02,96.9,54,2.33,2,0,1,0
+39,Sales,Senior Associate,113,34,2,1.06,94.6,58,1.88,1,0,2,0
+40,Engineering,Senior Associate,82,7,1,1.57,62.6,28,4.07,1,0,1,0
+41,Engineering,Senior Associate,31,5,4,4.76,68.9,0,2.28,2,0,2,0
+42,Marketing,Senior Associate,91,35,1,1.41,85.6,8,1.72,4,0,2,0
+43,Operations,Senior Associate,35,13,5,2.71,53.9,44,1.64,3,0,3,1
+44,Operations,Team Lead,15,37,1,2.27,62.8,58,4.62,2,0,1,0
+45,Operations,Senior Associate,89,49,5,4.93,51.8,56,1.51,2,0,0,1
+46,HR,Manager,4,1,4,1.48,72.1,66,4.64,1,0,0,0
+47,Sales,Associate,82,34,4,3.99,73.8,68,4.11,1,0,0,0
+48,Finance,Team Lead,17,59,5,2.52,82.3,36,1.07,4,0,0,0
+49,Engineering,Team Lead,25,44,5,4.49,88.9,69,2.42,1,1,0,1
+50,Marketing,Manager,14,1,4,2.99,99.6,48,1.24,3,0,0,0
+51,Operations,Senior Associate,95,23,3,2.34,74.2,71,3.75,1,1,4,1
+52,Engineering,Manager,3,26,3,4.72,62.6,23,1.61,4,0,0,0
+53,Marketing,Senior Associate,65,28,3,4.86,76.1,6,1.74,5,0,1,0
+54,Operations,Manager,3,15,4,3.7,98.5,78,1.22,1,1,0,1
+55,Finance,Team Lead,107,51,3,3.78,86.3,27,3.92,5,0,1,0
+56,Sales,Manager,1,57,2,1.72,80.0,38,2.34,2,0,2,0
+57,Finance,Associate,44,3,4,1.25,54.4,0,3.75,4,1,1,0
+58,Finance,Senior Associate,11,45,2,3.53,93.3,8,3.03,3,0,0,0
+59,Finance,Senior Associate,47,46,4,2.67,69.2,45,1.56,3,0,3,0
+60,Sales,Manager,53,44,1,3.0,53.9,27,4.54,3,0,0,0
+61,Finance,Senior Associate,21,1,3,4.3,59.6,63,3.35,1,0,1,0
+62,Finance,Team Lead,46,39,5,2.87,55.0,16,4.07,1,0,2,0
+63,Operations,Senior Associate,66,25,2,4.44,80.6,18,4.41,1,0,2,1
+64,Finance,Manager,43,34,2,2.57,97.5,70,4.52,4,0,1,1
+65,Sales,Senior Associate,94,21,5,4.64,59.3,79,1.44,1,1,2,0
+66,Finance,Manager,48,19,4,3.03,56.9,22,3.29,1,0,0,0
+67,Sales,Team Lead,48,12,5,2.07,69.6,39,3.53,1,0,2,0
+68,Marketing,Associate,87,59,2,1.82,74.8,71,3.91,4,1,1,1
+69,Sales,Senior Associate,85,23,2,1.32,53.8,66,1.58,2,0,1,0
+70,Marketing,Manager,58,36,1,3.82,85.7,42,3.38,4,0,1,0
+71,Sales,Associate,77,55,2,2.28,78.8,30,1.32,5,0,1,0
+72,HR,Team Lead,52,17,5,2.37,53.7,21,1.73,2,1,2,0
+73,Finance,Senior Associate,3,53,5,3.62,91.7,73,1.69,2,1,0,1
+74,HR,Team Lead,60,41,1,4.95,53.4,76,3.13,1,0,1,0
+75,HR,Associate,53,48,3,2.68,73.7,67,1.31,4,0,0,0
+76,Marketing,Team Lead,73,37,1,2.32,71.7,60,1.22,3,1,1,0
+77,Finance,Senior Associate,37,40,1,3.08,75.3,66,4.81,4,0,0,0
+78,Finance,Manager,62,52,2,1.71,82.4,76,4.41,2,0,0,0
+79,HR,Team Lead,103,30,2,3.08,92.6,72,4.12,2,0,0,0
+80,Engineering,Manager,27,13,2,4.42,99.4,36,2.51,4,1,2,1
+81,Operations,Associate,97,2,4,1.43,89.8,24,4.92,1,0,5,0
+82,Marketing,Senior Associate,1,59,3,1.84,68.3,16,4.34,1,0,1,0
+83,Finance,Team Lead,5,24,5,2.43,91.4,42,3.39,5,0,2,0
+84,Sales,Senior Associate,93,33,1,2.37,73.9,47,2.09,4,0,1,0
+85,Sales,Associate,53,3,4,2.38,63.3,1,2.48,2,0,1,0
+86,Operations,Senior Associate,47,15,1,2.03,67.8,0,1.28,4,0,1,0
+87,Finance,Associate,8,50,4,4.76,75.1,49,2.09,3,0,1,1
+88,Operations,Team Lead,60,40,2,1.28,55.9,63,3.83,3,1,0,0
+89,Operations,Associate,28,55,2,3.15,61.5,18,3.77,4,1,0,0
+90,Marketing,Associate,18,1,3,2.54,78.2,60,2.45,4,0,0,0
+91,Operations,Manager,12,37,4,4.12,80.9,6,3.62,5,0,1,0
+92,Finance,Team Lead,43,21,5,2.93,62.3,36,3.78,5,0,1,1
+93,Finance,Manager,94,46,4,3.68,78.1,77,3.47,3,0,1,0
+94,Engineering,Senior Associate,30,0,2,3.87,57.0,5,1.49,1,0,0,0
+95,Operations,Team Lead,82,56,3,1.59,51.7,19,1.12,4,1,1,0
+96,Finance,Manager,32,13,2,4.72,61.9,24,3.84,2,0,1,0
+97,Engineering,Associate,54,59,4,3.69,75.0,61,3.41,1,0,0,0
+98,HR,Team Lead,13,17,3,2.16,65.0,70,4.52,2,1,1,1
+99,HR,Manager,75,34,4,1.79,79.5,31,1.27,1,1,1,0
+100,Finance,Senior Associate,56,3,5,2.06,96.3,40,3.1,3,0,2,0
+101,Marketing,Senior Associate,66,44,2,2.51,86.6,44,4.5,2,1,1,1
+102,HR,Team Lead,62,2,2,4.72,83.0,65,4.53,5,0,0,1
+103,Finance,Manager,104,33,4,2.2,63.3,35,4.33,5,1,0,1
+104,Marketing,Manager,3,48,4,4.72,56.5,22,3.44,3,0,3,0
+105,Operations,Manager,16,41,4,2.83,50.8,56,4.09,3,1,2,1
+106,Operations,Team Lead,55,25,2,3.23,99.5,59,3.63,1,0,0,0
+107,Marketing,Associate,111,17,1,1.61,70.1,59,2.01,5,0,2,0
+108,Engineering,Manager,117,2,4,4.84,57.4,59,2.8,1,1,1,0
+109,Marketing,Team Lead,116,24,4,1.17,61.0,2,1.34,2,0,0,0
+110,Marketing,Senior Associate,103,8,1,3.86,78.3,4,4.33,2,0,0,0
+111,Operations,Associate,28,39,3,3.95,88.7,42,1.36,1,0,2,0
+112,Finance,Team Lead,70,57,2,1.67,66.2,48,2.78,2,0,0,0
+113,Sales,Team Lead,77,46,5,4.72,96.5,27,2.2,4,1,2,1
+114,HR,Associate,113,4,2,2.92,74.6,23,2.58,2,0,4,0
+115,Marketing,Manager,54,15,1,1.19,99.8,79,4.66,2,0,0,0
+116,Operations,Manager,35,28,1,2.02,94.3,69,2.59,5,0,2,0
+117,Operations,Associate,31,58,4,4.94,65.2,40,2.31,4,0,1,1
+118,Sales,Team Lead,52,4,4,1.73,56.9,21,2.83,3,0,0,0
+119,Sales,Team Lead,117,44,4,1.09,89.3,69,4.26,4,1,1,1
+120,Marketing,Senior Associate,29,24,1,2.69,86.0,69,4.35,2,1,1,1
+121,HR,Senior Associate,84,33,1,4.81,61.5,57,4.9,3,1,2,1
+122,Engineering,Manager,2,44,5,1.92,97.9,0,3.66,3,0,1,0
+123,Operations,Manager,111,23,5,4.92,66.9,20,3.25,2,0,3,1
+124,HR,Associate,25,8,3,4.5,71.1,44,4.19,3,0,1,1
+125,Operations,Senior Associate,31,55,2,4.44,62.3,26,4.37,1,0,1,0
+126,Engineering,Team Lead,89,2,1,3.34,57.8,68,2.72,3,0,1,0
+127,HR,Associate,114,58,4,2.12,72.9,65,3.27,2,0,1,0
+128,Finance,Team Lead,27,14,3,3.39,87.5,30,1.11,3,1,0,1
+129,HR,Manager,111,26,5,4.54,97.7,40,1.81,2,0,0,0
+130,Operations,Associate,108,15,2,2.43,79.2,1,4.18,5,0,1,0
+131,Sales,Associate,54,45,4,2.61,59.6,2,4.32,1,0,2,0
+132,Marketing,Associate,113,52,1,2.47,56.9,0,3.97,1,0,3,0
+133,HR,Senior Associate,82,49,2,1.26,70.8,57,4.21,3,0,0,0
+134,Sales,Team Lead,83,15,5,4.11,81.9,1,1.36,3,0,1,0
+135,Marketing,Associate,65,32,5,1.62,79.0,35,2.63,2,0,1,0
+136,Sales,Senior Associate,7,46,2,2.91,51.2,31,3.46,1,0,0,0
+137,Operations,Senior Associate,5,38,5,3.95,70.5,26,3.77,5,0,1,1
+138,Sales,Associate,114,28,5,3.98,54.7,69,2.56,5,0,2,1
+139,Engineering,Associate,89,24,2,4.49,93.4,31,2.07,3,0,2,0
+140,Operations,Team Lead,56,13,5,3.75,50.4,51,3.85,5,1,0,1
+141,Marketing,Associate,68,6,3,4.36,92.2,40,4.15,5,0,1,0
+142,Sales,Senior Associate,62,16,4,1.48,96.4,21,2.16,2,0,0,0
+143,Marketing,Associate,56,17,3,2.33,50.6,23,1.21,1,0,0,0
+144,Operations,Manager,61,4,3,1.56,94.1,56,4.85,2,0,1,0
+145,Finance,Senior Associate,32,23,3,2.24,80.2,4,2.7,5,0,2,0
+146,Operations,Manager,54,41,2,1.09,98.8,22,2.43,2,0,1,0
+147,Sales,Manager,119,28,5,2.32,77.8,57,1.11,1,0,1,0
+148,Finance,Manager,106,51,2,4.2,58.7,38,1.19,1,0,0,0
+149,Engineering,Manager,16,34,3,3.37,83.8,55,4.46,2,0,2,1
+150,Sales,Associate,71,2,5,1.82,55.5,17,3.85,5,0,0,0
+151,Marketing,Associate,59,14,2,3.57,97.9,22,2.33,2,0,3,0
+152,Marketing,Manager,71,26,1,3.58,81.5,18,2.64,5,0,0,0
+153,Finance,Team Lead,5,45,2,3.02,68.2,63,1.32,3,0,2,0
+154,Operations,Team Lead,71,23,3,3.21,51.5,39,1.1,5,1,2,0
+155,Engineering,Senior Associate,54,39,4,1.05,69.3,0,3.52,4,0,3,0
+156,Finance,Team Lead,49,19,1,3.76,60.7,50,1.16,1,1,0,0
+157,Sales,Manager,6,59,4,4.65,58.0,71,4.57,5,1,0,1
+158,Operations,Manager,31,44,3,2.59,60.3,41,2.35,1,0,2,0
+159,Operations,Manager,29,16,3,3.54,65.0,69,1.88,5,0,0,0
+160,Marketing,Senior Associate,119,46,5,4.89,85.7,43,2.32,3,1,1,0
+161,Operations,Associate,111,37,4,4.38,51.5,65,2.91,1,0,0,0
+162,Marketing,Manager,20,27,3,1.59,60.2,57,3.46,4,1,0,0
+163,HR,Team Lead,104,39,4,1.42,70.5,13,3.05,4,0,2,0
+164,Sales,Senior Associate,5,22,5,1.77,83.1,47,1.86,2,0,2,0
+165,Finance,Team Lead,84,54,2,3.98,58.6,34,1.87,1,0,3,0
+166,Finance,Senior Associate,69,57,4,4.71,74.6,35,1.24,4,0,0,0
+167,HR,Associate,50,24,3,2.39,66.7,24,3.54,3,0,0,0
+168,Operations,Manager,86,45,2,3.31,95.8,24,2.91,5,0,1,0
+169,Engineering,Team Lead,94,18,3,2.7,87.4,75,1.53,5,1,1,1
+170,Marketing,Senior Associate,6,40,3,4.8,89.0,21,1.79,5,0,2,0
+171,Finance,Associate,30,11,5,3.43,61.4,15,1.75,4,1,1,0
+172,Marketing,Senior Associate,98,56,3,3.03,77.1,23,3.52,1,0,1,0
+173,Engineering,Manager,39,44,5,2.05,81.4,79,4.65,2,0,1,1
+174,Marketing,Team Lead,67,26,5,3.85,61.8,11,4.2,3,0,1,1
+175,Sales,Senior Associate,27,49,1,3.76,80.8,20,3.45,1,0,3,0
+176,Marketing,Manager,61,40,2,1.03,82.5,35,4.35,3,1,1,0
+177,Engineering,Senior Associate,54,16,3,3.35,75.2,54,3.85,5,0,0,0
+178,Operations,Manager,116,0,3,4.32,89.2,17,4.72,4,0,3,1
+179,Finance,Associate,69,17,1,4.18,61.2,39,3.01,5,0,1,0
+180,Marketing,Associate,100,30,3,2.08,80.2,38,2.69,1,0,0,0
+181,Sales,Manager,39,0,2,4.89,73.6,64,4.07,1,0,1,0
+182,HR,Manager,15,3,3,2.92,74.7,67,1.53,5,1,0,0
+183,Engineering,Team Lead,69,22,4,3.81,80.2,76,3.45,3,1,3,1
+184,HR,Associate,10,42,3,3.72,77.6,28,4.47,4,0,1,0
+185,Engineering,Senior Associate,32,58,4,2.4,65.7,75,4.98,5,0,1,1
+186,HR,Associate,107,24,4,2.2,66.7,52,2.65,3,1,4,1
+187,Sales,Associate,77,44,1,4.89,80.0,26,1.05,4,0,1,0
+188,Sales,Manager,119,5,1,4.11,68.3,2,2.08,4,1,1,0
+189,Marketing,Senior Associate,22,42,2,2.7,99.7,34,4.53,3,0,1,0
+190,Marketing,Team Lead,82,10,1,2.14,59.3,2,3.49,3,0,1,0
+191,Finance,Team Lead,35,43,4,4.69,88.0,42,3.46,5,1,3,1
+192,Sales,Manager,57,4,4,2.66,92.4,29,3.49,4,1,3,1
+193,Engineering,Associate,18,2,2,1.28,76.7,36,3.19,4,0,2,0
+194,Engineering,Team Lead,33,29,3,3.3,90.7,4,2.26,3,0,1,1
+195,Sales,Team Lead,21,36,5,3.75,63.1,30,2.66,5,0,0,0
+196,Sales,Associate,115,54,1,1.88,88.6,20,1.51,3,0,2,0
+197,Sales,Senior Associate,100,17,1,1.26,89.9,64,2.27,5,0,0,0
+198,Marketing,Manager,84,1,3,1.22,67.5,32,2.27,3,1,4,0
+199,Finance,Team Lead,51,15,2,4.49,94.2,49,1.58,3,0,0,0
+200,HR,Manager,92,57,2,3.26,73.3,70,4.15,4,0,0,0
+201,Engineering,Associate,88,41,1,1.53,70.9,23,3.54,1,1,0,0
+202,Marketing,Team Lead,86,14,5,3.29,99.0,2,1.13,5,0,0,1
+203,HR,Associate,44,42,3,3.58,94.9,57,1.81,1,1,1,1
+204,HR,Manager,81,36,2,4.7,93.2,20,4.57,1,0,1,1
+205,Operations,Team Lead,112,4,4,2.11,72.9,22,2.59,2,0,2,0
+206,HR,Team Lead,81,58,1,4.72,65.3,51,4.96,2,0,4,0
+207,Finance,Manager,44,46,4,4.6,78.8,19,3.26,4,0,2,1
+208,Operations,Senior Associate,33,6,2,3.08,58.9,59,3.07,1,0,0,0
+209,Engineering,Manager,76,32,3,4.91,61.1,4,4.2,3,1,0,0
+210,Sales,Team Lead,40,56,5,2.53,50.6,53,3.98,4,0,3,0
+211,Operations,Manager,86,4,1,2.47,82.5,25,4.61,1,0,0,0
+212,Sales,Team Lead,86,19,2,2.81,58.4,69,4.06,2,0,2,0
+213,Operations,Manager,17,1,4,3.47,88.0,9,2.11,5,1,2,1
+214,Finance,Senior Associate,60,29,2,1.51,62.7,61,3.02,1,0,0,0
+215,HR,Team Lead,37,9,1,4.29,95.9,46,3.48,4,1,2,1
+216,Operations,Team Lead,103,31,3,3.63,88.8,70,3.75,1,0,2,0
+217,Sales,Team Lead,80,33,1,2.15,80.9,45,3.54,2,0,0,0
+218,Engineering,Associate,101,34,3,1.8,63.7,25,4.25,5,0,0,0
+219,HR,Associate,15,27,1,2.41,58.1,77,4.42,4,0,0,1
+220,Operations,Manager,41,20,4,3.63,55.2,19,1.55,1,0,1,0
+221,Engineering,Team Lead,113,14,5,4.02,83.1,40,2.79,5,0,2,1
+222,Engineering,Team Lead,86,56,1,3.39,80.2,38,4.55,1,0,3,0
+223,Operations,Senior Associate,112,51,4,1.87,57.5,35,2.27,1,0,0,0
+224,Sales,Manager,53,58,5,3.44,83.8,46,2.06,5,0,1,1
+225,Engineering,Team Lead,45,56,4,1.47,92.3,31,4.07,2,0,0,0
+226,HR,Associate,29,23,5,4.42,96.5,44,2.62,5,1,0,1
+227,Engineering,Associate,80,25,1,1.83,95.2,64,3.42,1,0,1,0
+228,Finance,Manager,65,43,3,1.76,99.9,36,3.45,1,0,0,0
+229,Marketing,Manager,46,11,4,3.78,53.0,22,1.47,4,0,4,0
+230,Marketing,Manager,111,9,1,4.22,95.8,7,4.79,5,0,3,1
+231,Engineering,Team Lead,35,23,4,3.04,81.3,30,4.44,3,1,0,0
+232,Sales,Team Lead,104,3,3,4.21,59.5,65,2.61,2,0,3,0
+233,Finance,Senior Associate,74,19,2,1.45,51.8,59,1.48,1,0,2,0
+234,HR,Associate,100,27,2,3.76,66.8,33,1.75,1,0,0,0
+235,Engineering,Team Lead,68,23,3,3.03,55.8,5,3.83,2,0,1,0
+236,Engineering,Senior Associate,57,41,4,4.82,100.0,41,3.69,1,0,0,0
+237,Operations,Associate,76,0,5,2.3,83.3,41,1.92,4,0,1,0
+238,Marketing,Manager,51,13,3,3.61,97.3,57,3.03,3,0,0,0
+239,Operations,Team Lead,60,21,1,3.45,66.6,69,4.08,2,0,1,0
+240,Finance,Associate,5,6,3,3.93,60.8,63,2.41,2,0,0,1
+241,Marketing,Senior Associate,35,53,3,4.66,62.3,72,3.47,2,1,0,1
+242,Sales,Team Lead,116,46,3,1.28,77.2,9,4.11,4,0,3,0
+243,Marketing,Manager,97,21,2,4.65,65.4,79,2.37,3,1,0,0
+244,HR,Manager,4,22,4,4.16,58.2,24,3.03,1,0,0,0
+245,Operations,Team Lead,51,17,1,3.21,74.2,74,4.78,5,1,0,1
+246,Engineering,Manager,100,48,1,2.33,73.7,68,2.3,2,0,1,0
+247,Operations,Manager,97,58,1,2.06,91.0,45,2.57,2,1,0,0
+248,HR,Manager,58,5,1,3.28,79.1,38,3.95,3,1,3,1
+249,HR,Senior Associate,83,3,1,4.92,55.5,65,3.9,4,1,1,1
+250,Engineering,Associate,35,2,3,1.14,75.4,44,4.74,1,0,1,0
+251,Marketing,Senior Associate,64,9,2,1.97,94.6,39,3.51,5,0,0,0
+252,Finance,Senior Associate,40,56,2,2.42,80.6,38,1.09,1,0,1,0
+253,Sales,Team Lead,1,29,5,4.15,58.2,37,3.01,4,0,0,1
+254,Marketing,Associate,7,59,1,3.37,89.5,16,1.84,3,0,1,0
+255,Engineering,Manager,104,11,2,4.06,63.5,75,1.74,1,0,2,0
+256,Finance,Senior Associate,49,0,2,1.66,65.9,38,3.98,5,0,2,0
+257,Sales,Associate,115,1,4,4.11,61.7,1,2.47,5,0,4,0
+258,HR,Senior Associate,33,16,4,4.74,91.0,38,1.93,3,0,2,0
+259,Engineering,Team Lead,83,8,5,2.36,87.9,77,4.85,3,0,1,0
+260,Sales,Manager,12,52,2,1.5,79.8,29,3.46,3,0,0,0
+261,Finance,Associate,78,23,3,1.13,58.6,9,4.84,3,0,3,0
+262,Finance,Associate,70,53,1,4.68,75.3,62,4.95,5,0,1,0
+263,Operations,Team Lead,78,53,1,1.45,89.6,34,3.52,4,0,3,0
+264,Marketing,Manager,95,24,2,4.76,99.1,60,3.46,3,0,1,1
+265,Finance,Associate,115,0,3,2.45,93.9,54,3.98,2,0,0,0
+266,Sales,Associate,97,52,1,3.22,75.5,16,4.62,3,0,0,0
+267,Marketing,Manager,78,59,5,1.93,85.9,55,4.06,1,0,0,0
+268,Operations,Manager,81,51,3,3.74,59.3,33,1.64,3,0,0,0
+269,Finance,Senior Associate,82,43,5,4.04,89.1,59,4.66,1,0,0,1
+270,Operations,Associate,89,44,5,3.85,76.5,51,1.88,4,0,0,1
+271,Engineering,Senior Associate,22,4,5,3.84,99.8,28,4.24,5,1,1,1
+272,Sales,Team Lead,4,1,1,2.29,77.8,44,1.44,5,0,2,0
+273,HR,Team Lead,65,25,5,4.31,97.9,65,3.44,4,0,1,1
+274,HR,Team Lead,35,35,3,3.4,79.0,12,2.86,5,0,1,0
+275,Engineering,Team Lead,58,9,2,4.39,63.4,10,1.12,2,1,0,0
+276,Operations,Team Lead,42,48,3,4.79,78.3,59,1.57,1,0,1,0
+277,Finance,Senior Associate,117,41,5,3.48,85.5,75,1.17,1,0,0,0
+278,Sales,Manager,36,47,5,1.23,51.4,65,4.99,1,0,1,0
+279,Engineering,Associate,7,4,1,1.67,92.0,0,1.87,3,0,2,0
+280,Operations,Manager,32,6,1,4.97,84.9,77,4.18,4,0,0,0
+281,Sales,Team Lead,3,46,1,2.61,64.2,37,1.67,2,0,0,0
+282,Engineering,Associate,89,50,2,4.17,68.8,71,1.9,2,1,0,0
+283,Marketing,Manager,18,42,1,2.07,90.5,61,1.08,1,0,3,0
+284,HR,Manager,91,55,2,1.73,79.3,2,3.71,1,0,3,0
+285,Operations,Team Lead,63,8,4,4.14,52.2,61,3.16,4,0,0,0
+286,Operations,Manager,6,4,5,3.4,62.9,79,4.68,2,0,0,1
+287,Operations,Senior Associate,71,58,4,1.21,83.9,76,3.68,3,1,1,0
+288,Operations,Associate,66,23,4,4.03,88.2,74,3.32,4,1,0,1
+289,Finance,Associate,94,17,3,4.37,50.6,17,1.13,1,0,2,0
+290,Sales,Associate,74,3,2,1.61,78.1,36,1.41,5,0,0,0
+291,HR,Team Lead,110,47,2,4.06,69.4,72,4.61,4,0,1,0
+292,Engineering,Associate,48,50,3,3.3,53.2,48,4.44,3,0,0,0
+293,Marketing,Manager,45,11,4,1.12,96.8,8,3.24,1,1,1,0
+294,HR,Team Lead,94,57,5,3.04,60.9,53,2.67,4,0,2,0
+295,Sales,Senior Associate,20,41,1,2.65,58.0,64,4.92,1,1,0,0
+296,HR,Manager,101,6,4,2.77,51.9,59,3.62,2,0,0,0
+297,Marketing,Associate,84,18,1,3.77,92.6,79,1.28,3,1,1,0
+298,Marketing,Team Lead,111,3,3,1.2,63.7,23,2.14,3,0,1,0
+299,Marketing,Manager,113,26,3,1.57,71.8,22,3.73,1,0,3,0
+300,Marketing,Associate,16,41,4,2.18,60.5,43,3.16,2,0,1,1
+301,Engineering,Associate,114,5,3,3.17,73.9,7,4.28,5,0,1,1
+302,HR,Senior Associate,109,31,3,2.15,90.1,79,2.8,1,0,3,1
+303,Operations,Manager,36,33,3,3.27,84.5,76,1.47,5,0,1,0
+304,Marketing,Associate,56,26,1,4.64,96.2,49,3.86,2,0,3,0
+305,HR,Associate,102,1,4,1.23,81.5,16,3.82,4,0,0,0
+306,Operations,Manager,72,18,5,4.4,80.6,63,3.94,4,0,1,1
+307,Engineering,Associate,17,27,3,2.44,51.0,7,1.16,5,0,0,0
+308,Marketing,Senior Associate,118,33,1,4.62,92.7,12,2.65,1,1,2,0
+309,Finance,Manager,22,39,4,1.07,70.3,15,1.27,2,0,3,0
+310,Finance,Team Lead,63,17,3,2.41,99.8,52,3.45,3,0,0,0
+311,Engineering,Manager,93,42,5,3.29,89.8,52,3.81,3,0,2,1
+312,Operations,Associate,98,35,2,3.21,96.5,26,3.32,5,0,2,0
+313,Marketing,Senior Associate,27,50,5,1.07,58.1,75,3.53,4,0,1,1
+314,Engineering,Team Lead,40,42,1,1.1,93.1,14,4.79,3,0,0,1
+315,Marketing,Team Lead,78,22,3,1.79,54.4,78,2.29,5,0,2,1
+316,Sales,Manager,104,31,3,3.36,52.9,0,4.14,4,1,1,0
+317,Operations,Manager,72,25,2,4.32,52.8,2,1.59,3,0,0,0
+318,HR,Associate,95,17,3,1.88,51.1,59,3.69,5,0,3,1
+319,Marketing,Manager,103,23,2,4.28,73.0,45,4.05,3,0,0,0
+320,Sales,Senior Associate,112,51,1,4.32,84.3,55,2.4,1,0,0,0
+321,Sales,Manager,16,4,4,4.61,93.9,28,4.94,2,0,0,1
+322,Finance,Team Lead,34,7,4,2.52,55.7,42,1.62,1,1,3,0
+323,Operations,Team Lead,100,39,5,1.39,78.1,41,2.57,5,1,3,1
+324,Engineering,Associate,38,21,4,4.33,65.2,25,2.37,4,0,2,1
+325,Finance,Team Lead,94,6,1,1.32,71.2,49,3.07,2,0,0,0
+326,Marketing,Manager,1,52,3,3.48,99.3,3,4.95,2,0,1,0
+327,Operations,Senior Associate,67,53,4,3.34,73.0,4,4.95,4,0,3,0
+328,Engineering,Associate,57,49,3,3.88,84.2,63,4.81,4,0,0,0
+329,Operations,Team Lead,51,18,4,4.61,93.7,42,1.18,2,0,0,0
+330,Sales,Manager,4,22,2,4.11,79.3,24,4.15,1,0,1,0
+331,Marketing,Manager,105,25,2,2.72,76.4,43,2.99,4,0,1,0
+332,HR,Senior Associate,40,20,1,2.96,66.8,51,1.98,1,0,0,0
+333,Finance,Manager,25,49,1,1.32,89.1,50,3.05,3,0,1,0
+334,Finance,Associate,96,33,5,2.08,70.0,40,1.12,4,0,0,0
+335,Operations,Manager,116,52,1,3.18,96.2,8,2.9,5,0,2,0
+336,Engineering,Manager,106,8,3,4.26,55.2,5,2.21,4,1,3,1
+337,Marketing,Senior Associate,18,53,3,1.27,66.5,32,3.44,1,0,1,0
+338,Finance,Associate,86,51,3,3.73,65.5,45,1.27,4,0,2,0
+339,Marketing,Associate,43,49,3,3.75,87.8,76,3.58,1,1,4,1
+340,Marketing,Team Lead,84,57,4,2.13,93.2,58,4.75,2,0,1,0
+341,Marketing,Senior Associate,53,1,3,1.76,62.8,32,1.96,2,0,1,0
+342,Finance,Manager,7,36,1,2.17,57.0,27,3.58,1,0,3,0
+343,Marketing,Senior Associate,30,25,1,3.81,54.6,79,4.31,5,0,3,1
+344,HR,Manager,15,17,4,4.15,95.5,44,4.11,5,0,0,1
+345,Finance,Team Lead,14,0,4,2.61,61.3,0,2.05,1,0,2,0
+346,Sales,Associate,63,48,4,3.1,53.4,66,4.39,4,0,1,0
+347,Sales,Senior Associate,11,53,1,3.63,77.1,5,2.77,2,0,1,0
+348,Engineering,Manager,58,13,2,3.38,99.6,74,4.26,3,1,0,1
+349,Operations,Senior Associate,92,58,2,2.19,54.4,52,3.83,1,1,0,0
+350,HR,Associate,16,54,1,2.31,76.7,24,1.37,4,0,3,0
+351,HR,Senior Associate,29,7,3,1.64,76.3,53,1.92,4,0,2,1
+352,Finance,Senior Associate,110,57,3,1.1,54.1,69,4.0,4,0,1,0
+353,Finance,Associate,93,30,3,4.27,51.6,25,1.37,1,0,2,0
+354,Sales,Senior Associate,109,47,2,1.79,62.5,9,1.02,4,0,1,0
+355,HR,Manager,112,57,2,3.42,63.8,35,4.1,4,0,2,0
+356,Engineering,Manager,92,3,2,3.3,75.8,51,3.24,5,0,2,0
+357,Engineering,Senior Associate,15,4,5,1.66,95.8,73,2.69,2,0,2,0
+358,Marketing,Team Lead,3,31,3,2.07,65.2,67,4.37,3,0,3,0
+359,Engineering,Team Lead,43,0,4,2.95,92.9,49,4.42,5,0,0,0
+360,Operations,Team Lead,24,59,4,1.14,52.0,6,2.42,3,0,1,0
+361,Sales,Senior Associate,91,12,2,3.57,62.1,39,2.28,1,0,2,0
+362,HR,Team Lead,98,29,4,1.11,56.0,72,3.78,5,0,1,0
+363,Finance,Associate,109,8,1,2.56,64.9,10,1.88,2,0,0,0
+364,Operations,Manager,81,17,3,3.1,69.3,33,1.9,4,0,3,0
+365,Engineering,Senior Associate,37,48,5,2.61,58.5,44,1.94,3,0,0,0
+366,HR,Manager,1,49,1,1.01,91.0,46,4.43,2,0,1,0
+367,Sales,Senior Associate,59,27,2,4.44,84.9,28,1.17,5,0,2,0
+368,Finance,Manager,62,58,1,3.51,63.9,44,1.95,3,1,0,0
+369,Sales,Manager,1,10,3,4.98,89.9,67,4.1,2,0,2,0
+370,Marketing,Senior Associate,93,16,3,4.45,62.4,55,1.86,3,0,0,0
+371,Marketing,Team Lead,107,29,1,4.31,54.6,75,4.71,4,0,0,1
+372,Engineering,Senior Associate,44,51,5,2.91,89.2,22,1.26,4,1,3,1
+373,Sales,Manager,22,19,1,3.82,58.5,36,4.39,1,0,0,0
+374,Finance,Manager,78,50,3,3.24,60.5,67,2.85,4,0,1,1
+375,Finance,Senior Associate,3,22,3,4.62,90.3,38,2.9,5,0,1,1
+376,Finance,Associate,88,21,2,4.95,84.3,60,1.16,5,0,2,0
+377,HR,Manager,66,40,4,4.86,89.7,11,3.97,1,0,1,0
+378,Operations,Manager,52,27,4,4.23,59.8,16,3.99,5,0,0,1
+379,HR,Manager,110,58,1,4.28,90.0,16,2.99,1,0,1,0
+380,Engineering,Team Lead,51,58,2,2.1,69.9,11,4.06,1,0,1,0
+381,HR,Manager,114,51,3,1.13,79.2,49,4.28,4,0,1,0
+382,Operations,Senior Associate,87,22,1,4.0,57.8,71,3.68,4,1,5,0
+383,Sales,Associate,96,2,2,2.47,73.9,57,2.58,4,0,2,1
+384,Engineering,Manager,38,14,2,4.64,69.5,34,4.18,5,0,1,0
+385,HR,Team Lead,111,10,5,4.06,72.0,62,2.46,3,0,0,0
+386,Engineering,Team Lead,30,50,1,1.81,73.3,66,1.02,2,0,0,0
+387,HR,Senior Associate,34,59,4,4.57,65.5,53,3.34,4,0,0,0
+388,Marketing,Associate,115,8,1,4.96,69.9,28,3.12,1,0,0,0
+389,HR,Manager,47,55,3,3.89,93.2,24,3.41,5,1,3,1
+390,Operations,Senior Associate,23,42,5,1.96,93.5,20,3.2,4,0,1,0
+391,Finance,Senior Associate,82,57,1,3.93,99.8,33,1.78,4,0,1,0
+392,Sales,Manager,94,39,1,3.48,98.2,10,2.96,5,0,2,0
+393,Operations,Manager,5,41,5,3.6,83.4,0,1.16,2,0,1,0
+394,Marketing,Team Lead,47,42,5,4.96,85.4,52,3.64,5,0,2,1
+395,Operations,Manager,114,24,4,1.13,68.3,31,3.35,5,0,3,0
+396,Marketing,Associate,76,19,5,2.74,71.9,74,2.95,2,0,2,1
+397,Sales,Associate,8,28,4,4.6,53.2,41,4.45,4,1,0,1
+398,Sales,Senior Associate,56,43,2,1.02,70.9,39,1.7,4,0,1,0
+399,Sales,Manager,2,19,3,4.41,83.0,58,4.11,4,0,1,1
+400,Operations,Associate,2,5,4,1.94,95.9,52,2.28,2,0,0,0
+401,Engineering,Team Lead,100,45,2,2.16,81.8,57,4.77,5,1,0,0
+402,Operations,Senior Associate,106,6,4,4.33,82.0,5,4.3,1,0,2,0
+403,HR,Senior Associate,32,25,5,3.09,93.1,21,1.37,5,0,2,1
+404,Operations,Senior Associate,47,7,4,2.87,73.3,33,3.86,3,0,2,1
+405,Marketing,Manager,93,21,3,4.03,86.6,74,3.88,2,0,2,0
+406,Finance,Team Lead,76,55,3,1.97,83.5,61,3.59,5,1,1,0
+407,Finance,Senior Associate,47,56,4,2.66,63.4,27,4.83,2,1,0,1
+408,Marketing,Team Lead,57,21,3,2.23,61.0,15,4.24,1,0,2,0
+409,HR,Associate,106,42,3,1.31,52.3,48,2.81,1,0,0,0
+410,Operations,Manager,54,38,1,2.7,81.5,12,3.98,5,0,0,0
+411,Finance,Team Lead,44,46,3,4.23,85.0,14,3.77,5,1,0,0
+412,HR,Associate,1,28,5,3.69,70.4,51,4.55,3,1,0,1
+413,Operations,Associate,61,34,2,4.23,50.8,24,2.22,4,0,2,0
+414,Marketing,Manager,44,14,3,4.19,88.2,54,4.59,4,0,1,0
+415,Sales,Senior Associate,36,9,1,2.8,62.7,1,3.31,5,0,0,0
+416,Marketing,Manager,99,39,5,3.91,57.2,56,3.13,2,0,1,1
+417,Engineering,Senior Associate,99,58,1,3.59,63.3,31,3.35,4,0,1,0
+418,Finance,Senior Associate,50,1,4,3.62,88.7,79,2.15,1,1,3,1
+419,HR,Associate,47,25,5,2.06,96.0,43,3.33,1,0,1,0
+420,Marketing,Team Lead,86,9,4,2.33,57.3,23,2.02,4,0,2,0
+421,HR,Senior Associate,101,56,2,3.91,51.0,68,2.76,3,0,1,0
+422,Engineering,Manager,116,2,2,4.09,86.6,72,4.9,3,0,1,0
+423,Sales,Senior Associate,45,51,5,3.36,91.0,70,4.17,1,0,2,1
+424,Finance,Associate,106,2,2,2.27,78.3,60,4.29,1,0,0,0
+425,HR,Senior Associate,72,31,4,4.0,95.4,28,2.4,3,0,0,0
+426,HR,Associate,108,41,1,1.37,71.9,76,2.99,1,0,0,0
+427,HR,Team Lead,54,7,2,2.24,56.6,9,3.93,5,0,2,0
+428,Operations,Associate,101,6,1,2.97,71.7,67,3.31,5,0,2,1
+429,Finance,Team Lead,107,21,2,1.88,77.9,48,2.56,3,0,1,0
+430,Operations,Senior Associate,20,7,4,4.58,90.2,30,1.48,4,0,0,0
+431,Engineering,Manager,87,43,2,1.15,99.6,55,1.18,3,0,0,0
+432,HR,Senior Associate,66,49,2,4.0,82.6,55,2.69,3,1,0,1
+433,HR,Senior Associate,13,36,1,4.66,91.0,54,4.5,2,0,0,1
+434,Engineering,Associate,21,16,5,2.4,77.2,6,3.27,4,0,1,0
+435,HR,Team Lead,91,14,5,2.79,50.0,0,2.54,1,0,1,0
+436,Engineering,Manager,40,3,2,3.96,53.6,45,4.86,1,0,0,0
+437,HR,Senior Associate,60,46,5,1.95,56.0,49,2.35,3,0,1,0
+438,Engineering,Manager,8,42,5,2.87,96.1,65,4.59,5,0,0,1
+439,Marketing,Team Lead,85,34,3,4.45,50.7,0,4.51,4,0,1,0
+440,Operations,Senior Associate,52,24,1,1.3,74.8,10,2.75,3,0,0,0
+441,Engineering,Manager,91,46,5,2.89,71.2,41,2.37,3,0,1,0
+442,Operations,Team Lead,28,56,2,1.35,90.0,57,2.5,1,0,0,0
+443,Sales,Manager,49,50,3,3.58,85.0,14,3.79,1,0,0,0
+444,Operations,Associate,25,43,5,3.39,51.6,48,2.68,3,1,4,1
+445,Operations,Senior Associate,33,30,4,3.11,72.5,77,4.77,2,0,3,0
+446,Marketing,Associate,51,18,2,3.5,85.9,68,4.75,4,1,1,1
+447,Sales,Associate,105,43,3,2.81,72.5,6,3.36,2,1,0,0
+448,Engineering,Manager,56,24,3,1.35,63.0,67,3.33,4,0,0,0
+449,Sales,Manager,84,48,2,3.9,70.3,11,1.33,1,0,1,0
+450,Engineering,Team Lead,116,39,3,4.06,69.9,24,1.09,3,1,1,0
+451,HR,Senior Associate,76,56,2,4.26,79.4,45,3.66,4,1,2,1
+452,HR,Associate,105,51,1,1.62,83.5,47,1.28,4,0,0,0
+453,Engineering,Manager,45,50,3,3.04,65.8,63,3.22,1,0,0,0
+454,HR,Manager,12,40,4,4.15,51.8,5,1.75,4,0,1,0
+455,Operations,Team Lead,105,4,1,3.27,86.1,76,4.45,2,0,0,0
+456,Operations,Team Lead,84,41,5,2.7,53.6,44,3.58,3,0,2,1
+457,Sales,Senior Associate,15,52,1,4.27,83.4,9,2.55,1,0,1,0
+458,HR,Senior Associate,31,33,1,3.78,97.7,37,2.59,4,1,1,0
+459,Engineering,Associate,39,14,4,2.89,70.8,32,4.58,4,0,2,1
+460,Engineering,Manager,82,30,2,1.06,98.2,19,1.97,1,0,0,0
+461,HR,Manager,47,8,1,4.55,96.8,63,3.35,2,0,1,1
+462,Finance,Manager,46,16,5,1.3,95.0,36,4.8,3,1,1,0
+463,Operations,Team Lead,53,11,2,4.54,88.0,4,2.19,1,0,1,0
+464,Sales,Associate,87,17,4,2.82,82.8,15,1.69,5,1,2,0
+465,Finance,Team Lead,4,12,4,2.55,78.9,4,3.48,3,1,1,0
+466,Marketing,Senior Associate,51,5,1,1.31,80.3,57,5.0,2,1,0,0
+467,Marketing,Team Lead,45,16,4,3.83,98.0,71,2.01,5,0,1,1
+468,Engineering,Manager,35,8,1,3.94,58.6,66,4.78,4,0,1,0
+469,Operations,Team Lead,67,46,2,4.74,72.7,72,2.22,5,1,0,1
+470,Operations,Team Lead,62,16,3,2.08,76.1,61,3.53,2,0,0,0
+471,Finance,Senior Associate,27,48,4,1.99,93.2,15,2.72,1,0,0,0
+472,Finance,Team Lead,46,32,3,2.51,51.1,45,1.18,4,0,0,0
+473,Engineering,Manager,2,11,5,2.28,97.6,37,4.66,2,0,1,0
+474,Finance,Senior Associate,52,9,4,3.41,73.4,48,2.2,5,0,2,1
+475,Marketing,Manager,26,56,5,1.26,62.5,8,2.78,4,0,0,0
+476,Operations,Team Lead,19,0,3,1.08,78.2,21,4.22,3,0,4,0
+477,Operations,Senior Associate,45,51,2,3.32,68.8,66,2.66,3,0,0,0
+478,HR,Manager,15,2,3,1.64,88.4,58,3.36,4,0,3,1
+479,Marketing,Senior Associate,16,52,2,2.98,66.7,38,2.69,2,0,2,0
+480,Sales,Associate,73,39,3,4.15,90.3,74,3.3,3,0,1,0
+481,HR,Manager,17,40,4,3.12,60.3,66,4.61,3,0,1,1
+482,HR,Manager,32,24,1,4.71,70.6,32,4.1,4,0,2,0
+483,Engineering,Senior Associate,77,4,1,1.96,93.2,56,3.25,4,0,1,1
+484,HR,Team Lead,102,20,1,3.8,80.9,4,2.57,1,0,1,0
+485,Sales,Manager,33,53,1,1.8,79.9,6,1.57,4,0,0,0
+486,Engineering,Associate,77,53,5,1.48,74.1,78,4.31,4,0,2,0
+487,Engineering,Team Lead,36,16,4,2.79,91.1,9,1.91,3,0,0,0
+488,Marketing,Manager,40,16,2,2.36,74.9,48,1.86,3,0,1,0
+489,Operations,Senior Associate,28,28,1,2.9,91.2,30,1.67,5,1,2,1
+490,Finance,Team Lead,23,23,2,4.25,80.6,43,4.33,4,0,1,0
+491,Engineering,Manager,26,21,3,3.87,96.8,29,1.63,4,1,1,1
+492,Operations,Associate,20,57,5,2.6,76.8,76,1.99,4,0,2,0
+493,Operations,Manager,64,53,4,2.06,55.3,46,4.06,2,0,2,0
+494,Operations,Team Lead,80,27,3,2.38,88.5,39,3.21,2,0,1,0
+495,Engineering,Senior Associate,61,11,3,1.63,89.6,3,1.01,1,0,0,0
+496,Engineering,Associate,54,10,4,4.36,97.7,12,3.96,4,0,1,1
+497,HR,Manager,66,54,1,3.65,90.5,77,3.38,1,0,4,1
+498,Marketing,Associate,114,33,3,2.01,69.8,42,1.73,4,0,0,0
+499,Finance,Associate,1,22,4,4.15,72.2,36,2.13,2,0,3,0
+500,Engineering,Associate,30,14,2,2.82,95.4,1,2.88,5,0,6,1
+501,Operations,Team Lead,38,57,4,3.82,79.4,60,1.06,5,0,0,0
+502,Finance,Manager,14,48,2,1.36,78.4,4,2.9,2,0,3,0
+503,HR,Associate,10,56,3,1.99,61.1,72,4.58,3,0,1,1
+504,Marketing,Team Lead,82,38,4,2.34,53.9,71,3.44,5,1,1,1
+505,Operations,Senior Associate,91,37,3,1.81,55.1,68,4.63,2,0,1,1
+506,Sales,Team Lead,68,25,3,2.93,97.3,36,1.09,3,1,1,1
+507,Marketing,Manager,34,21,3,2.34,65.9,36,1.38,5,0,1,0
+508,Sales,Associate,64,43,3,3.82,77.6,18,4.6,3,0,0,0
+509,Operations,Team Lead,104,37,4,3.9,77.6,19,1.05,3,0,2,0
+510,Sales,Team Lead,63,43,1,4.48,88.8,1,3.19,2,0,1,0
+511,Sales,Manager,76,6,4,1.18,92.9,46,3.98,1,0,0,0
+512,HR,Team Lead,86,29,5,1.53,71.4,52,3.42,2,0,0,0
+513,Marketing,Associate,111,59,3,4.81,89.3,22,3.63,3,0,1,0
+514,Finance,Manager,111,39,1,4.83,50.9,7,3.03,1,0,0,0
+515,Engineering,Associate,5,25,4,1.07,58.0,40,1.71,5,1,2,0
+516,Marketing,Associate,84,38,2,4.94,99.2,34,1.77,4,0,2,0
+517,Sales,Team Lead,83,54,2,3.51,74.2,61,1.18,1,0,1,0
+518,Operations,Senior Associate,110,2,2,1.9,63.7,74,1.73,1,0,4,0
+519,Marketing,Manager,33,7,1,2.99,97.3,18,1.89,5,1,1,0
+520,Engineering,Senior Associate,38,53,4,3.97,63.4,30,1.57,1,0,1,0
+521,HR,Manager,86,7,5,3.55,87.4,53,3.2,1,0,2,0
+522,HR,Associate,80,36,1,2.65,88.5,56,4.78,2,1,1,0
+523,Marketing,Team Lead,79,49,2,4.57,66.1,75,1.27,5,0,2,1
+524,Finance,Senior Associate,111,43,5,3.66,58.4,43,3.64,3,0,2,1
+525,Sales,Team Lead,109,19,2,1.05,54.7,36,3.24,3,0,1,0
+526,Engineering,Team Lead,9,20,1,1.08,82.8,58,3.13,3,0,1,0
+527,Engineering,Senior Associate,95,59,1,1.78,74.1,28,3.77,4,0,1,0
+528,Operations,Team Lead,23,43,3,3.7,95.2,40,1.86,4,0,2,0
+529,Engineering,Team Lead,94,49,5,3.64,66.1,46,4.11,3,0,4,0
+530,HR,Manager,41,4,2,2.31,97.1,69,1.83,4,0,2,0
+531,Sales,Manager,40,30,2,3.69,52.5,67,4.39,5,0,0,0
+532,Sales,Associate,67,37,4,1.2,73.2,10,4.83,4,1,1,0
+533,HR,Associate,48,20,5,2.06,98.4,0,2.23,4,0,1,0
+534,HR,Senior Associate,97,45,2,1.58,52.2,28,2.72,1,0,1,0
+535,Engineering,Associate,82,24,3,3.48,54.0,25,4.79,2,1,3,1
+536,Marketing,Senior Associate,68,47,2,3.2,80.3,17,1.1,2,0,2,0
+537,Operations,Associate,82,28,4,3.42,64.2,65,3.81,5,0,0,1
+538,Sales,Senior Associate,60,59,5,1.15,78.3,30,2.78,3,0,2,0
+539,HR,Manager,74,55,5,2.89,99.8,73,4.02,4,0,0,0
+540,HR,Team Lead,101,8,4,4.17,86.3,79,1.02,3,1,0,1
+541,Operations,Senior Associate,16,4,2,3.25,92.9,52,4.33,2,0,1,1
+542,Operations,Senior Associate,62,7,3,3.87,75.7,16,3.51,3,0,1,0
+543,Operations,Associate,32,28,4,2.17,62.7,57,4.39,4,0,0,0
+544,Finance,Manager,14,24,1,4.22,82.1,44,4.32,1,0,0,0
+545,Sales,Associate,119,27,5,3.04,63.4,58,2.75,2,0,0,0
+546,Marketing,Manager,80,12,2,2.66,96.7,59,1.5,1,0,2,0
+547,Sales,Associate,48,10,4,3.51,97.9,77,3.94,1,0,1,0
+548,Engineering,Manager,30,32,3,2.04,97.8,4,1.24,1,1,0,0
+549,Sales,Team Lead,27,50,2,2.0,85.0,19,1.98,2,0,1,0
+550,Engineering,Manager,17,6,3,1.56,58.7,36,2.15,4,0,0,0
+551,HR,Team Lead,47,45,5,3.51,97.3,55,4.12,5,0,3,1
+552,Operations,Team Lead,11,27,5,2.03,54.9,6,1.57,2,0,3,0
+553,HR,Senior Associate,53,2,4,3.42,70.5,20,3.24,2,1,0,1
+554,Finance,Manager,76,30,3,2.06,67.3,63,2.57,4,0,3,0
+555,Sales,Senior Associate,15,31,3,4.32,63.5,2,3.08,4,1,1,1
+556,Operations,Senior Associate,66,21,3,1.34,52.2,23,1.46,4,0,2,0
+557,Engineering,Team Lead,7,41,5,1.74,68.4,35,4.57,1,0,0,0
+558,Finance,Senior Associate,51,42,2,4.67,56.0,70,2.54,1,0,1,0
+559,Marketing,Team Lead,4,3,4,3.81,52.5,4,1.7,2,0,0,0
+560,Finance,Associate,71,45,1,4.6,94.2,41,1.66,3,1,1,0
+561,Finance,Associate,25,18,5,1.44,80.0,41,3.79,4,0,0,0
+562,Operations,Manager,42,51,4,1.29,73.6,20,4.52,2,0,2,0
+563,Sales,Manager,118,45,1,1.4,69.6,1,1.13,1,0,0,0
+564,Marketing,Senior Associate,113,16,4,4.37,66.2,35,2.74,2,0,0,0
+565,Marketing,Team Lead,7,23,3,4.84,70.0,8,4.37,5,1,2,1
+566,Sales,Senior Associate,99,11,4,2.21,90.0,77,2.09,5,0,0,1
+567,HR,Associate,61,53,1,3.14,96.4,55,2.86,5,0,2,0
+568,Operations,Associate,18,29,1,4.04,90.6,22,2.36,1,0,1,0
+569,Sales,Manager,90,46,4,1.12,50.1,17,4.33,4,0,0,0
+570,Marketing,Senior Associate,83,12,5,1.8,79.4,10,4.56,1,0,1,0
+571,Sales,Team Lead,51,22,1,2.01,81.1,42,1.94,3,0,2,0
+572,Engineering,Associate,87,16,5,3.72,52.3,7,3.01,2,0,0,0
+573,Finance,Senior Associate,91,45,3,3.9,86.0,18,4.47,1,0,0,0
+574,Engineering,Manager,92,32,5,2.69,60.3,78,3.07,4,0,2,0
+575,Finance,Manager,103,26,2,3.64,55.0,29,4.45,5,0,0,0
+576,HR,Associate,40,29,3,3.62,86.9,19,4.48,2,1,2,0
+577,HR,Manager,43,14,5,1.41,64.3,29,1.85,5,0,0,0
+578,HR,Team Lead,2,10,2,3.31,61.9,51,3.19,4,0,0,0
+579,Finance,Team Lead,89,57,2,4.09,83.8,63,3.56,1,0,0,1
+580,Marketing,Senior Associate,101,35,2,1.52,90.4,62,1.25,5,0,0,0
+581,Sales,Senior Associate,106,49,1,4.48,54.4,56,1.08,1,1,1,0
+582,Operations,Senior Associate,17,33,1,3.63,64.7,27,4.29,4,0,1,0
+583,Sales,Team Lead,73,21,5,1.98,80.4,52,2.14,3,0,0,0
+584,Operations,Senior Associate,67,21,2,3.6,66.5,2,2.55,1,0,1,0
+585,Sales,Associate,21,41,3,3.65,53.4,21,4.58,5,0,2,0
+586,Marketing,Manager,25,20,4,2.18,93.5,77,4.09,5,0,1,1
+587,Finance,Associate,8,46,1,3.98,60.8,42,4.28,1,0,0,0
+588,Marketing,Team Lead,83,8,3,4.0,79.1,3,3.59,3,0,1,0
+589,HR,Manager,43,13,1,4.8,97.2,1,2.2,2,0,2,0
+590,Finance,Team Lead,47,48,1,4.06,75.5,67,3.53,5,1,4,0
+591,Marketing,Team Lead,23,12,1,3.11,62.5,71,2.03,2,0,0,0
+592,Marketing,Manager,116,58,1,2.96,64.9,23,2.16,4,0,2,0
+593,Engineering,Manager,16,33,3,1.98,95.3,3,1.51,4,0,1,0
+594,Engineering,Senior Associate,108,14,2,3.71,55.8,5,1.11,2,1,0,0
+595,HR,Senior Associate,86,12,5,1.66,90.7,35,3.47,2,0,1,1
+596,Operations,Manager,5,21,3,2.39,63.8,33,4.12,3,0,1,0
+597,Engineering,Senior Associate,80,52,2,1.61,50.0,28,4.28,1,0,0,0
+598,Operations,Associate,35,39,2,3.39,69.6,25,2.82,3,1,2,0
+599,Marketing,Manager,23,59,2,1.58,55.2,37,3.72,2,0,0,0
+600,Operations,Associate,11,11,1,4.27,52.1,48,1.3,5,0,1,0
+601,Operations,Senior Associate,58,25,2,4.35,87.7,78,4.3,5,0,1,0
+602,Marketing,Senior Associate,17,31,3,4.46,97.2,24,4.9,5,1,1,1
+603,Engineering,Team Lead,103,35,2,4.32,78.1,22,2.75,4,0,0,0
+604,Operations,Associate,119,19,1,2.24,71.5,75,1.5,4,1,1,0
+605,HR,Senior Associate,49,48,4,4.61,68.4,30,2.29,4,0,2,0
+606,Engineering,Manager,46,3,1,3.99,60.7,50,3.94,4,0,2,0
+607,Finance,Associate,60,54,1,3.93,55.3,59,1.27,4,0,0,0
+608,Finance,Associate,89,45,3,3.66,87.5,75,1.47,1,0,2,0
+609,Sales,Senior Associate,79,1,3,1.83,85.5,56,4.82,1,0,1,0
+610,Engineering,Manager,20,11,2,2.66,81.0,6,2.81,1,0,1,0
+611,Engineering,Team Lead,97,59,4,2.52,81.8,68,3.24,3,1,1,0
+612,Finance,Manager,3,21,1,2.23,50.6,45,1.78,1,0,2,0
+613,Operations,Senior Associate,89,26,1,4.81,97.0,42,2.94,1,0,2,1
+614,Finance,Associate,115,26,5,2.59,64.8,76,2.96,1,0,0,0
+615,Engineering,Associate,6,1,5,4.0,70.2,26,3.57,3,0,1,0
+616,HR,Manager,89,25,4,2.17,55.6,4,2.4,4,0,1,0
+617,Sales,Team Lead,72,53,4,3.66,80.4,55,3.29,3,0,1,0
+618,Finance,Associate,109,22,3,2.56,51.2,34,4.15,3,0,1,0
+619,HR,Team Lead,11,14,4,3.82,71.1,79,4.35,5,0,2,1
+620,Finance,Associate,8,38,3,1.35,50.9,65,1.44,3,0,1,0
+621,Sales,Manager,17,11,2,2.55,69.4,52,1.59,4,0,3,0
+622,HR,Senior Associate,78,54,1,2.07,53.6,67,3.89,2,1,2,0
+623,Marketing,Associate,32,18,2,1.49,67.1,20,3.45,2,0,1,0
+624,Operations,Senior Associate,59,24,3,3.57,98.7,31,1.18,3,0,2,0
+625,Operations,Associate,38,16,4,2.63,74.5,18,4.11,3,0,3,0
+626,HR,Manager,24,24,5,3.57,68.1,68,3.64,2,0,1,1
+627,Sales,Associate,117,32,5,4.66,95.0,56,3.26,3,1,0,1
+628,Sales,Manager,61,40,5,4.08,57.7,75,1.56,1,0,0,0
+629,Marketing,Associate,104,20,2,1.66,77.4,2,3.32,5,0,0,0
+630,Operations,Team Lead,109,42,1,4.07,82.7,37,1.01,2,0,1,0
+631,Sales,Team Lead,63,46,3,4.59,72.8,58,1.6,3,0,1,0
+632,HR,Manager,35,1,2,4.38,87.4,33,4.08,5,0,3,1
+633,Marketing,Senior Associate,48,25,4,4.46,53.9,56,4.1,4,1,4,1
+634,Sales,Senior Associate,84,31,4,4.74,50.9,66,3.85,4,0,1,1
+635,Sales,Team Lead,26,27,3,1.4,97.4,29,1.48,3,0,1,0
+636,HR,Manager,79,43,3,3.88,53.0,28,1.5,4,0,4,0
+637,Engineering,Associate,30,8,2,1.77,81.6,20,1.29,3,0,3,0
+638,Marketing,Associate,11,45,4,3.55,83.3,50,1.39,1,1,2,0
+639,Marketing,Senior Associate,39,49,1,4.44,64.8,10,3.62,2,0,4,0
+640,Engineering,Manager,33,9,2,1.23,72.8,71,1.83,5,0,1,0
+641,Finance,Manager,71,17,2,3.93,96.6,7,1.07,3,0,1,0
+642,HR,Associate,110,28,2,2.89,93.2,10,3.65,5,0,2,0
+643,Sales,Associate,32,49,4,2.09,54.9,58,2.66,3,0,0,0
+644,Marketing,Senior Associate,3,8,3,4.88,89.0,79,4.46,4,1,1,1
+645,Marketing,Manager,107,24,4,2.25,78.4,64,4.02,5,0,0,0
+646,Engineering,Senior Associate,117,7,4,2.12,67.8,34,2.41,5,0,1,0
+647,Operations,Manager,80,12,3,4.09,58.8,79,3.76,2,1,1,0
+648,Finance,Senior Associate,45,39,4,2.54,73.5,69,4.38,3,0,1,0
+649,Operations,Senior Associate,70,34,2,4.12,70.5,37,1.81,4,0,1,1
+650,Marketing,Senior Associate,104,57,1,2.92,71.9,11,3.47,1,0,0,0
+651,Operations,Manager,84,44,1,2.43,59.5,9,4.25,3,0,0,0
+652,Operations,Senior Associate,94,48,3,1.19,86.9,35,4.82,1,0,1,0
+653,Engineering,Manager,108,33,4,2.76,70.0,13,3.83,3,0,3,0
+654,Marketing,Manager,48,14,5,1.56,68.4,45,4.74,1,0,0,0
+655,HR,Manager,68,16,1,4.13,51.1,58,3.17,2,0,2,1
+656,Marketing,Senior Associate,110,30,4,4.54,51.6,54,3.29,2,0,1,0
+657,Sales,Team Lead,34,15,4,3.92,73.0,46,2.71,5,1,0,0
+658,Marketing,Associate,41,40,3,1.22,73.1,74,4.25,5,1,0,0
+659,Finance,Team Lead,63,52,1,3.0,84.2,78,4.72,4,0,0,0
+660,Operations,Manager,35,34,5,2.85,56.7,37,3.15,4,0,2,0
+661,HR,Manager,119,42,2,1.58,96.7,15,1.41,3,0,1,0
+662,Engineering,Team Lead,75,3,2,3.77,57.6,68,1.8,1,1,1,0
+663,Finance,Team Lead,101,22,2,4.79,92.8,24,3.66,1,1,0,0
+664,Engineering,Manager,57,25,3,2.22,55.7,23,2.9,4,0,0,0
+665,Finance,Manager,45,19,4,3.28,64.8,23,1.44,5,0,2,0
+666,Finance,Associate,101,31,1,1.15,50.1,48,4.5,5,0,0,0
+667,Engineering,Team Lead,119,34,2,1.24,96.8,48,1.79,4,0,0,0
+668,Engineering,Associate,81,20,1,1.15,50.5,30,4.8,1,0,1,0
+669,Marketing,Team Lead,98,8,4,4.73,64.8,73,2.66,1,0,3,1
+670,Engineering,Manager,25,35,1,2.74,91.3,0,1.54,1,0,1,0
+671,Operations,Associate,83,56,5,2.31,80.7,79,3.82,4,0,4,1
+672,HR,Senior Associate,88,21,4,2.12,75.2,22,4.66,5,0,0,0
+673,Operations,Manager,65,31,5,1.7,69.9,48,2.0,5,0,1,0
+674,HR,Senior Associate,113,50,5,1.5,81.8,30,2.24,3,1,2,0
+675,Marketing,Team Lead,100,36,3,3.11,57.8,73,2.49,2,0,0,0
+676,Marketing,Senior Associate,56,21,5,1.68,75.7,30,4.65,2,1,2,0
+677,Marketing,Manager,96,37,3,2.82,93.8,72,1.59,5,0,0,1
+678,Engineering,Team Lead,84,5,3,1.11,93.1,75,1.63,5,0,1,0
+679,Engineering,Senior Associate,54,2,4,4.74,74.4,6,1.81,3,0,1,0
+680,Marketing,Associate,19,33,2,4.03,77.0,14,2.38,5,0,4,1
+681,Finance,Team Lead,60,10,2,3.31,74.5,34,2.21,2,0,1,0
+682,Finance,Associate,32,8,1,3.5,76.9,11,3.26,3,0,1,0
+683,HR,Associate,56,28,5,4.91,80.8,27,3.82,3,0,0,0
+684,Marketing,Team Lead,43,25,5,2.94,54.4,44,4.07,3,0,1,0
+685,Operations,Manager,59,58,2,3.92,58.9,5,3.06,5,1,2,0
+686,Marketing,Team Lead,42,44,5,4.66,58.8,61,2.89,2,0,1,1
+687,Finance,Manager,10,11,4,1.37,91.3,77,4.03,4,1,0,1
+688,Operations,Senior Associate,108,19,5,2.81,61.5,4,1.33,1,0,4,0
+689,Engineering,Associate,51,8,5,4.77,64.5,68,4.44,2,0,0,0
+690,HR,Manager,94,59,3,4.1,55.8,72,2.82,2,0,0,0
+691,Finance,Manager,75,31,1,3.13,83.5,78,3.41,5,0,1,1
+692,Engineering,Associate,106,51,5,2.93,96.6,4,4.72,5,0,2,1
+693,Marketing,Team Lead,102,37,3,2.95,83.4,61,4.27,4,0,0,0
+694,Sales,Senior Associate,40,40,5,2.42,73.3,37,2.75,1,0,1,0
+695,Marketing,Manager,49,21,4,3.82,67.4,67,2.42,4,0,0,1
+696,Finance,Team Lead,87,46,3,2.45,92.1,6,3.82,4,0,2,0
+697,Marketing,Team Lead,113,50,4,4.06,90.7,18,4.44,1,1,0,0
+698,Engineering,Senior Associate,54,21,5,3.22,56.1,2,3.12,3,0,0,1
+699,Marketing,Associate,85,29,5,1.23,95.0,26,3.15,4,1,1,1
+700,Sales,Associate,46,31,4,3.96,77.3,5,4.84,5,0,1,0
+701,HR,Manager,92,26,5,1.89,79.0,30,4.05,1,1,3,1
+702,HR,Associate,59,25,1,4.77,89.7,61,4.57,3,0,1,0
+703,Finance,Team Lead,86,17,5,3.13,68.6,13,1.17,2,0,0,0
+704,Operations,Manager,50,14,4,2.38,58.3,61,1.34,3,0,0,0
+705,Operations,Senior Associate,83,30,4,2.64,56.7,61,3.4,1,0,0,0
+706,Engineering,Associate,26,25,1,1.17,87.5,73,3.75,4,0,0,1
+707,HR,Associate,97,17,5,2.16,83.0,68,2.08,5,1,1,1
+708,Operations,Associate,92,31,1,1.28,80.8,28,3.34,4,0,1,0
+709,Marketing,Team Lead,43,12,1,2.53,81.3,45,1.36,5,0,1,0
+710,Finance,Associate,12,6,1,3.37,51.2,23,4.68,4,1,1,0
+711,HR,Senior Associate,30,13,1,2.26,86.6,0,2.36,4,0,2,0
+712,Operations,Associate,39,40,1,2.53,62.4,21,3.07,5,0,1,0
+713,Sales,Senior Associate,68,17,1,4.99,73.2,64,3.51,5,0,1,1
+714,Finance,Senior Associate,112,41,1,2.74,56.3,78,2.91,2,0,3,0
+715,Engineering,Associate,42,37,3,4.08,86.9,56,3.77,1,0,0,0
+716,HR,Team Lead,12,47,2,3.2,72.3,67,1.09,5,0,2,0
+717,Sales,Senior Associate,82,46,3,3.22,91.4,52,1.49,3,0,1,1
+718,Sales,Team Lead,74,57,5,2.37,54.5,52,1.82,2,0,0,0
+719,Operations,Team Lead,34,13,2,1.05,81.2,34,4.89,2,1,2,0
+720,HR,Team Lead,38,19,3,2.3,52.3,56,3.66,1,0,0,0
+721,Finance,Manager,98,12,2,4.7,50.8,65,2.22,1,1,1,0
+722,Marketing,Senior Associate,39,31,4,2.84,83.4,59,3.05,1,0,1,0
+723,Operations,Senior Associate,43,34,4,3.27,79.3,5,2.79,4,1,1,0
+724,Finance,Team Lead,70,20,2,1.38,97.6,20,2.0,1,0,2,0
+725,Engineering,Manager,31,9,4,4.25,87.2,40,1.6,2,0,1,0
+726,Operations,Manager,43,37,5,3.43,65.1,0,2.01,5,0,1,0
+727,Finance,Associate,77,52,3,3.81,88.4,11,1.15,5,0,0,0
+728,Engineering,Manager,103,10,3,4.31,88.4,50,1.3,4,0,4,1
+729,Sales,Senior Associate,119,13,5,1.8,73.5,30,4.21,2,0,1,0
+730,Operations,Manager,105,0,3,1.93,50.4,11,2.98,1,0,0,0
+731,HR,Associate,46,25,4,4.63,53.9,75,1.55,3,1,1,1
+732,Finance,Manager,60,3,2,2.48,93.7,31,1.34,2,0,1,0
+733,Marketing,Team Lead,41,6,3,2.88,58.7,35,4.33,4,1,1,1
+734,Engineering,Senior Associate,85,14,3,1.28,87.1,34,2.08,4,0,1,0
+735,Marketing,Senior Associate,109,23,5,1.2,55.0,13,2.16,5,0,0,0
+736,Finance,Manager,72,24,3,2.01,71.3,13,4.52,2,0,0,0
+737,Engineering,Team Lead,26,31,2,1.77,51.3,46,3.02,5,0,0,0
+738,HR,Senior Associate,108,13,5,2.11,75.2,3,4.42,3,0,0,0
+739,Sales,Manager,19,16,5,4.43,97.4,19,4.18,4,0,0,0
+740,Engineering,Manager,80,11,2,3.11,51.3,71,3.35,1,0,1,0
+741,Sales,Team Lead,39,23,5,2.19,82.8,19,1.81,3,0,2,0
+742,Sales,Associate,39,55,5,1.38,69.5,71,1.31,4,0,2,1
+743,Finance,Associate,5,24,1,2.56,93.0,10,4.3,1,0,3,0
+744,Finance,Manager,119,3,4,1.95,64.1,31,4.61,3,0,0,0
+745,Operations,Team Lead,92,4,5,4.63,94.7,12,1.95,3,0,0,1
+746,Sales,Team Lead,31,42,2,2.68,86.9,26,1.55,1,1,2,0
+747,Sales,Manager,113,50,3,4.89,77.2,12,2.77,2,0,0,0
+748,Marketing,Team Lead,115,22,1,4.96,69.2,77,1.92,1,0,1,0
+749,HR,Associate,45,1,5,3.75,77.1,61,3.1,2,0,3,1
+750,Sales,Senior Associate,22,59,1,4.66,54.2,4,3.72,5,0,0,0
+751,Finance,Team Lead,81,10,5,4.3,69.1,39,4.87,2,0,3,0
+752,Sales,Manager,55,58,1,4.36,65.5,30,3.77,5,0,0,0
+753,Sales,Associate,61,36,1,2.12,92.5,66,3.33,4,0,0,0
+754,Sales,Senior Associate,111,7,4,1.03,70.1,13,2.35,3,0,2,0
+755,HR,Senior Associate,10,42,2,4.21,82.0,20,3.37,1,0,0,0
+756,Sales,Senior Associate,65,8,3,4.98,64.1,25,3.42,4,0,1,1
+757,Marketing,Manager,30,50,2,4.34,99.0,54,1.37,5,0,1,0
+758,Finance,Manager,51,19,4,1.07,77.4,28,2.28,3,0,0,0
+759,HR,Team Lead,18,9,5,4.46,93.9,16,1.24,1,0,0,0
+760,Engineering,Team Lead,75,40,1,4.24,86.2,58,1.68,5,1,2,0
+761,Sales,Associate,18,2,4,3.0,51.1,29,3.34,2,0,2,0
+762,Engineering,Senior Associate,27,3,2,3.63,78.4,13,4.56,4,0,0,0
+763,Engineering,Senior Associate,9,37,1,4.54,52.7,68,3.93,3,0,3,0
+764,Marketing,Senior Associate,5,48,4,2.37,99.7,18,1.96,4,0,2,1
+765,Sales,Team Lead,68,9,2,3.49,53.7,49,3.64,5,0,1,1
+766,Operations,Senior Associate,24,37,4,2.51,92.4,76,3.41,3,0,3,1
+767,Operations,Team Lead,26,36,4,2.55,89.3,5,4.92,2,0,0,0
+768,Operations,Senior Associate,12,54,3,4.31,52.7,40,2.26,1,0,2,0
+769,HR,Senior Associate,106,7,5,2.71,57.2,14,3.32,1,1,3,1
+770,Operations,Associate,75,34,4,2.9,98.2,71,1.07,5,0,1,1
+771,Sales,Manager,7,45,5,1.23,80.5,50,2.41,5,0,1,0
+772,Finance,Associate,1,20,1,4.69,56.2,29,2.19,2,0,1,0
+773,Engineering,Associate,108,50,2,2.4,57.5,25,2.1,3,1,0,0
+774,Engineering,Team Lead,22,36,4,1.83,51.6,10,1.87,1,1,1,0
+775,Sales,Manager,56,20,4,2.24,91.1,50,4.68,5,0,1,0
+776,HR,Manager,119,31,4,4.55,82.9,74,1.78,3,0,1,1
+777,Engineering,Senior Associate,41,44,4,3.22,81.0,69,3.68,2,1,1,1
+778,Sales,Senior Associate,15,52,1,2.55,53.2,48,2.7,2,0,2,0
+779,Engineering,Senior Associate,40,12,1,1.95,54.5,65,2.45,1,0,0,0
+780,Finance,Senior Associate,83,5,1,1.28,65.3,50,3.72,4,0,3,0
+781,Finance,Senior Associate,65,20,1,1.04,80.1,6,3.21,2,1,1,0
+782,HR,Manager,74,17,5,1.12,79.7,49,3.51,1,1,1,0
+783,Finance,Manager,65,18,5,3.85,60.0,34,4.04,4,1,3,1
+784,HR,Team Lead,107,26,5,2.42,76.8,2,3.17,1,0,1,0
+785,Operations,Manager,61,0,5,1.39,85.8,65,1.88,2,0,3,1
+786,HR,Associate,105,40,1,4.56,90.4,17,4.82,3,0,1,0
+787,Sales,Associate,45,0,1,3.32,72.8,36,2.97,4,0,0,0
+788,Engineering,Team Lead,93,49,4,2.06,75.3,73,4.73,5,0,1,0
+789,Sales,Manager,59,56,5,1.07,84.2,7,2.18,3,0,1,0
+790,Operations,Manager,116,4,3,1.38,95.3,56,2.68,2,0,1,0
+791,Marketing,Team Lead,76,43,5,2.93,82.7,37,1.62,2,1,2,0
+792,Marketing,Associate,102,14,2,1.56,73.2,15,4.08,4,0,2,1
+793,Engineering,Manager,7,51,1,1.55,95.7,70,2.47,3,0,1,0
+794,Finance,Associate,93,50,5,3.32,57.5,2,2.82,5,1,5,0
+795,Operations,Associate,45,3,2,1.47,74.2,63,2.75,3,0,1,0
+796,HR,Manager,13,6,3,1.94,63.9,74,1.43,5,1,1,1
+797,HR,Senior Associate,101,12,1,3.4,99.4,66,4.73,1,0,0,1
+798,HR,Team Lead,61,59,2,1.15,66.7,43,1.29,3,0,0,0
+799,Operations,Senior Associate,42,20,2,2.83,50.5,40,3.73,5,0,1,0
+800,Finance,Manager,78,21,2,1.94,69.3,54,3.16,5,0,1,0
+801,HR,Senior Associate,106,31,4,3.48,55.1,10,3.88,2,0,0,1
+802,Marketing,Associate,72,30,5,3.96,71.4,23,1.29,2,0,1,0
+803,Operations,Associate,115,33,5,1.7,58.0,29,2.88,3,0,1,1
+804,Finance,Manager,71,42,5,4.46,59.1,62,4.65,5,1,1,1
+805,Sales,Senior Associate,4,40,1,4.62,55.6,45,3.61,4,1,1,0
+806,Engineering,Manager,26,31,4,4.61,75.0,24,2.68,5,0,2,0
+807,Engineering,Manager,27,1,2,2.51,77.5,26,1.07,2,0,0,0
+808,Engineering,Manager,19,43,1,4.42,91.3,6,2.73,5,0,2,0
+809,Engineering,Associate,93,19,5,2.35,80.5,14,3.02,5,0,0,0
+810,Marketing,Associate,39,11,4,2.6,94.3,50,3.13,4,0,2,1
+811,HR,Team Lead,62,29,4,2.29,67.3,29,2.51,4,1,1,0
+812,Finance,Manager,51,30,2,4.17,67.9,38,3.63,1,1,0,0
+813,Finance,Senior Associate,11,2,5,3.71,60.1,18,4.66,3,0,0,1
+814,Sales,Associate,70,52,3,3.24,72.1,34,4.85,2,0,1,0
+815,Engineering,Associate,98,6,2,4.06,63.8,43,3.38,5,0,1,0
+816,HR,Senior Associate,68,13,2,2.2,50.8,2,1.97,1,0,0,0
+817,Sales,Team Lead,100,34,1,4.51,64.5,70,1.78,2,0,1,0
+818,Engineering,Team Lead,114,31,2,2.73,55.4,3,1.73,5,0,3,0
+819,Sales,Manager,37,38,3,3.32,80.1,77,3.52,5,0,2,0
+820,HR,Associate,47,27,2,2.61,75.8,31,4.91,5,1,2,0
+821,HR,Senior Associate,61,54,1,1.89,51.8,23,3.05,2,1,0,0
+822,Sales,Senior Associate,97,53,4,2.9,67.9,2,3.92,4,1,1,0
+823,Engineering,Team Lead,60,11,1,3.0,64.4,8,2.45,1,0,2,0
+824,Operations,Manager,13,7,2,3.14,92.4,13,3.35,1,0,0,0
+825,Marketing,Senior Associate,90,26,4,4.19,64.5,78,4.83,2,0,0,1
+826,Operations,Associate,39,54,5,2.12,85.5,4,1.13,5,1,1,0
+827,Operations,Team Lead,48,4,4,3.18,91.3,44,4.34,5,0,2,1
+828,Engineering,Team Lead,7,20,5,4.11,66.5,72,1.18,5,0,0,0
+829,Marketing,Associate,78,56,5,4.65,93.0,70,4.98,2,0,1,0
+830,Operations,Manager,98,28,4,4.14,92.5,44,1.93,2,0,1,1
+831,Marketing,Manager,85,3,3,1.97,52.1,70,1.19,5,0,0,0
+832,Sales,Team Lead,87,5,4,4.09,93.1,54,4.08,5,1,0,1
+833,HR,Team Lead,119,9,4,1.5,51.1,71,2.33,5,0,0,0
+834,Engineering,Senior Associate,4,3,1,1.58,98.6,48,3.88,3,1,3,1
+835,HR,Senior Associate,68,16,1,3.62,65.7,25,2.67,1,0,0,0
+836,Marketing,Senior Associate,57,36,4,2.83,87.8,41,2.9,5,0,2,0
+837,Finance,Team Lead,17,8,2,3.84,74.2,41,3.86,2,0,3,0
+838,Finance,Senior Associate,115,4,2,3.65,96.5,14,3.3,4,1,3,0
+839,Sales,Team Lead,93,49,5,1.15,54.9,28,3.14,5,0,1,0
+840,Marketing,Senior Associate,23,5,2,4.65,89.5,47,1.04,5,0,0,0
+841,Engineering,Team Lead,1,23,4,1.36,70.9,13,2.19,2,0,1,0
+842,HR,Manager,72,37,2,4.23,54.0,39,3.27,1,0,2,0
+843,Operations,Manager,13,31,3,4.9,66.7,72,4.73,2,1,5,1
+844,Engineering,Team Lead,10,22,5,3.04,51.5,15,2.96,2,0,1,0
+845,Sales,Associate,90,2,3,3.22,86.5,71,4.51,2,1,1,0
+846,Finance,Associate,26,19,4,2.22,67.5,73,1.76,3,0,1,1
+847,Operations,Senior Associate,55,57,5,1.45,77.3,57,3.7,2,0,3,0
+848,HR,Associate,51,8,5,4.79,70.2,57,4.55,1,0,2,0
+849,Engineering,Team Lead,37,15,3,4.81,57.6,74,2.03,5,0,1,1
+850,Sales,Senior Associate,59,50,1,3.91,74.4,74,2.87,5,0,4,1
+851,Operations,Manager,79,8,2,1.61,85.9,44,4.97,4,0,2,1
+852,HR,Team Lead,112,6,4,3.53,66.4,18,2.03,1,0,0,0
+853,HR,Associate,101,40,4,1.15,52.8,29,1.12,2,0,1,0
+854,Engineering,Team Lead,75,12,3,3.84,91.3,11,1.95,2,1,0,0
+855,Engineering,Team Lead,112,1,4,4.12,70.7,70,1.87,4,0,4,1
+856,HR,Associate,63,34,2,2.26,68.6,40,4.35,5,0,1,0
+857,Sales,Team Lead,56,36,4,2.4,81.8,44,4.58,1,0,1,0
+858,Marketing,Senior Associate,14,5,2,3.66,93.4,58,3.19,4,0,1,0
+859,Sales,Senior Associate,15,45,4,4.41,80.9,45,4.87,1,0,0,0
+860,Sales,Associate,109,41,1,4.17,53.4,7,4.34,4,0,2,0
+861,Operations,Team Lead,25,30,4,2.15,65.8,19,4.77,1,0,1,0
+862,Engineering,Team Lead,94,21,5,1.79,69.0,15,2.42,2,0,1,0
+863,Sales,Associate,117,25,2,2.47,85.3,52,4.71,5,1,0,1
+864,HR,Associate,46,22,1,4.83,68.7,68,4.62,4,0,0,1
+865,Sales,Team Lead,50,20,3,2.63,93.5,64,1.57,3,0,0,0
+866,Finance,Senior Associate,64,16,3,1.14,68.6,67,1.47,3,0,1,0
+867,Marketing,Manager,9,8,1,3.74,69.7,3,2.24,2,0,2,0
+868,Marketing,Team Lead,104,47,5,2.19,80.4,9,2.34,1,0,1,0
+869,HR,Manager,98,13,1,4.5,84.1,38,1.08,1,1,0,0
+870,Engineering,Team Lead,36,38,3,1.41,93.1,19,2.47,5,1,1,1
+871,Sales,Team Lead,9,1,4,3.51,54.7,29,4.47,4,0,0,0
+872,Engineering,Manager,65,55,4,4.93,58.6,42,4.05,4,0,1,1
+873,Engineering,Manager,1,11,4,4.52,79.5,74,2.34,2,0,0,0
+874,Engineering,Associate,49,57,3,3.47,61.7,1,4.24,2,0,1,0
+875,Finance,Team Lead,99,58,5,1.61,50.8,78,2.02,3,0,0,0
+876,Finance,Team Lead,22,41,4,4.58,68.6,10,3.59,1,0,0,0
+877,Finance,Manager,81,43,4,1.7,72.5,24,3.53,4,0,1,0
+878,HR,Associate,68,43,4,1.27,75.0,52,2.76,4,0,1,0
+879,Engineering,Manager,82,8,4,2.08,71.7,52,2.12,1,0,1,0
+880,Operations,Team Lead,98,53,2,1.91,65.3,2,2.75,2,0,1,0
+881,Engineering,Manager,98,1,4,3.85,68.6,34,4.92,2,0,0,1
+882,Finance,Manager,44,52,3,4.12,70.1,41,3.89,3,1,1,0
+883,Engineering,Senior Associate,8,43,3,2.72,54.7,74,2.71,3,0,2,0
+884,HR,Associate,72,49,5,3.84,94.8,75,2.15,4,0,0,1
+885,HR,Associate,26,17,1,2.92,89.3,74,2.59,5,0,1,1
+886,Engineering,Team Lead,74,2,3,3.28,70.3,56,1.73,3,0,2,0
+887,Sales,Team Lead,10,32,2,4.39,60.4,36,2.36,3,0,0,0
+888,Marketing,Senior Associate,18,5,2,1.45,80.9,50,1.36,3,0,2,0
+889,Marketing,Manager,17,36,2,4.22,53.5,37,2.29,3,0,0,0
+890,Operations,Team Lead,106,35,3,3.78,78.6,45,2.21,1,1,1,0
+891,Operations,Senior Associate,77,57,2,2.09,56.5,70,2.67,2,0,2,0
+892,Sales,Manager,25,36,4,4.45,62.9,30,2.91,2,0,1,0
+893,Operations,Team Lead,59,35,5,3.01,57.0,6,3.67,2,0,2,0
+894,Sales,Senior Associate,63,1,3,4.43,53.1,64,2.32,5,0,1,0
+895,HR,Manager,35,40,4,1.7,70.0,60,1.89,3,0,1,0
+896,Engineering,Associate,83,1,3,4.47,73.3,60,4.6,4,0,2,1
+897,Sales,Senior Associate,16,43,5,4.52,60.4,1,1.41,4,0,0,0
+898,Marketing,Team Lead,86,59,4,2.94,99.7,78,3.71,1,1,0,1
+899,HR,Associate,13,38,2,3.82,95.0,9,1.82,4,0,0,1
+900,Finance,Associate,89,48,1,3.19,84.9,45,1.94,2,1,2,0
+901,Engineering,Manager,107,46,5,3.92,88.8,45,2.38,4,0,1,0
+902,Engineering,Manager,4,44,1,1.76,56.1,56,2.36,3,0,2,0
+903,Marketing,Senior Associate,36,25,2,2.77,87.9,26,4.75,2,0,1,0
+904,Marketing,Associate,72,46,1,4.78,93.4,65,2.8,2,0,1,0
+905,Sales,Senior Associate,115,23,4,4.05,93.9,19,3.28,4,0,1,1
+906,Sales,Manager,80,5,4,1.18,80.7,57,3.92,3,1,1,0
+907,Marketing,Team Lead,63,36,5,1.6,64.3,58,1.03,1,0,0,0
+908,Engineering,Team Lead,39,41,4,2.93,60.3,5,4.68,3,1,1,0
+909,Engineering,Senior Associate,107,20,1,4.06,57.2,12,1.74,3,0,3,0
+910,Sales,Associate,117,46,5,1.69,97.1,74,3.08,3,0,3,0
+911,Sales,Team Lead,33,59,3,1.25,92.3,27,2.55,2,0,1,0
+912,Operations,Team Lead,77,18,1,1.3,77.1,66,4.27,1,0,3,0
+913,Engineering,Senior Associate,103,34,3,1.86,97.2,3,2.48,4,1,0,0
+914,HR,Manager,10,35,5,4.52,51.3,75,4.45,1,0,2,1
+915,HR,Team Lead,7,15,3,3.91,65.6,27,2.37,3,0,0,0
+916,Sales,Team Lead,15,26,2,2.71,75.9,79,3.74,2,0,2,0
+917,Finance,Team Lead,42,30,4,1.68,81.9,64,1.86,4,0,0,1
+918,HR,Manager,103,21,1,1.62,64.0,4,2.76,5,0,2,0
+919,Finance,Team Lead,23,14,3,3.18,54.0,67,2.87,1,0,1,0
+920,Marketing,Associate,116,34,3,3.51,83.9,4,4.49,5,0,1,0
+921,Marketing,Senior Associate,30,1,1,3.72,68.9,20,4.58,2,0,1,0
+922,HR,Senior Associate,107,3,1,1.5,56.5,37,2.27,4,0,1,0
+923,Engineering,Senior Associate,6,54,1,3.42,65.6,8,2.12,5,0,0,0
+924,Engineering,Associate,26,20,2,1.36,70.6,23,2.72,3,0,0,0
+925,Finance,Senior Associate,58,40,3,2.57,88.4,26,4.27,5,0,1,0
+926,Engineering,Team Lead,22,0,2,2.85,92.6,51,1.29,2,0,1,0
+927,Marketing,Team Lead,38,49,4,3.64,59.3,34,4.85,5,0,1,0
+928,Finance,Associate,39,12,2,3.45,85.2,77,4.24,2,0,1,0
+929,Sales,Manager,33,46,2,4.49,94.3,74,4.2,4,0,2,0
+930,HR,Associate,6,20,3,1.82,94.7,6,3.2,1,0,2,0
+931,Finance,Associate,105,12,2,4.04,54.3,41,2.46,5,0,1,1
+932,HR,Team Lead,48,39,1,3.1,67.9,46,4.97,4,0,1,0
+933,HR,Senior Associate,77,17,1,4.79,60.2,49,4.38,3,0,0,0
+934,HR,Manager,88,53,4,1.06,61.3,16,4.24,1,0,1,0
+935,Sales,Manager,51,46,2,4.27,62.0,9,1.69,3,0,2,0
+936,HR,Team Lead,68,40,3,4.47,61.0,75,4.7,2,0,0,0
+937,Sales,Senior Associate,49,25,1,3.75,98.9,54,1.73,3,0,3,0
+938,HR,Associate,105,41,1,4.69,68.2,76,1.45,4,0,2,1
+939,Marketing,Associate,30,53,2,3.02,80.9,60,4.01,2,0,1,0
+940,Marketing,Manager,101,7,5,1.66,98.8,78,4.62,1,0,0,1
+941,HR,Team Lead,47,55,5,1.81,58.6,17,1.3,4,0,1,0
+942,Marketing,Associate,42,6,5,3.04,57.9,74,1.82,4,0,1,1
+943,Engineering,Associate,27,18,2,4.57,59.6,74,3.58,3,0,0,1
+944,Operations,Senior Associate,93,12,4,4.7,99.4,70,4.31,5,0,1,1
+945,Engineering,Team Lead,5,37,3,4.83,85.3,17,4.71,1,0,0,0
+946,Engineering,Manager,21,43,1,2.22,67.4,49,3.52,3,0,1,0
+947,Engineering,Team Lead,61,31,3,4.55,80.8,27,2.2,4,0,2,0
+948,Sales,Team Lead,70,23,1,1.77,85.8,48,2.68,5,1,1,0
+949,Sales,Senior Associate,53,31,4,4.37,63.3,16,1.28,4,0,1,0
+950,HR,Senior Associate,9,53,3,5.0,69.1,56,4.41,4,0,2,1
+951,Engineering,Senior Associate,1,26,2,1.3,55.3,36,3.6,5,0,1,0
+952,Sales,Senior Associate,58,55,2,1.34,56.1,34,1.97,2,0,3,0
+953,Finance,Team Lead,32,35,3,4.72,57.7,44,1.9,1,0,2,0
+954,HR,Associate,61,26,1,3.21,97.5,34,4.51,2,0,1,0
+955,Sales,Senior Associate,59,44,3,2.57,91.7,73,4.7,5,0,4,1
+956,HR,Associate,51,36,1,1.37,97.8,6,2.48,2,0,0,0
+957,HR,Manager,45,17,3,3.31,77.1,61,4.28,5,1,0,0
+958,Engineering,Associate,71,33,2,3.34,60.7,67,4.98,1,0,1,0
+959,Finance,Team Lead,10,35,2,4.01,51.5,78,1.0,3,0,2,0
+960,Operations,Senior Associate,34,59,5,2.16,66.4,47,4.76,5,0,2,0
+961,Sales,Team Lead,103,13,3,2.97,87.3,76,4.9,1,0,0,0
+962,Marketing,Team Lead,5,34,3,4.51,75.8,31,3.92,4,0,0,0
+963,Engineering,Manager,24,6,1,3.07,60.3,5,4.61,2,0,0,0
+964,Finance,Associate,114,33,2,2.41,94.8,75,4.65,1,0,0,0
+965,Engineering,Associate,31,18,5,4.16,78.1,18,1.95,4,1,1,1
+966,Sales,Team Lead,96,58,3,1.01,95.5,33,1.09,3,0,0,0
+967,Engineering,Senior Associate,109,20,5,3.26,60.5,49,3.26,2,0,4,1
+968,Operations,Team Lead,114,36,2,4.92,52.0,38,3.32,5,0,1,1
+969,Operations,Associate,21,45,1,3.31,84.2,0,3.61,4,0,0,0
+970,Engineering,Manager,40,36,5,4.55,99.9,16,1.9,5,0,1,0
+971,Marketing,Associate,65,28,1,2.51,68.0,60,1.64,2,0,0,0
+972,HR,Team Lead,41,19,1,4.42,51.4,76,2.93,2,0,1,0
+973,Operations,Manager,58,0,1,2.45,96.3,64,1.63,5,0,1,0
+974,Operations,Associate,30,11,2,3.72,54.4,20,3.06,2,0,0,0
+975,Finance,Team Lead,8,59,1,1.09,63.2,62,1.36,4,0,1,0
+976,Finance,Associate,27,55,4,2.83,64.7,36,2.0,4,0,1,0
+977,Operations,Manager,82,39,5,3.34,52.6,11,2.38,1,0,3,0
+978,Sales,Senior Associate,74,23,4,1.07,50.4,13,3.18,3,0,1,0
+979,Marketing,Senior Associate,43,38,2,4.52,51.9,34,1.34,4,1,1,0
+980,Sales,Associate,58,14,5,3.86,59.3,78,3.85,5,0,3,0
+981,Operations,Associate,77,42,1,3.77,58.7,27,4.65,5,0,0,0
+982,Marketing,Manager,98,17,3,1.05,78.4,42,4.78,1,0,0,0
+983,HR,Senior Associate,17,38,3,2.08,67.9,45,2.71,4,1,0,1
+984,Engineering,Senior Associate,3,45,2,4.54,68.9,22,3.61,1,1,0,0
+985,Marketing,Manager,111,51,1,4.11,88.5,67,3.09,1,0,2,0
+986,Engineering,Associate,46,54,2,1.05,88.5,11,2.76,1,0,2,0
+987,Finance,Manager,63,53,2,4.75,80.1,27,4.95,1,1,1,0
+988,Operations,Senior Associate,25,36,1,1.41,92.2,29,3.06,1,0,2,0
+989,HR,Associate,26,45,5,3.97,85.0,26,4.89,5,0,3,1
+990,Marketing,Senior Associate,78,36,3,1.55,93.3,14,1.41,4,0,2,0
+991,Sales,Team Lead,2,56,4,4.95,85.1,23,4.05,5,0,1,0
+992,Finance,Team Lead,41,50,5,3.39,92.6,11,3.57,5,0,0,0
+993,Engineering,Senior Associate,78,17,2,3.14,73.4,43,2.4,2,0,2,0
+994,Marketing,Associate,108,11,2,1.99,99.9,76,4.8,2,1,3,0
+995,Operations,Manager,19,55,1,2.79,85.3,31,1.3,3,0,0,0
+996,HR,Senior Associate,52,38,1,2.73,94.3,21,2.55,3,0,1,0
+997,Sales,Senior Associate,83,1,5,1.28,74.3,67,2.26,1,0,1,0
+998,Finance,Team Lead,84,20,3,2.96,52.2,26,4.03,4,0,0,1
+999,Finance,Team Lead,35,2,1,1.49,57.4,52,3.61,3,0,0,0
+1000,Sales,Senior Associate,54,42,1,1.76,66.6,70,4.67,2,1,1,0
+1001,Marketing,Associate,101,47,4,2.89,66.3,24,1.58,4,0,1,0
+1002,Sales,Senior Associate,110,57,2,2.3,86.9,59,1.16,3,0,2,0
+1003,Marketing,Associate,47,22,3,1.95,58.6,77,3.22,5,0,2,0
+1004,Marketing,Manager,25,10,5,3.09,69.5,14,4.59,5,0,2,0
+1005,Finance,Manager,67,10,3,2.87,75.7,52,1.0,3,0,2,0
+1006,Operations,Senior Associate,93,39,2,1.83,53.1,54,2.71,2,0,0,0
+1007,Sales,Manager,17,16,2,2.83,76.8,16,1.03,2,0,2,0
+1008,Engineering,Manager,10,7,4,1.58,65.1,49,1.56,2,0,1,0
+1009,Operations,Manager,73,45,5,1.13,99.2,28,2.54,4,0,5,1
+1010,Finance,Associate,34,54,2,3.35,52.2,54,1.24,2,0,0,0
+1011,Finance,Senior Associate,29,2,5,1.25,77.3,13,2.63,4,0,0,0
+1012,Engineering,Manager,61,49,4,1.69,99.4,67,2.02,5,1,1,1
+1013,HR,Team Lead,13,48,4,3.9,96.5,48,4.72,4,0,0,0
+1014,Operations,Associate,12,26,4,2.13,51.2,44,3.99,5,1,0,0
+1015,Operations,Associate,113,8,5,2.68,67.7,17,2.5,3,0,2,0
+1016,Engineering,Manager,78,47,3,3.5,69.9,27,2.27,3,1,3,0
+1017,HR,Manager,79,46,1,1.83,60.6,27,2.18,4,0,1,0
+1018,Finance,Associate,119,3,1,1.23,70.8,15,3.21,3,0,2,0
+1019,Marketing,Team Lead,63,58,3,3.84,64.7,66,4.21,3,0,0,0
+1020,Sales,Associate,46,58,4,1.59,56.4,72,1.19,4,0,1,1
+1021,Operations,Manager,72,48,4,3.91,94.8,6,4.24,3,0,0,0
+1022,HR,Associate,30,34,1,4.82,76.8,69,1.34,5,0,1,0
+1023,Sales,Team Lead,62,58,3,2.69,70.6,62,3.21,2,0,0,0
+1024,Sales,Team Lead,87,39,3,3.25,93.5,16,1.74,2,1,1,0
+1025,Finance,Team Lead,20,25,4,3.2,67.6,71,4.73,3,0,1,0
+1026,Sales,Senior Associate,95,49,4,2.4,90.7,77,1.11,2,0,2,1
+1027,Operations,Senior Associate,103,39,2,2.62,75.7,5,2.16,4,0,2,0
+1028,Sales,Senior Associate,51,44,5,2.32,57.6,28,2.7,1,0,2,0
+1029,Finance,Associate,71,1,2,4.95,84.1,23,2.19,4,0,1,1
+1030,Engineering,Senior Associate,87,4,5,4.99,70.3,22,3.06,3,0,2,1
+1031,Marketing,Team Lead,69,59,3,3.49,65.0,17,2.86,4,0,3,0
+1032,HR,Senior Associate,110,3,2,1.61,82.6,20,1.83,3,0,0,0
+1033,HR,Associate,22,42,3,3.91,86.2,26,3.09,3,0,0,0
+1034,Sales,Team Lead,24,46,3,2.67,51.0,75,3.83,3,0,1,0
+1035,Operations,Manager,107,7,2,3.82,72.9,5,1.95,4,0,3,0
+1036,Operations,Senior Associate,62,0,5,3.91,94.8,38,4.18,2,0,3,0
+1037,Marketing,Senior Associate,29,20,1,4.95,99.9,62,2.52,5,0,0,1
+1038,Operations,Senior Associate,102,9,1,1.17,78.0,54,3.36,1,0,1,0
+1039,Operations,Team Lead,77,31,1,3.0,79.3,1,4.9,3,1,1,0
+1040,Engineering,Team Lead,81,9,2,3.78,59.6,69,3.5,3,1,2,1
+1041,Marketing,Manager,97,38,2,2.37,73.1,49,3.93,4,1,0,0
+1042,Marketing,Associate,99,7,1,1.33,91.4,79,1.72,5,0,0,0
+1043,HR,Senior Associate,111,22,5,2.63,54.5,58,1.01,3,0,0,1
+1044,Marketing,Team Lead,73,41,3,3.2,69.4,67,1.53,5,0,1,0
+1045,Marketing,Manager,40,56,3,4.54,95.1,12,3.65,1,0,1,0
+1046,Operations,Team Lead,89,46,2,3.51,91.2,78,3.01,4,0,1,0
+1047,Marketing,Associate,73,58,3,2.37,61.7,65,3.43,2,0,1,0
+1048,Operations,Team Lead,89,9,5,3.45,94.5,25,3.5,5,0,1,1
+1049,Marketing,Manager,76,41,4,3.42,90.7,66,1.24,3,0,1,0
+1050,Sales,Manager,15,41,2,2.88,83.2,66,4.24,3,0,2,0
+1051,Operations,Team Lead,56,17,1,4.46,64.6,36,1.16,4,0,3,0
+1052,Operations,Senior Associate,19,23,3,3.52,97.7,43,4.18,2,0,1,1
+1053,Operations,Manager,99,50,3,4.5,83.7,67,4.67,3,0,0,0
+1054,HR,Senior Associate,21,52,3,1.69,90.3,76,1.03,1,0,0,0
+1055,Engineering,Senior Associate,89,18,3,1.4,68.5,49,1.02,3,0,0,0
+1056,Marketing,Manager,56,46,2,3.82,92.2,56,4.69,4,0,0,1
+1057,Marketing,Manager,93,44,3,1.47,72.0,79,3.81,3,0,0,0
+1058,Engineering,Associate,81,38,3,1.85,53.4,28,3.27,3,0,1,0
+1059,Engineering,Senior Associate,87,49,5,1.04,50.2,25,4.22,1,0,1,0
+1060,Operations,Team Lead,7,38,2,3.87,86.5,4,3.6,1,0,1,0
+1061,HR,Manager,91,34,4,3.13,94.1,10,4.58,1,0,0,0
+1062,Engineering,Senior Associate,76,33,1,1.65,73.3,28,4.44,4,1,2,0
+1063,Operations,Team Lead,53,24,4,3.16,87.5,42,3.35,1,0,0,0
+1064,Engineering,Manager,60,38,3,1.86,73.1,14,4.72,4,0,0,0
+1065,HR,Manager,116,32,1,3.36,56.2,14,1.68,5,0,5,0
+1066,Finance,Manager,87,34,1,4.26,52.1,52,2.92,3,0,1,0
+1067,Finance,Associate,83,21,1,1.94,99.2,13,2.94,2,0,0,0
+1068,Finance,Manager,32,42,4,2.74,51.0,0,1.68,1,1,1,0
+1069,Operations,Senior Associate,66,0,4,3.54,84.2,47,3.03,5,0,0,1
+1070,Engineering,Associate,9,22,1,1.85,93.7,47,3.34,4,0,1,0
+1071,Marketing,Manager,58,51,3,4.47,90.5,39,2.08,5,1,1,0
+1072,HR,Associate,18,56,4,2.99,83.8,18,4.89,4,1,2,1
+1073,HR,Senior Associate,14,2,1,3.55,74.1,68,2.0,3,1,1,0
+1074,Engineering,Manager,60,29,1,4.84,94.1,50,2.52,5,0,1,1
+1075,Marketing,Associate,10,4,1,2.5,86.0,66,1.21,2,0,0,0
+1076,Engineering,Team Lead,82,13,1,1.63,90.4,79,1.39,2,1,1,0
+1077,HR,Senior Associate,31,13,1,4.06,68.7,8,3.32,2,0,0,0
+1078,Finance,Associate,2,56,4,1.75,77.2,52,2.04,2,0,1,0
+1079,Marketing,Team Lead,41,18,3,1.99,56.0,69,4.5,2,0,0,1
+1080,Engineering,Team Lead,79,55,5,4.94,74.0,75,1.99,4,0,0,1
+1081,Engineering,Associate,86,2,2,4.13,92.3,44,1.68,1,0,1,0
+1082,Finance,Associate,77,46,2,1.26,78.0,32,2.82,3,0,2,0
+1083,Engineering,Manager,13,4,4,3.77,67.9,24,4.39,1,1,3,1
+1084,Finance,Team Lead,42,5,1,4.66,64.7,11,1.6,4,1,1,0
+1085,Marketing,Team Lead,74,12,3,2.75,53.4,28,3.94,3,0,0,0
+1086,Operations,Manager,5,36,3,4.14,71.0,9,1.72,4,0,2,0
+1087,Marketing,Associate,93,19,2,3.32,86.7,67,2.52,5,0,1,0
+1088,Engineering,Manager,68,58,5,4.08,52.8,54,2.83,1,0,2,0
+1089,Operations,Manager,115,51,2,3.58,73.2,58,4.93,3,0,2,0
+1090,Finance,Team Lead,32,25,5,4.62,55.0,78,1.33,3,0,1,0
+1091,Sales,Associate,49,56,3,2.49,55.2,2,4.31,5,0,0,0
+1092,Marketing,Team Lead,30,12,1,1.82,85.7,32,1.74,4,0,1,0
+1093,HR,Team Lead,43,31,4,4.44,98.9,67,4.77,4,1,1,1
+1094,HR,Team Lead,63,50,1,1.13,58.5,39,4.07,1,0,1,0
+1095,Engineering,Senior Associate,50,49,2,1.96,83.6,76,2.72,5,0,0,0
+1096,Finance,Senior Associate,106,29,1,2.52,84.1,67,4.57,4,0,3,1
+1097,Sales,Associate,84,23,2,4.33,58.5,26,2.22,1,1,1,0
+1098,Marketing,Team Lead,37,55,3,3.58,73.0,67,2.53,3,0,0,0
+1099,Finance,Associate,83,53,5,4.37,53.9,22,4.19,3,0,2,1
+1100,Operations,Manager,75,53,1,4.4,95.5,48,3.64,4,0,1,0
+1101,Finance,Team Lead,4,11,1,4.88,88.6,26,1.05,4,0,3,0
+1102,HR,Team Lead,97,26,1,3.01,92.4,24,3.58,3,0,0,0
+1103,Sales,Manager,105,52,4,3.41,72.0,19,4.43,2,1,2,0
+1104,Marketing,Manager,38,24,1,3.48,64.8,55,3.63,1,0,1,0
+1105,HR,Manager,100,29,2,4.92,67.6,49,3.22,5,0,2,0
+1106,Marketing,Associate,106,17,5,3.42,63.9,26,2.05,3,0,1,1
+1107,Sales,Team Lead,36,29,1,3.42,57.4,32,2.33,4,1,1,0
+1108,Finance,Manager,74,24,5,1.78,52.5,46,2.36,4,0,2,0
+1109,HR,Team Lead,94,32,1,1.64,69.5,31,3.43,2,0,2,0
+1110,Finance,Manager,6,29,4,4.31,77.8,35,2.87,5,1,1,1
+1111,Finance,Senior Associate,65,13,2,2.57,73.1,56,1.3,3,1,1,0
+1112,HR,Manager,106,55,4,3.71,70.0,52,3.14,3,0,0,0
+1113,Engineering,Senior Associate,70,24,3,3.5,51.7,12,4.95,4,0,1,1
+1114,Operations,Senior Associate,100,22,3,4.95,68.7,33,1.12,1,1,2,0
+1115,Operations,Senior Associate,74,4,5,2.53,55.7,43,1.77,4,1,3,1
+1116,HR,Manager,104,35,5,2.01,84.7,21,2.09,3,1,1,1
+1117,Operations,Team Lead,39,9,2,4.7,65.4,45,1.5,1,0,1,0
+1118,Finance,Associate,40,23,5,4.48,75.3,54,1.97,5,0,3,1
+1119,Sales,Team Lead,106,11,5,4.91,67.6,8,3.23,2,0,1,1
+1120,Finance,Team Lead,16,27,5,1.3,76.1,22,2.82,2,0,3,0
+1121,Engineering,Manager,11,44,3,3.13,59.6,5,3.01,4,0,2,0
+1122,Sales,Manager,7,10,2,1.4,54.1,35,4.85,5,1,1,0
+1123,Engineering,Associate,25,27,2,2.66,62.2,69,2.46,2,0,0,0
+1124,Operations,Team Lead,81,13,4,2.72,62.3,17,2.31,1,1,1,0
+1125,Finance,Associate,16,9,3,4.83,61.9,69,1.9,3,1,0,0
+1126,Marketing,Manager,92,3,1,1.38,67.1,21,4.81,5,1,1,0
+1127,Finance,Associate,40,24,5,3.21,95.8,53,1.42,3,0,0,0
+1128,HR,Team Lead,98,38,3,1.25,72.1,4,3.99,2,0,1,0
+1129,Engineering,Manager,107,20,4,3.94,52.9,7,3.52,4,0,0,1
+1130,Marketing,Team Lead,47,56,1,4.78,87.8,16,3.22,3,1,2,0
+1131,Marketing,Senior Associate,22,35,4,4.31,98.9,62,1.74,3,0,1,0
+1132,Engineering,Associate,45,8,3,2.63,62.6,75,1.43,1,0,3,0
+1133,Finance,Associate,101,38,1,3.65,50.5,17,1.27,4,1,2,0
+1134,Sales,Senior Associate,94,43,4,2.91,75.3,22,1.75,1,1,1,0
+1135,HR,Team Lead,107,28,3,1.39,91.9,42,3.4,1,0,4,0
+1136,Operations,Senior Associate,14,16,4,2.39,97.2,24,4.79,5,0,2,1
+1137,HR,Team Lead,64,24,1,1.5,82.4,23,3.24,1,1,3,0
+1138,Finance,Associate,107,9,1,1.07,57.2,68,3.79,5,0,2,0
+1139,Sales,Associate,10,31,1,4.12,77.3,16,4.07,5,0,0,0
+1140,Marketing,Associate,66,38,3,4.15,51.4,47,3.25,4,0,4,0
+1141,Sales,Associate,73,33,5,4.88,53.1,16,3.18,3,0,1,0
+1142,Operations,Senior Associate,61,9,2,2.36,63.3,51,3.31,1,0,1,0
+1143,Finance,Team Lead,35,25,3,1.43,76.7,36,1.52,3,1,0,0
+1144,Finance,Team Lead,106,10,1,2.23,53.1,7,4.08,5,0,1,0
+1145,Marketing,Manager,116,59,2,1.97,99.6,74,4.87,2,1,1,0
+1146,Sales,Senior Associate,5,0,4,1.42,79.5,55,2.64,4,1,1,1
+1147,Sales,Senior Associate,109,54,1,1.57,59.2,46,2.12,4,0,1,0
+1148,Marketing,Team Lead,39,4,5,3.13,53.2,44,3.63,4,0,1,1
+1149,Sales,Team Lead,36,47,5,3.09,67.3,39,1.59,4,0,0,1
+1150,Engineering,Senior Associate,76,1,3,2.17,88.3,4,2.86,3,0,2,0
+1151,Engineering,Manager,53,0,1,4.21,83.9,70,3.22,3,0,2,0
+1152,Operations,Associate,24,53,5,4.26,52.9,29,1.75,4,0,2,0
+1153,Operations,Senior Associate,54,15,5,2.47,58.9,40,4.66,4,0,1,0
+1154,Engineering,Associate,60,19,2,2.25,99.1,43,1.75,5,0,1,0
+1155,Engineering,Manager,82,55,3,3.34,88.3,62,4.23,1,0,1,0
+1156,Engineering,Manager,9,24,2,4.74,69.2,10,3.89,2,0,0,1
+1157,Sales,Team Lead,38,42,3,4.36,83.8,52,4.16,3,1,0,1
+1158,Finance,Team Lead,5,12,3,2.23,76.8,5,2.09,5,0,1,0
+1159,Marketing,Manager,2,29,3,1.17,53.9,5,2.02,1,0,1,0
+1160,Marketing,Manager,75,40,3,1.57,80.5,29,1.12,2,0,0,0
+1161,Sales,Associate,92,57,3,2.91,73.5,43,1.89,2,0,2,0
+1162,Engineering,Manager,86,48,4,3.86,81.1,18,2.68,2,0,1,1
+1163,Marketing,Team Lead,38,58,3,1.48,97.0,50,2.49,2,0,1,1
+1164,Marketing,Team Lead,73,34,5,2.76,51.7,23,1.4,2,0,1,0
+1165,Engineering,Associate,66,46,3,1.62,59.9,51,4.78,5,0,1,0
+1166,Engineering,Manager,31,43,1,3.85,59.3,12,4.35,5,0,1,0
+1167,Finance,Manager,94,30,5,1.48,97.5,15,3.62,2,0,1,1
+1168,Engineering,Senior Associate,21,0,5,2.82,93.9,28,1.56,3,0,1,1
+1169,Marketing,Senior Associate,103,36,1,3.41,80.9,28,3.69,3,0,1,0
+1170,Sales,Associate,55,44,3,4.06,82.0,61,4.99,1,0,3,1
+1171,Operations,Senior Associate,118,24,2,1.69,64.8,20,4.12,5,1,2,0
+1172,Sales,Manager,41,54,1,2.24,85.2,29,1.95,4,0,0,0
+1173,Engineering,Team Lead,108,38,2,2.21,89.2,65,3.18,5,0,2,0
+1174,Engineering,Manager,2,2,1,2.56,71.2,58,3.64,1,0,1,0
+1175,Finance,Manager,11,20,2,2.34,53.1,35,1.83,5,0,2,0
+1176,Sales,Senior Associate,92,24,2,4.99,74.0,12,2.71,2,0,3,0
+1177,Marketing,Team Lead,42,35,2,3.05,94.7,8,4.86,4,0,1,1
+1178,Finance,Senior Associate,47,48,4,2.49,91.5,46,1.32,5,0,3,0
+1179,Sales,Associate,114,24,1,3.72,86.8,8,3.07,3,0,4,0
+1180,Operations,Team Lead,96,16,2,3.58,57.1,41,3.55,1,0,0,0
+1181,Sales,Manager,15,46,2,2.9,84.8,18,3.69,4,0,1,0
+1182,Sales,Team Lead,41,53,5,3.58,65.4,39,3.86,3,0,1,1
+1183,Operations,Team Lead,119,1,2,4.99,75.0,38,2.17,1,0,3,0
+1184,Sales,Associate,39,30,4,1.93,53.9,50,3.09,1,0,0,0
+1185,Finance,Manager,42,1,3,4.71,57.7,40,2.72,5,1,1,1
+1186,Finance,Manager,59,21,4,1.2,51.0,22,4.27,2,0,1,0
+1187,HR,Associate,46,29,3,4.0,62.2,57,4.6,4,0,1,0
+1188,Marketing,Senior Associate,98,31,3,3.43,71.4,58,2.79,4,0,0,0
+1189,Sales,Team Lead,119,43,2,4.53,52.7,28,4.32,2,0,3,0
+1190,Marketing,Senior Associate,7,59,1,1.87,94.2,47,1.61,2,0,2,0
+1191,Finance,Team Lead,98,1,1,4.47,58.7,38,3.37,4,0,1,0
+1192,Sales,Senior Associate,64,12,3,2.5,82.6,65,3.89,4,0,1,1
+1193,Engineering,Manager,94,56,4,2.44,69.3,7,2.75,4,0,0,0
+1194,Marketing,Senior Associate,32,47,4,3.07,81.0,64,3.77,3,0,1,1
+1195,Finance,Manager,87,38,3,1.91,51.3,43,3.98,5,1,1,1
+1196,Engineering,Manager,75,53,1,4.08,55.0,77,4.19,1,0,3,0
+1197,Operations,Associate,22,27,4,2.28,87.1,21,4.85,4,0,1,0
+1198,Sales,Team Lead,96,25,2,2.98,55.7,30,1.33,3,1,0,0
+1199,Operations,Associate,82,1,3,4.74,72.2,18,4.34,1,0,1,0
+1200,Engineering,Associate,96,49,1,1.57,72.3,42,1.55,3,0,3,0
+1201,Engineering,Team Lead,46,19,4,1.65,90.2,10,2.17,3,0,0,0
+1202,Marketing,Associate,73,11,2,4.01,56.0,35,1.71,3,0,4,0
+1203,Sales,Team Lead,88,3,1,3.14,72.3,36,3.71,3,0,1,0
+1204,Sales,Senior Associate,20,4,3,2.59,53.6,58,3.54,2,0,0,0
+1205,HR,Manager,76,51,1,4.24,58.5,64,1.26,1,0,1,0
+1206,Sales,Team Lead,18,46,5,3.34,81.5,14,2.78,3,0,0,0
+1207,Finance,Associate,74,54,1,1.98,86.6,35,3.36,3,0,1,0
+1208,Finance,Associate,112,57,4,3.84,92.4,79,1.46,1,0,0,0
+1209,Engineering,Senior Associate,3,24,5,3.41,61.7,12,3.56,1,0,2,0
+1210,Finance,Team Lead,106,33,1,1.3,51.5,57,4.06,1,0,1,0
+1211,HR,Manager,37,16,4,1.95,76.0,29,4.03,4,0,0,1
+1212,Operations,Manager,38,21,5,4.53,90.8,32,3.65,4,0,1,1
+1213,Marketing,Manager,30,45,2,4.61,73.9,46,2.66,4,0,1,0
+1214,Operations,Senior Associate,114,12,1,4.26,50.8,13,2.32,3,0,0,0
+1215,Finance,Team Lead,78,7,3,1.78,86.9,17,2.32,4,0,0,0
+1216,Engineering,Team Lead,48,41,1,4.69,91.6,18,4.27,2,0,1,1
+1217,Sales,Team Lead,90,34,1,4.14,79.1,20,2.44,1,0,1,0
+1218,HR,Senior Associate,48,52,5,3.07,58.5,56,4.6,2,0,0,0
+1219,Marketing,Associate,115,35,5,4.81,87.5,29,3.19,2,0,2,1
+1220,Marketing,Associate,17,35,2,1.35,57.0,67,2.13,5,1,1,0
+1221,Sales,Manager,8,48,3,4.79,71.1,64,3.62,5,0,0,0
+1222,Sales,Manager,10,38,5,2.77,58.4,57,3.47,4,0,1,0
+1223,Sales,Team Lead,7,15,3,4.61,73.2,53,1.93,5,0,2,1
+1224,Sales,Senior Associate,70,51,5,1.28,73.3,27,4.78,4,1,2,0
+1225,HR,Senior Associate,66,49,4,3.91,56.0,2,2.5,2,0,1,0
+1226,Sales,Manager,38,23,5,1.71,67.5,63,3.93,4,0,2,1
+1227,Engineering,Associate,88,55,3,1.83,84.0,19,4.05,1,1,2,0
+1228,Operations,Team Lead,95,45,5,2.09,75.1,20,3.63,3,0,0,1
+1229,Engineering,Associate,100,49,3,1.25,99.0,64,4.6,3,1,2,0
+1230,Engineering,Associate,107,27,2,4.45,57.0,68,3.84,5,1,1,1
+1231,Marketing,Manager,84,14,1,4.99,93.3,45,2.99,5,0,0,0
+1232,Operations,Manager,2,58,1,2.27,89.1,18,1.55,3,0,2,0
+1233,Engineering,Associate,64,10,1,4.45,96.3,7,4.51,3,0,1,0
+1234,Operations,Team Lead,81,12,4,4.34,88.8,74,4.27,3,0,1,0
+1235,Engineering,Senior Associate,88,38,2,3.6,85.2,45,3.64,1,0,3,0
+1236,Sales,Senior Associate,4,19,2,1.75,91.2,48,3.25,2,0,0,0
+1237,Marketing,Team Lead,23,18,3,2.27,92.2,56,3.9,1,0,0,0
+1238,Sales,Senior Associate,37,35,5,3.23,64.6,75,1.75,4,0,2,0
+1239,Operations,Associate,104,46,1,2.0,78.2,0,4.33,1,0,2,0
+1240,Marketing,Senior Associate,29,6,5,4.91,78.1,9,2.88,3,0,0,0
+1241,Operations,Team Lead,49,4,4,4.75,64.2,22,1.78,5,0,0,1
+1242,Marketing,Manager,67,11,5,4.33,55.0,57,1.03,1,0,1,0
+1243,Sales,Team Lead,46,21,4,4.52,98.0,32,1.04,5,1,7,1
+1244,Marketing,Senior Associate,84,32,3,3.78,59.4,18,4.11,3,0,2,1
+1245,Operations,Associate,43,6,5,1.62,95.3,34,4.78,1,0,3,0
+1246,Sales,Senior Associate,23,39,3,4.77,50.3,22,1.55,2,0,1,0
+1247,Marketing,Team Lead,107,11,1,4.49,64.3,7,3.28,3,0,0,0
+1248,Engineering,Associate,32,41,2,3.09,68.7,68,3.58,5,1,0,1
+1249,Marketing,Team Lead,54,2,4,4.28,78.8,35,3.93,2,0,0,0
+1250,Engineering,Manager,112,24,2,4.21,70.6,28,4.19,3,0,0,0
+1251,Engineering,Team Lead,77,0,3,1.97,56.2,19,4.85,2,0,1,0
+1252,Engineering,Senior Associate,89,33,4,4.99,75.3,23,2.4,3,1,2,0
+1253,Engineering,Manager,20,14,1,4.79,88.9,69,4.5,4,1,2,1
+1254,Operations,Manager,59,33,4,2.78,69.9,73,3.24,1,0,0,0
+1255,Finance,Team Lead,104,8,4,4.58,57.2,58,3.15,1,0,1,0
+1256,Operations,Manager,37,1,3,3.8,82.0,75,3.53,4,0,1,1
+1257,Operations,Senior Associate,19,32,5,2.47,76.5,31,2.67,5,0,1,1
+1258,Marketing,Manager,9,34,3,2.37,66.4,6,4.41,5,0,4,0
+1259,Operations,Team Lead,68,39,4,1.1,98.1,40,3.78,5,0,2,0
+1260,Marketing,Manager,3,30,3,2.43,57.7,58,3.48,4,0,3,0
+1261,Operations,Senior Associate,2,22,2,1.38,90.2,19,2.15,5,0,1,0
+1262,Sales,Associate,27,11,4,2.47,79.7,69,1.22,3,1,1,0
+1263,Finance,Associate,52,40,1,2.04,80.7,9,2.12,3,1,2,0
+1264,Engineering,Senior Associate,40,53,3,2.01,65.1,50,1.78,2,0,0,0
+1265,Engineering,Associate,99,36,3,3.51,73.1,52,1.51,5,0,1,0
+1266,HR,Senior Associate,59,51,1,2.64,66.9,56,1.28,4,0,0,0
+1267,HR,Senior Associate,24,12,5,4.44,53.2,46,4.72,1,0,1,1
+1268,Marketing,Manager,99,17,2,4.82,90.8,9,3.31,1,0,0,0
+1269,Marketing,Manager,116,56,3,1.91,95.3,2,1.06,5,0,0,0
+1270,Finance,Team Lead,118,55,4,1.89,73.9,47,2.38,3,0,1,0
+1271,Marketing,Associate,37,6,4,2.92,61.6,22,4.3,1,0,2,0
+1272,Sales,Associate,45,59,4,1.5,69.1,73,2.86,1,0,2,0
+1273,Sales,Senior Associate,74,40,2,4.9,65.6,26,3.47,5,0,1,1
+1274,Sales,Manager,69,4,4,1.12,85.6,55,4.93,3,0,2,1
+1275,Marketing,Team Lead,34,50,3,4.14,93.4,53,3.34,4,0,0,0
+1276,HR,Senior Associate,7,29,3,2.85,77.6,4,1.39,5,0,2,0
+1277,Finance,Associate,9,24,5,2.62,99.4,3,2.1,4,0,1,1
+1278,Operations,Associate,80,59,1,1.22,67.3,37,3.06,3,0,1,0
+1279,Finance,Senior Associate,81,47,4,3.91,63.1,53,2.86,1,0,2,0
+1280,Finance,Team Lead,86,30,3,4.7,87.8,26,2.19,1,1,1,0
+1281,Engineering,Team Lead,77,9,3,2.01,66.3,7,2.18,3,1,4,0
+1282,Finance,Associate,55,35,3,1.21,67.3,53,2.96,4,0,1,0
+1283,Engineering,Manager,35,58,1,4.09,52.4,51,2.14,1,1,0,0
+1284,Operations,Manager,114,10,4,3.79,77.8,56,2.54,4,1,1,1
+1285,Engineering,Associate,48,36,2,1.69,90.4,33,1.59,1,1,2,0
+1286,Marketing,Team Lead,70,13,1,1.79,72.2,55,3.68,3,0,2,0
+1287,Engineering,Team Lead,113,55,5,4.09,78.0,0,3.6,2,0,2,0
+1288,Marketing,Manager,89,31,3,2.39,85.9,14,3.35,5,1,3,0
+1289,Engineering,Manager,79,46,1,2.12,81.8,53,4.58,4,0,1,0
+1290,Engineering,Manager,108,18,1,1.28,59.3,24,2.44,4,0,1,0
+1291,Marketing,Senior Associate,57,24,2,3.8,50.5,0,4.75,5,0,1,1
+1292,Finance,Associate,93,36,2,4.14,63.1,69,2.33,5,0,0,1
+1293,HR,Manager,97,17,4,3.58,81.6,20,4.81,2,1,2,1
+1294,HR,Manager,95,12,5,2.78,84.3,23,1.94,3,0,2,1
+1295,Sales,Manager,92,8,3,3.48,93.1,41,1.21,2,0,1,0
+1296,Operations,Senior Associate,102,42,2,1.76,88.1,58,3.51,3,0,0,0
+1297,Sales,Team Lead,22,35,1,1.98,60.7,20,2.59,3,0,1,0
+1298,HR,Team Lead,46,45,2,2.01,79.0,29,1.93,2,1,0,0
+1299,Sales,Team Lead,105,9,1,3.81,86.2,19,2.33,5,0,0,0
+1300,Operations,Manager,108,50,5,2.27,89.1,34,4.19,4,0,1,1
+1301,HR,Manager,42,1,2,4.34,68.8,68,2.88,2,0,1,0
+1302,Engineering,Senior Associate,89,27,3,1.47,52.2,36,1.31,3,0,0,0
+1303,Marketing,Team Lead,99,2,3,1.03,81.6,45,3.21,3,1,0,0
+1304,HR,Senior Associate,115,0,1,2.75,90.3,33,3.91,4,0,1,0
+1305,Sales,Associate,85,16,4,4.64,85.4,14,2.84,5,1,0,1
+1306,Engineering,Senior Associate,113,29,5,1.32,86.6,30,2.41,5,0,1,0
+1307,HR,Team Lead,21,37,1,1.42,92.2,3,2.26,3,1,0,0
+1308,Engineering,Manager,113,53,1,3.87,91.1,18,3.14,5,0,2,0
+1309,Marketing,Manager,50,33,5,4.28,73.3,69,2.09,4,0,2,1
+1310,Engineering,Manager,104,56,5,2.15,68.8,12,4.17,2,0,0,0
+1311,Sales,Manager,81,35,5,2.51,71.9,4,1.57,2,0,2,0
+1312,Operations,Associate,81,24,1,4.7,72.2,18,1.88,3,0,2,0
+1313,HR,Team Lead,49,10,2,1.17,86.9,55,4.44,3,0,0,0
+1314,HR,Senior Associate,27,58,4,4.78,89.1,22,2.88,2,0,0,0
+1315,Sales,Manager,24,11,4,2.24,84.8,29,4.7,5,0,1,0
+1316,Finance,Associate,55,18,4,3.57,86.2,3,4.65,5,0,2,1
+1317,HR,Manager,77,55,4,3.82,57.5,27,2.78,5,1,1,1
+1318,Sales,Associate,105,2,1,1.01,55.2,45,2.19,2,1,0,0
+1319,Marketing,Team Lead,116,50,4,3.23,74.2,77,3.16,5,1,1,1
+1320,Finance,Associate,3,10,3,3.76,59.2,63,3.11,1,0,1,0
+1321,Marketing,Associate,65,22,4,1.05,78.5,40,2.76,3,0,0,0
+1322,Marketing,Associate,5,41,1,3.32,96.9,48,1.8,5,0,2,0
+1323,Engineering,Senior Associate,99,17,4,1.57,56.2,58,1.92,3,0,1,0
+1324,Marketing,Manager,12,33,5,1.49,55.3,59,4.26,1,0,2,0
+1325,Finance,Senior Associate,89,5,4,4.71,75.2,53,3.46,4,0,1,0
+1326,HR,Senior Associate,59,44,4,2.75,76.3,27,4.55,2,0,1,0
+1327,Marketing,Team Lead,62,8,1,2.27,60.0,77,2.39,5,0,2,0
+1328,Engineering,Team Lead,59,59,1,1.96,60.2,59,2.49,5,0,2,0
+1329,Finance,Associate,82,8,5,1.72,98.9,24,2.6,5,0,2,0
+1330,Marketing,Senior Associate,42,3,5,1.22,53.5,34,3.1,2,0,1,0
+1331,Sales,Team Lead,41,53,3,3.81,52.4,55,2.49,3,1,0,0
+1332,Finance,Associate,64,7,5,1.14,93.1,60,2.68,4,0,2,1
+1333,Sales,Manager,47,6,5,2.08,93.1,56,1.17,5,0,2,1
+1334,Engineering,Associate,18,42,2,2.91,96.1,39,2.38,3,1,0,0
+1335,Marketing,Senior Associate,9,32,1,2.15,75.3,8,3.44,2,0,3,0
+1336,Marketing,Senior Associate,35,25,2,2.01,99.3,55,3.01,5,0,1,0
+1337,Engineering,Senior Associate,52,39,1,1.41,99.8,24,3.45,2,0,1,0
+1338,Finance,Team Lead,30,3,2,4.79,75.6,77,3.22,1,0,4,1
+1339,Marketing,Associate,69,55,3,2.19,81.3,25,2.59,1,0,1,0
+1340,Operations,Team Lead,82,42,4,1.32,79.4,30,2.95,3,0,2,0
+1341,HR,Team Lead,36,24,2,2.62,71.3,31,3.74,5,0,1,0
+1342,Operations,Senior Associate,28,2,1,2.84,79.8,13,4.07,3,0,1,0
+1343,HR,Associate,40,33,1,4.02,94.2,16,2.29,1,0,0,0
+1344,Engineering,Associate,64,14,5,3.21,61.1,73,2.59,3,0,0,0
+1345,HR,Associate,86,13,1,3.78,70.9,8,3.16,2,0,1,0
+1346,Marketing,Senior Associate,77,34,2,2.06,94.5,45,5.0,1,0,1,0
+1347,Marketing,Associate,12,55,3,4.6,64.9,70,4.59,2,0,1,0
+1348,Engineering,Senior Associate,17,51,1,3.59,61.6,67,4.56,3,0,2,0
+1349,Operations,Team Lead,52,39,5,4.43,59.5,73,1.79,3,0,1,1
+1350,Operations,Senior Associate,95,59,3,3.37,89.8,62,2.77,5,0,0,1
+1351,Engineering,Manager,92,43,4,1.7,57.2,40,1.96,5,0,1,0
+1352,HR,Team Lead,80,0,3,3.56,50.8,57,2.81,3,1,1,1
+1353,Sales,Associate,71,7,5,2.58,55.7,23,1.47,2,0,0,0
+1354,HR,Team Lead,76,28,1,1.68,53.5,1,3.78,2,0,1,0
+1355,Marketing,Associate,17,34,4,3.79,61.3,31,3.53,1,0,5,0
+1356,Finance,Team Lead,6,22,2,2.21,91.0,52,2.22,2,1,2,1
+1357,Engineering,Team Lead,3,7,2,3.8,63.8,63,1.18,4,0,0,0
+1358,Marketing,Team Lead,46,24,2,2.43,83.8,45,2.45,4,0,1,0
+1359,Sales,Associate,93,48,2,2.53,94.4,58,1.48,3,0,0,0
+1360,Engineering,Senior Associate,65,50,1,4.56,89.8,70,2.94,4,0,2,0
+1361,Operations,Senior Associate,83,11,4,4.65,87.4,56,4.04,3,0,0,1
+1362,Operations,Senior Associate,91,20,5,4.53,98.2,24,2.42,5,0,2,1
+1363,Engineering,Associate,53,52,2,3.26,87.1,11,1.02,1,0,0,0
+1364,Operations,Associate,93,32,2,3.32,53.7,54,2.51,1,0,0,0
+1365,Engineering,Team Lead,105,5,5,3.3,66.5,36,2.0,1,0,0,1
+1366,Marketing,Team Lead,105,3,1,4.21,98.7,16,4.69,2,0,1,1
+1367,HR,Manager,73,18,2,3.92,68.6,20,2.18,4,0,0,0
+1368,Finance,Manager,39,1,3,4.12,99.9,62,1.18,3,0,1,0
+1369,Sales,Associate,59,45,4,2.27,85.2,70,4.48,5,0,0,0
+1370,HR,Associate,12,35,1,3.24,56.7,74,3.82,3,1,2,0
+1371,Operations,Team Lead,97,18,1,3.64,90.0,12,2.13,1,0,1,0
+1372,Finance,Senior Associate,59,38,4,4.89,60.5,32,4.59,3,1,0,0
+1373,HR,Senior Associate,18,13,5,2.27,66.6,60,1.33,3,0,5,1
+1374,Engineering,Manager,27,31,3,3.24,69.1,32,1.69,1,0,0,0
+1375,Sales,Team Lead,54,26,4,1.09,87.0,7,4.25,5,0,0,0
+1376,Engineering,Team Lead,16,8,3,2.75,54.6,57,1.24,1,0,0,0
+1377,Marketing,Senior Associate,33,7,4,4.52,82.7,20,3.99,1,0,0,0
+1378,Engineering,Team Lead,100,55,1,1.61,92.6,64,4.07,2,0,2,0
+1379,HR,Senior Associate,82,18,4,2.58,63.7,68,3.26,4,0,2,1
+1380,Finance,Team Lead,64,14,2,3.91,92.0,37,2.62,4,0,2,0
+1381,Sales,Associate,63,53,1,3.4,89.3,60,1.53,2,0,0,0
+1382,HR,Team Lead,16,11,3,1.23,63.6,13,3.27,1,0,2,0
+1383,Engineering,Team Lead,39,22,1,1.88,62.0,5,4.83,4,0,2,0
+1384,Sales,Manager,76,19,3,3.24,56.6,9,2.47,5,0,0,0
+1385,Marketing,Team Lead,13,43,3,3.13,67.7,48,1.69,3,0,0,0
+1386,Operations,Team Lead,72,11,2,2.59,74.2,51,3.18,4,0,2,0
+1387,Marketing,Team Lead,110,7,5,3.18,88.3,13,4.36,1,0,2,0
+1388,Sales,Team Lead,80,8,3,2.71,89.7,19,1.69,2,1,1,0
+1389,Marketing,Manager,9,5,5,3.16,52.6,5,1.84,2,0,1,0
+1390,Finance,Team Lead,108,29,5,4.62,89.2,38,1.93,3,1,2,0
+1391,Engineering,Senior Associate,49,22,1,2.08,82.3,44,2.18,2,0,0,0
+1392,HR,Team Lead,15,39,2,4.46,78.9,45,2.75,3,0,2,0
+1393,HR,Team Lead,43,0,1,4.98,99.2,64,4.2,1,1,0,0
+1394,Marketing,Senior Associate,65,23,5,2.86,71.6,50,2.76,1,0,1,1
+1395,Marketing,Associate,30,34,4,2.67,51.6,2,4.53,4,0,3,0
+1396,Finance,Associate,10,47,2,4.38,67.6,34,3.67,2,0,0,0
+1397,Marketing,Manager,69,37,4,1.31,90.2,16,4.71,2,0,2,0
+1398,Sales,Team Lead,22,5,2,4.6,80.4,49,3.74,4,0,1,0
+1399,Operations,Associate,97,33,5,4.03,64.5,51,3.38,1,0,1,0
+1400,Finance,Team Lead,105,10,4,3.86,61.2,64,4.65,2,0,0,0
+1401,Engineering,Associate,66,31,1,4.61,54.4,77,4.23,5,0,2,1
+1402,Operations,Senior Associate,87,47,5,3.6,99.0,37,1.78,4,0,1,0
+1403,Marketing,Associate,21,30,4,2.75,99.7,48,3.11,4,0,2,0
+1404,Engineering,Team Lead,53,46,4,3.79,64.6,1,3.75,4,0,4,0
+1405,Marketing,Senior Associate,91,47,2,3.87,55.3,20,3.25,3,0,0,0
+1406,Operations,Associate,114,30,4,3.4,91.1,16,1.5,2,0,0,0
+1407,Marketing,Team Lead,99,29,1,4.9,64.3,45,1.39,1,0,1,0
+1408,Finance,Manager,63,26,5,1.22,81.5,8,2.61,3,0,0,0
+1409,Operations,Senior Associate,45,28,2,2.95,52.1,72,4.77,4,0,1,1
+1410,Finance,Manager,14,33,3,2.5,66.9,66,2.08,1,1,3,0
+1411,Marketing,Team Lead,39,25,1,2.32,54.5,2,3.09,3,0,0,0
+1412,Engineering,Team Lead,97,36,2,1.17,50.6,42,3.84,2,1,0,0
+1413,Engineering,Team Lead,87,44,2,1.59,88.6,0,1.69,1,0,1,0
+1414,Marketing,Team Lead,55,40,4,4.08,56.5,43,3.4,3,0,1,0
+1415,HR,Associate,55,59,2,2.39,50.3,12,3.34,1,1,1,0
+1416,Marketing,Team Lead,76,41,4,1.79,93.6,44,1.23,2,0,3,1
+1417,Marketing,Manager,74,2,1,3.52,50.4,51,2.48,3,0,3,0
+1418,Finance,Senior Associate,81,43,4,1.18,65.3,79,2.05,2,0,1,0
+1419,HR,Manager,110,26,1,3.77,70.0,58,2.1,5,0,0,1
+1420,HR,Senior Associate,7,6,4,4.45,96.7,9,1.94,3,0,1,0
+1421,Operations,Senior Associate,15,29,4,3.55,98.6,42,2.48,5,0,3,1
+1422,Sales,Manager,66,29,5,1.98,97.4,41,1.44,5,0,0,0
+1423,Operations,Manager,85,50,1,4.57,90.2,12,1.0,4,0,0,0
+1424,Sales,Manager,82,7,1,3.3,86.3,30,2.5,5,0,1,0
+1425,Engineering,Senior Associate,13,36,5,3.56,99.6,31,3.31,5,0,3,1
+1426,HR,Manager,71,36,3,3.83,68.8,19,3.52,2,0,4,0
+1427,Engineering,Associate,56,11,1,1.44,54.3,20,3.76,5,1,1,0
+1428,Engineering,Associate,45,43,3,1.32,69.4,25,3.79,4,0,1,1
+1429,HR,Senior Associate,15,9,3,2.13,50.4,8,1.37,4,0,2,0
+1430,Engineering,Manager,88,21,3,3.19,67.2,11,4.09,4,0,3,0
+1431,Operations,Team Lead,43,57,3,1.82,70.6,2,2.72,3,0,1,0
+1432,Finance,Senior Associate,13,11,4,3.77,65.3,70,4.73,5,0,2,1
+1433,HR,Manager,100,28,1,3.75,80.0,46,4.26,4,0,0,0
+1434,HR,Senior Associate,24,44,5,1.61,74.7,44,3.97,3,0,1,1
+1435,Operations,Team Lead,17,7,4,4.23,81.9,65,4.02,2,0,0,0
+1436,Marketing,Team Lead,50,15,4,1.93,69.3,55,3.87,3,0,2,1
+1437,Operations,Manager,61,1,5,1.42,91.7,8,2.11,3,0,1,0
+1438,Marketing,Manager,84,55,3,2.42,70.9,29,4.29,1,0,1,0
+1439,Sales,Team Lead,84,53,4,1.11,51.7,14,2.14,3,0,1,0
+1440,Finance,Associate,36,43,2,2.08,60.4,64,2.83,3,0,0,0
+1441,Engineering,Associate,70,24,4,1.97,76.4,21,4.0,4,1,3,0
+1442,Sales,Senior Associate,110,26,3,1.92,83.7,69,3.53,1,0,2,0
+1443,Sales,Associate,52,50,1,2.28,81.6,1,1.03,5,0,1,0
+1444,Operations,Manager,21,26,4,2.55,72.4,75,2.65,3,0,2,0
+1445,Operations,Senior Associate,66,42,5,1.78,94.0,4,1.49,1,0,2,0
+1446,Operations,Team Lead,72,33,4,4.19,62.3,63,2.61,1,0,2,0
+1447,Finance,Team Lead,91,40,3,4.78,70.5,74,3.57,3,0,0,0
+1448,Engineering,Senior Associate,30,21,5,1.07,61.7,40,1.03,5,0,1,0
+1449,Engineering,Manager,32,59,1,1.25,88.5,58,2.8,5,0,1,0
+1450,Finance,Associate,17,42,1,2.6,82.9,10,2.45,5,0,3,1
+1451,Operations,Team Lead,95,27,4,2.42,71.2,54,3.86,2,0,2,0
+1452,Sales,Team Lead,49,0,3,3.95,63.5,65,1.66,5,0,0,1
+1453,Sales,Manager,52,18,1,2.39,85.3,61,2.05,3,1,1,0
+1454,HR,Associate,115,14,4,4.98,97.6,18,1.46,3,0,0,0
+1455,Sales,Associate,118,3,4,2.55,93.9,60,3.29,3,0,3,1
+1456,HR,Senior Associate,47,14,4,2.11,64.2,21,1.92,2,1,1,1
+1457,Marketing,Associate,9,11,4,3.31,56.6,58,2.46,2,1,2,0
+1458,HR,Team Lead,28,17,4,2.76,50.7,54,2.54,1,0,1,0
+1459,HR,Senior Associate,82,44,5,2.15,66.9,19,4.87,2,0,2,0
+1460,Operations,Associate,89,48,1,1.77,95.3,62,2.13,1,0,3,0
+1461,Finance,Manager,33,42,4,4.58,96.0,31,3.14,1,0,1,0
+1462,Operations,Manager,88,20,5,4.77,94.1,25,3.11,1,1,3,1
+1463,Marketing,Senior Associate,22,10,3,2.84,58.0,27,4.58,1,0,0,0
+1464,Operations,Manager,61,3,4,4.0,65.9,21,3.41,2,0,1,0
+1465,Sales,Team Lead,57,41,3,4.19,55.3,11,3.38,3,0,1,0
+1466,Operations,Team Lead,14,50,4,3.59,96.3,70,3.2,1,1,4,1
+1467,Engineering,Team Lead,36,45,4,2.17,84.9,43,1.23,5,1,1,1
+1468,Marketing,Team Lead,29,54,4,3.87,78.6,48,2.97,4,0,0,0
+1469,Sales,Team Lead,50,16,1,4.72,83.6,9,1.16,4,0,1,0
+1470,Sales,Senior Associate,3,7,2,3.67,55.4,65,2.37,1,1,1,1
+1471,HR,Manager,76,35,1,2.95,54.0,78,4.79,2,0,1,0
+1472,Finance,Team Lead,38,57,3,2.2,84.0,1,4.04,5,1,1,1
+1473,Sales,Team Lead,61,20,5,2.53,56.6,30,2.77,3,0,0,0
+1474,Engineering,Manager,29,31,1,3.42,63.5,78,1.37,5,0,1,1
+1475,Sales,Senior Associate,16,4,1,1.15,72.1,5,4.53,3,0,1,0
+1476,HR,Associate,25,40,3,2.42,84.1,66,3.0,2,1,1,0
+1477,Finance,Senior Associate,52,22,3,1.99,84.8,30,1.98,4,0,1,0
+1478,Engineering,Associate,13,9,3,3.88,62.0,21,4.86,3,0,1,0
+1479,Engineering,Manager,92,20,5,1.11,93.3,74,1.88,1,0,2,0
+1480,Marketing,Associate,70,14,2,3.16,72.7,4,2.07,3,0,0,0
+1481,Finance,Associate,10,13,2,2.94,70.3,46,1.87,1,0,0,0
+1482,Sales,Manager,97,58,5,4.14,61.9,6,4.01,5,0,0,0
+1483,Engineering,Team Lead,19,44,2,1.0,66.6,68,1.35,4,0,1,0
+1484,Sales,Team Lead,76,3,5,4.23,76.2,12,3.71,4,0,0,0
+1485,Engineering,Associate,85,3,4,4.36,60.6,69,2.21,3,1,2,1
+1486,Engineering,Manager,12,48,1,2.81,81.1,60,1.71,1,0,1,0
+1487,HR,Team Lead,2,12,1,2.79,71.6,23,1.64,3,1,1,0
+1488,HR,Team Lead,45,17,1,3.43,83.8,7,4.91,1,0,0,0
+1489,HR,Associate,79,4,5,4.54,98.9,59,1.34,1,0,0,0
+1490,Operations,Team Lead,76,3,3,2.23,92.8,33,3.22,4,0,1,0
+1491,Operations,Associate,71,16,1,2.79,81.3,0,1.55,1,0,0,0
+1492,Finance,Manager,50,49,4,1.13,99.2,18,2.53,2,0,0,0
+1493,Operations,Associate,37,44,4,3.75,55.3,74,2.01,3,0,1,1
+1494,Marketing,Associate,75,7,1,1.66,54.3,22,4.1,1,0,1,0
+1495,HR,Associate,18,23,1,4.47,83.9,60,3.84,1,1,1,1
+1496,Engineering,Manager,7,55,2,4.69,79.6,77,1.61,4,1,1,0
+1497,Finance,Senior Associate,116,14,5,3.69,62.7,67,1.29,1,0,0,0
+1498,Sales,Associate,59,51,4,1.21,96.4,32,2.47,1,0,0,0
+1499,Engineering,Senior Associate,78,28,4,2.05,61.7,54,2.61,4,0,1,0
+1500,Sales,Senior Associate,69,18,1,3.75,85.0,35,3.05,3,1,1,1
+1501,Marketing,Associate,66,46,4,2.06,80.2,66,3.52,2,1,1,0
+1502,Sales,Associate,74,44,5,3.24,54.0,62,1.22,1,0,0,0
+1503,Marketing,Team Lead,32,36,1,2.27,87.5,28,2.72,1,0,1,0
+1504,Sales,Senior Associate,79,54,5,1.47,86.0,64,1.4,2,1,1,0
+1505,Operations,Senior Associate,62,12,1,2.33,61.1,23,2.29,5,1,1,0
+1506,Engineering,Manager,86,0,3,4.12,60.0,25,3.42,1,1,0,0
+1507,Operations,Senior Associate,74,55,4,4.78,74.5,3,5.0,4,0,1,0
+1508,Finance,Manager,21,47,4,2.26,65.8,74,2.02,2,0,1,0
+1509,Finance,Team Lead,21,55,4,4.94,82.2,47,2.7,5,1,0,1
+1510,Sales,Associate,5,1,2,3.68,51.1,26,1.07,1,0,1,0
+1511,HR,Senior Associate,10,59,5,1.91,54.0,64,2.8,1,0,2,0
+1512,Finance,Associate,79,7,4,4.34,54.2,36,1.8,5,0,0,0
+1513,Sales,Manager,43,10,3,2.96,63.8,78,2.03,4,0,1,0
+1514,Finance,Senior Associate,85,16,4,1.38,78.7,57,3.8,3,0,2,1
+1515,Marketing,Senior Associate,103,1,5,1.01,99.2,10,1.72,4,1,2,1
+1516,Engineering,Team Lead,74,21,1,1.17,56.7,9,1.65,3,0,2,0
+1517,HR,Associate,73,56,1,1.87,88.3,26,2.62,3,0,1,0
+1518,Finance,Associate,99,54,2,4.0,56.2,60,1.11,1,0,1,0
+1519,HR,Associate,112,57,1,2.05,89.6,18,3.9,4,0,1,0
+1520,Finance,Senior Associate,89,8,4,2.33,58.3,77,2.37,4,0,0,0
+1521,HR,Senior Associate,32,26,4,4.09,55.4,26,4.87,5,0,1,0
+1522,Engineering,Manager,100,5,4,1.21,53.6,58,4.32,3,0,0,1
+1523,Operations,Team Lead,47,39,4,2.86,79.0,61,2.56,5,1,2,0
+1524,Finance,Team Lead,99,44,3,1.31,69.5,39,3.58,1,0,1,0
+1525,Operations,Associate,24,13,4,2.78,61.8,18,4.33,1,0,2,0
+1526,Engineering,Senior Associate,26,57,3,2.2,89.5,56,3.58,5,1,2,1
+1527,HR,Manager,96,50,1,1.3,70.5,49,3.35,2,1,2,0
+1528,Engineering,Manager,62,25,2,4.18,67.7,22,4.34,2,0,1,0
+1529,Marketing,Manager,105,35,3,3.94,79.2,63,1.03,5,0,2,0
+1530,Marketing,Senior Associate,33,4,2,2.52,93.5,57,4.0,5,0,3,0
+1531,HR,Team Lead,8,7,5,4.31,60.5,76,1.33,4,0,1,1
+1532,Finance,Manager,18,36,4,2.76,84.8,64,2.68,3,0,1,1
+1533,Marketing,Senior Associate,65,33,3,1.54,75.2,76,1.46,4,0,0,0
+1534,Engineering,Senior Associate,64,11,5,4.36,73.1,1,3.32,4,0,1,0
+1535,Finance,Associate,61,46,5,1.04,94.0,29,1.53,5,0,1,0
+1536,Engineering,Senior Associate,61,53,1,2.85,76.4,54,3.12,1,0,2,0
+1537,Sales,Senior Associate,36,30,2,1.37,62.5,20,1.4,2,0,1,0
+1538,Marketing,Associate,5,39,5,1.82,51.8,75,1.8,4,0,1,0
+1539,Marketing,Manager,51,17,5,4.38,84.3,10,2.34,2,0,0,1
+1540,Marketing,Manager,51,8,5,1.37,63.6,30,2.24,5,0,4,0
+1541,Finance,Senior Associate,31,41,4,3.87,78.8,18,3.15,4,0,2,1
+1542,HR,Manager,118,17,4,4.37,68.2,75,3.1,2,1,0,1
+1543,Marketing,Associate,36,13,5,3.72,63.1,79,4.15,4,1,2,1
+1544,Sales,Associate,77,13,1,1.36,56.3,69,2.44,5,0,1,0
+1545,Engineering,Manager,105,4,2,4.16,69.6,73,1.68,3,0,2,0
+1546,HR,Manager,1,44,2,4.11,82.2,48,4.86,5,1,3,0
+1547,Marketing,Manager,56,39,4,4.66,99.4,66,1.94,5,0,2,1
+1548,Sales,Senior Associate,74,34,4,2.74,74.6,10,2.2,4,0,0,0
+1549,Finance,Associate,41,6,1,2.99,95.0,39,1.46,4,0,0,0
+1550,Marketing,Senior Associate,61,36,5,3.75,68.4,52,3.5,5,0,0,1
+1551,Operations,Team Lead,35,35,3,1.93,87.0,69,4.48,5,0,0,0
+1552,Finance,Team Lead,97,50,3,1.42,66.1,65,2.25,2,0,1,0
+1553,HR,Associate,85,10,3,1.74,69.4,43,2.49,1,0,1,0
+1554,Engineering,Associate,83,8,5,3.24,81.6,59,4.96,2,0,2,1
+1555,HR,Manager,29,17,4,1.37,81.3,74,2.32,5,0,1,0
+1556,Sales,Associate,9,10,4,1.75,90.8,18,4.76,2,0,1,0
+1557,Operations,Senior Associate,103,53,3,2.72,72.8,55,3.05,4,0,1,1
+1558,Finance,Senior Associate,73,29,4,4.37,57.2,56,3.26,1,0,1,0
+1559,Marketing,Associate,113,10,1,3.77,77.9,41,2.1,1,0,0,0
+1560,Engineering,Team Lead,5,30,2,2.83,66.4,77,4.65,5,0,0,1
+1561,Sales,Associate,20,28,3,1.36,74.4,69,3.99,3,0,1,0
+1562,HR,Associate,3,36,1,1.89,73.3,36,3.12,5,0,1,0
+1563,Sales,Team Lead,25,56,1,4.53,85.2,46,3.7,5,0,1,1
+1564,Engineering,Manager,107,59,5,4.57,52.2,23,1.41,1,1,0,0
+1565,Finance,Senior Associate,109,12,2,1.93,70.2,40,1.39,2,0,1,0
+1566,Sales,Team Lead,57,17,1,1.62,67.2,60,3.08,5,0,1,0
+1567,Operations,Manager,5,41,3,4.42,85.7,76,4.33,1,1,0,0
+1568,HR,Manager,13,8,3,3.74,97.4,67,2.68,5,0,1,1
+1569,Marketing,Associate,40,41,4,1.18,80.6,40,4.05,4,0,1,0
+1570,Marketing,Team Lead,10,22,1,3.87,73.6,38,4.97,5,0,1,0
+1571,HR,Manager,56,31,2,3.41,89.2,8,3.18,4,0,2,0
+1572,Finance,Associate,5,24,1,4.88,99.8,39,3.04,2,0,1,0
+1573,HR,Senior Associate,57,32,3,1.27,98.8,20,4.9,1,0,1,0
+1574,Finance,Associate,91,6,4,1.54,56.6,23,1.47,5,0,2,0
+1575,HR,Manager,77,26,3,2.27,50.2,3,4.62,3,0,1,0
+1576,Sales,Senior Associate,39,19,3,2.83,78.4,34,3.3,1,0,1,0
+1577,HR,Team Lead,87,41,3,4.77,72.1,23,2.1,1,0,1,0
+1578,HR,Manager,49,56,3,2.0,75.2,44,3.96,3,0,0,0
+1579,Engineering,Manager,90,55,4,1.14,87.4,9,3.29,3,0,5,0
+1580,Operations,Associate,109,29,3,3.63,54.6,5,4.26,4,0,2,0
+1581,Sales,Team Lead,8,31,5,3.19,56.7,49,1.88,5,1,1,1
+1582,HR,Senior Associate,116,7,5,1.29,85.4,29,3.17,2,0,0,0
+1583,Operations,Senior Associate,39,10,1,3.59,99.2,19,4.0,3,0,0,0
+1584,Sales,Senior Associate,87,24,2,2.54,83.3,38,2.14,3,0,1,0
+1585,Sales,Manager,92,27,3,4.47,52.7,24,2.32,4,0,0,1
+1586,Engineering,Manager,16,6,5,1.97,58.9,66,3.79,1,0,1,1
+1587,Finance,Team Lead,111,19,2,2.55,99.1,57,1.41,3,0,1,0
+1588,Sales,Manager,26,17,4,4.33,99.3,67,3.62,5,0,0,1
+1589,Operations,Senior Associate,25,15,5,1.23,51.7,77,1.89,1,0,2,0
+1590,Engineering,Senior Associate,85,17,4,1.99,51.4,77,3.51,2,0,1,0
+1591,Engineering,Manager,38,16,3,3.76,67.9,3,1.76,4,0,0,0
+1592,Sales,Manager,84,53,1,1.73,81.2,23,1.95,2,1,2,0
+1593,Operations,Manager,9,3,5,4.29,92.8,15,4.04,2,0,1,1
+1594,Operations,Manager,106,45,2,3.64,65.5,23,2.71,4,0,1,0
+1595,Marketing,Associate,59,23,5,2.92,98.0,16,4.08,4,0,0,0
+1596,Marketing,Associate,118,58,1,4.85,83.2,38,2.98,4,0,0,0
+1597,Marketing,Manager,14,6,5,1.06,58.1,56,2.52,3,0,2,0
+1598,Sales,Manager,6,50,5,2.97,74.4,41,1.61,2,0,1,0
+1599,HR,Senior Associate,117,31,3,4.79,74.8,51,4.15,4,0,0,0
+1600,Marketing,Senior Associate,41,55,1,2.71,58.5,66,4.01,2,0,3,0
+1601,Marketing,Associate,52,59,4,2.85,58.7,13,3.44,1,0,1,0
+1602,Operations,Team Lead,37,56,4,1.8,96.0,14,4.57,1,0,0,0
+1603,Marketing,Associate,95,26,2,3.56,53.5,0,3.96,3,0,2,0
+1604,Engineering,Manager,59,53,4,1.51,68.4,39,3.06,4,0,0,0
+1605,Finance,Senior Associate,119,2,4,2.12,65.3,79,4.52,3,0,2,1
+1606,Sales,Team Lead,100,12,4,4.22,86.2,63,2.68,5,0,0,1
+1607,Sales,Associate,39,2,3,1.87,58.0,10,4.65,5,0,0,0
+1608,Marketing,Team Lead,88,7,4,1.89,52.6,50,1.51,2,0,1,0
+1609,Engineering,Associate,69,1,2,1.29,67.5,79,1.12,5,0,2,0
+1610,Sales,Team Lead,3,1,1,4.71,68.5,40,3.38,4,0,1,0
+1611,HR,Manager,84,28,1,3.02,73.7,6,1.6,5,1,3,0
+1612,Finance,Team Lead,18,39,2,2.45,83.2,49,4.82,5,0,2,0
+1613,Sales,Manager,83,38,2,1.08,87.0,35,4.78,3,1,0,0
+1614,HR,Manager,116,46,2,2.09,68.5,20,2.68,3,0,1,0
+1615,Engineering,Associate,75,1,5,3.86,81.9,15,1.24,1,0,2,0
+1616,Engineering,Team Lead,13,54,5,3.96,74.4,25,4.93,2,0,2,0
+1617,Marketing,Associate,55,8,1,2.13,50.5,31,2.63,4,1,2,0
+1618,HR,Associate,55,54,1,2.67,94.1,73,2.99,1,0,1,0
+1619,Operations,Associate,34,6,2,4.74,78.6,65,2.36,4,0,1,0
+1620,Engineering,Team Lead,12,17,4,4.5,71.8,75,2.21,2,0,2,0
+1621,HR,Senior Associate,21,26,3,2.14,72.1,74,2.15,3,1,1,0
+1622,HR,Team Lead,84,30,5,1.55,73.0,49,2.27,2,1,2,0
+1623,Engineering,Senior Associate,20,57,1,3.86,78.0,50,3.71,2,0,1,0
+1624,Sales,Team Lead,103,33,4,4.09,62.9,6,2.44,4,1,3,0
+1625,Finance,Team Lead,20,9,3,3.23,81.5,50,3.99,4,0,3,1
+1626,Sales,Senior Associate,57,52,3,1.09,87.4,72,3.84,3,0,0,0
+1627,Engineering,Senior Associate,45,19,2,3.86,66.2,26,4.23,5,0,2,0
+1628,Engineering,Senior Associate,115,21,1,2.07,62.7,10,1.42,5,0,1,0
+1629,Marketing,Manager,103,26,2,2.86,80.1,38,4.66,2,1,1,1
+1630,Sales,Associate,31,38,4,2.99,92.4,33,4.31,3,0,2,0
+1631,Sales,Associate,115,38,1,2.98,67.6,24,2.29,3,0,1,0
+1632,Engineering,Manager,3,47,2,4.53,99.0,72,1.55,3,1,1,1
+1633,Marketing,Senior Associate,23,59,4,4.76,78.8,0,4.58,5,0,3,1
+1634,HR,Manager,47,55,1,4.53,64.0,17,3.02,3,1,1,0
+1635,Operations,Senior Associate,81,4,4,4.88,66.0,33,2.75,3,1,5,0
+1636,Finance,Team Lead,71,49,1,1.72,75.4,3,4.69,3,0,0,0
+1637,Marketing,Associate,20,28,2,3.17,70.1,49,2.57,4,0,3,1
+1638,Marketing,Team Lead,110,43,3,4.61,77.9,6,4.43,1,1,1,1
+1639,HR,Manager,32,27,2,3.59,51.4,73,4.68,5,0,0,0
+1640,Sales,Manager,36,14,1,4.41,94.0,56,3.99,2,1,0,0
+1641,Finance,Senior Associate,35,11,2,3.07,91.1,74,1.47,4,0,2,1
+1642,Operations,Associate,113,52,4,1.7,80.3,48,4.62,4,1,0,0
+1643,Marketing,Senior Associate,18,43,5,3.16,67.0,10,2.27,2,0,2,0
+1644,Engineering,Senior Associate,14,50,1,1.64,99.0,34,2.08,1,0,1,0
+1645,Finance,Senior Associate,82,1,1,4.9,93.6,43,3.56,4,1,2,1
+1646,Marketing,Manager,96,55,4,3.49,82.1,76,2.97,5,0,1,1
+1647,Finance,Team Lead,76,2,2,3.9,74.5,43,3.85,4,0,0,0
+1648,Marketing,Associate,8,39,2,3.6,65.4,15,4.94,2,1,1,0
+1649,Finance,Senior Associate,104,44,5,2.47,58.5,12,5.0,4,0,1,0
+1650,Marketing,Team Lead,16,11,5,2.95,63.9,57,2.85,3,0,1,0
+1651,Marketing,Manager,105,20,5,3.36,51.3,66,3.56,5,0,1,1
+1652,Finance,Team Lead,30,39,3,4.41,97.4,48,4.2,5,0,2,1
+1653,Finance,Manager,80,34,2,1.04,87.6,60,3.04,3,0,0,0
+1654,Operations,Team Lead,18,38,3,3.6,67.0,46,4.44,4,0,0,0
+1655,Sales,Associate,5,50,4,4.62,70.8,22,2.57,2,0,2,0
+1656,HR,Manager,32,36,1,3.72,91.2,39,3.93,1,0,0,0
+1657,Finance,Associate,53,11,2,3.59,58.3,66,1.27,4,0,1,0
+1658,Sales,Senior Associate,79,36,5,1.63,77.4,79,4.81,1,0,1,0
+1659,Operations,Associate,35,5,4,4.98,56.3,57,2.22,4,1,5,1
+1660,Operations,Team Lead,55,22,5,2.12,74.2,73,2.8,1,1,0,0
+1661,Operations,Manager,52,28,4,2.31,66.7,66,3.63,5,0,0,1
+1662,HR,Team Lead,22,7,3,3.32,84.5,33,2.08,3,0,0,0
+1663,Operations,Associate,76,20,4,4.11,62.6,34,1.09,5,1,0,0
+1664,Engineering,Manager,1,30,2,3.35,87.5,18,1.61,2,0,1,0
+1665,Finance,Senior Associate,55,56,3,1.67,60.8,21,4.31,1,0,1,0
+1666,Operations,Associate,72,0,2,2.94,82.5,76,3.57,5,0,1,0
+1667,Engineering,Manager,21,42,1,2.75,86.3,7,4.91,5,0,1,0
+1668,HR,Associate,22,42,3,1.24,86.0,69,4.8,3,1,0,1
+1669,HR,Manager,14,43,2,4.04,50.5,66,3.42,4,1,0,0
+1670,Engineering,Manager,9,29,1,1.8,82.1,46,2.81,5,0,3,0
+1671,HR,Associate,84,32,4,3.62,58.1,50,3.29,4,1,0,1
+1672,HR,Manager,80,0,2,3.31,66.1,49,4.75,2,1,0,1
+1673,Engineering,Senior Associate,116,34,3,1.17,78.8,3,2.37,5,0,3,1
+1674,Finance,Senior Associate,18,37,1,4.17,71.9,60,2.4,4,0,1,0
+1675,Marketing,Manager,82,36,4,2.65,93.5,42,3.61,5,0,3,1
+1676,HR,Senior Associate,39,25,5,2.12,53.9,39,3.16,4,0,2,1
+1677,Sales,Senior Associate,39,46,3,3.27,67.4,54,3.5,1,0,2,0
+1678,Operations,Associate,63,37,2,1.4,73.3,30,3.21,5,0,2,0
+1679,HR,Senior Associate,88,49,4,2.04,65.4,53,3.49,2,0,2,0
+1680,Sales,Team Lead,86,40,4,4.32,96.3,18,1.2,4,0,0,0
+1681,Sales,Team Lead,111,55,3,1.04,65.5,69,3.33,3,1,0,0
+1682,Operations,Manager,70,57,1,1.99,96.5,55,4.28,1,0,1,0
+1683,Marketing,Team Lead,112,9,5,4.5,65.1,66,4.41,1,1,3,1
+1684,Sales,Associate,38,16,2,3.93,64.7,53,3.11,2,0,1,0
+1685,Sales,Manager,51,46,1,3.78,96.9,42,1.81,4,0,3,0
+1686,Marketing,Senior Associate,100,52,2,4.74,96.4,54,4.54,4,1,0,0
+1687,Marketing,Manager,1,49,5,1.11,69.0,61,1.95,1,0,2,1
+1688,Finance,Team Lead,108,34,4,4.93,61.2,48,2.27,1,0,2,1
+1689,Finance,Manager,13,44,1,3.6,68.8,9,2.07,3,0,0,0
+1690,Engineering,Associate,4,39,5,3.67,70.6,60,4.86,1,0,2,1
+1691,HR,Team Lead,30,28,3,4.62,95.1,69,4.21,3,1,0,0
+1692,HR,Associate,23,40,3,2.68,74.8,58,4.01,1,0,1,0
+1693,HR,Senior Associate,110,48,3,1.3,67.7,25,1.45,2,0,0,0
+1694,Marketing,Senior Associate,13,57,1,1.13,79.4,12,2.33,2,0,2,0
+1695,Finance,Manager,15,40,3,4.1,85.9,34,2.75,3,1,1,0
+1696,Operations,Senior Associate,59,26,5,2.97,55.0,75,4.35,3,0,0,1
+1697,HR,Senior Associate,90,47,4,3.98,92.7,54,1.06,5,0,2,0
+1698,Operations,Associate,65,46,5,4.92,58.7,13,3.58,1,0,1,0
+1699,Sales,Team Lead,40,32,3,1.39,74.6,14,2.14,5,1,0,0
+1700,Engineering,Senior Associate,58,32,1,2.0,96.7,16,2.46,1,0,2,0
+1701,Marketing,Manager,75,32,5,2.26,56.5,45,4.68,5,1,1,1
+1702,Engineering,Senior Associate,115,35,3,1.36,78.9,1,1.71,5,1,3,0
+1703,Sales,Associate,46,53,3,1.04,97.7,2,3.85,4,0,4,0
+1704,HR,Senior Associate,73,18,5,3.76,69.4,77,1.86,4,0,2,1
+1705,Sales,Team Lead,4,45,1,1.05,86.9,9,1.56,1,0,3,0
+1706,Operations,Manager,62,45,4,4.15,61.1,63,3.08,2,0,1,0
+1707,Operations,Manager,19,21,4,1.31,55.9,78,4.42,1,0,0,0
+1708,Sales,Associate,109,13,4,1.61,54.7,15,2.66,2,0,0,0
+1709,HR,Associate,69,21,5,4.24,60.0,27,1.53,4,0,0,0
+1710,Sales,Senior Associate,30,0,5,4.62,84.1,50,4.23,1,0,0,0
+1711,HR,Associate,48,18,4,4.75,77.2,50,2.22,2,0,0,0
+1712,HR,Manager,42,59,5,4.79,87.9,33,4.05,3,0,1,0
+1713,HR,Senior Associate,2,23,1,4.61,53.2,54,4.44,2,0,1,0
+1714,Finance,Manager,65,58,5,2.74,57.3,34,4.21,4,0,2,0
+1715,Engineering,Senior Associate,118,2,1,3.64,56.2,68,2.1,2,0,0,0
+1716,HR,Manager,12,3,1,4.17,81.0,62,2.09,3,0,1,0
+1717,HR,Associate,115,33,3,3.68,65.8,46,3.33,3,0,1,0
+1718,Operations,Senior Associate,83,32,2,1.63,62.5,21,4.81,2,0,3,0
+1719,Engineering,Senior Associate,66,9,2,1.55,65.3,25,2.3,5,0,0,0
+1720,Finance,Manager,30,49,3,1.17,77.9,47,1.51,3,0,1,0
+1721,Marketing,Senior Associate,70,43,4,1.73,64.4,60,1.16,2,0,2,0
+1722,Engineering,Associate,7,56,3,2.18,86.1,10,4.5,3,0,2,0
+1723,Engineering,Manager,15,29,2,1.55,63.1,11,4.27,4,1,1,0
+1724,HR,Associate,79,30,3,2.38,53.2,46,4.48,2,0,1,1
+1725,Engineering,Team Lead,54,8,5,1.78,90.5,55,3.57,2,0,0,1
+1726,Operations,Associate,114,14,2,3.29,54.9,51,3.24,1,0,1,0
+1727,Engineering,Manager,34,43,4,1.9,54.7,49,4.64,5,0,0,1
+1728,Sales,Manager,12,23,4,4.24,58.1,46,1.62,4,0,1,0
+1729,Engineering,Team Lead,44,34,5,4.64,60.3,14,1.19,2,1,1,1
+1730,Finance,Senior Associate,83,14,5,2.89,87.3,75,2.58,3,0,0,1
+1731,Marketing,Manager,76,10,1,1.29,92.4,49,2.81,4,0,0,0
+1732,HR,Senior Associate,112,53,5,3.76,90.7,69,2.56,1,0,2,0
+1733,Operations,Associate,81,20,5,3.5,59.0,35,1.59,3,0,3,1
+1734,Operations,Associate,61,41,4,1.8,79.3,68,3.72,4,0,0,1
+1735,Finance,Manager,7,10,1,4.17,98.4,13,3.13,5,0,3,0
+1736,Finance,Senior Associate,82,35,1,1.79,50.1,12,2.0,2,1,3,0
+1737,Finance,Associate,72,12,3,2.03,95.0,77,3.56,1,0,1,1
+1738,Sales,Team Lead,119,47,5,3.86,66.0,47,1.72,1,1,2,0
+1739,Finance,Team Lead,110,27,3,3.18,77.2,29,4.05,4,0,1,0
+1740,Sales,Team Lead,57,22,3,2.92,96.4,10,2.38,2,1,1,0
+1741,Finance,Manager,73,47,3,4.38,77.9,59,1.61,1,1,1,0
+1742,Sales,Associate,60,38,1,4.71,63.8,46,2.58,1,1,2,0
+1743,Operations,Team Lead,79,1,1,2.21,55.2,58,4.56,5,0,2,1
+1744,Operations,Senior Associate,49,24,5,3.83,65.0,38,3.81,5,0,1,1
+1745,Engineering,Associate,88,1,3,3.51,67.5,60,1.17,3,0,0,0
+1746,Marketing,Manager,21,10,2,4.25,73.3,45,2.73,2,0,1,0
+1747,Engineering,Associate,64,35,2,3.92,68.6,45,4.76,3,0,2,0
+1748,Marketing,Team Lead,60,7,3,2.14,54.2,6,3.13,2,0,1,0
+1749,Marketing,Manager,56,7,1,2.44,95.0,24,1.13,3,0,2,0
+1750,HR,Manager,65,8,4,4.28,66.4,11,2.97,4,0,0,0
+1751,HR,Manager,4,13,1,1.43,79.2,17,3.95,4,0,1,0
+1752,Finance,Associate,36,54,3,2.23,77.3,19,3.73,1,1,0,0
+1753,Sales,Senior Associate,81,56,1,2.06,55.8,27,3.58,4,0,1,0
+1754,Operations,Senior Associate,14,24,4,4.75,85.0,69,4.37,1,0,0,1
+1755,Marketing,Manager,117,1,3,1.38,64.3,54,1.46,4,0,1,0
+1756,Sales,Manager,68,12,5,3.34,73.7,13,3.19,4,0,2,1
+1757,Marketing,Team Lead,59,3,5,3.94,67.6,18,4.14,2,1,3,1
+1758,Operations,Manager,103,55,3,2.72,88.9,36,3.59,4,0,2,0
+1759,HR,Team Lead,116,45,5,1.29,75.8,7,4.44,2,0,2,0
+1760,Engineering,Team Lead,69,50,3,4.55,84.3,52,2.49,4,0,3,0
+1761,HR,Manager,55,7,5,4.92,57.6,18,1.89,1,0,1,0
+1762,Sales,Team Lead,93,34,1,1.38,97.1,54,3.82,5,0,2,0
+1763,Marketing,Associate,89,42,3,4.78,51.4,13,2.81,2,0,0,0
+1764,Sales,Senior Associate,86,1,4,1.85,62.0,79,2.19,1,0,3,1
+1765,Engineering,Senior Associate,70,54,1,2.67,76.8,64,2.14,1,0,1,0
+1766,Sales,Manager,106,23,1,4.14,88.4,37,4.17,4,0,2,0
+1767,Finance,Associate,90,12,4,4.88,73.6,30,4.23,3,0,0,1
+1768,Marketing,Team Lead,54,28,2,1.89,85.1,34,1.55,1,1,0,0
+1769,Sales,Senior Associate,44,29,5,4.71,83.1,1,2.98,5,0,1,0
+1770,Sales,Senior Associate,8,42,4,1.33,85.5,48,3.04,3,0,3,1
+1771,HR,Senior Associate,103,2,4,3.49,95.4,20,2.91,4,0,6,1
+1772,Marketing,Team Lead,59,26,2,4.72,72.1,43,4.2,2,1,0,0
+1773,Sales,Associate,107,10,2,3.14,60.7,30,1.59,3,1,1,1
+1774,Engineering,Manager,109,51,2,3.15,90.6,39,1.26,2,0,1,0
+1775,Engineering,Manager,57,44,2,2.82,68.6,78,1.46,2,0,1,0
+1776,Finance,Manager,64,42,2,3.08,61.8,35,4.86,1,0,2,0
+1777,Sales,Team Lead,50,51,5,2.06,51.9,61,4.98,3,0,1,1
+1778,HR,Associate,40,18,4,2.1,95.6,9,1.81,1,0,1,0
+1779,HR,Associate,92,17,1,3.99,84.0,65,2.3,3,0,2,0
+1780,Sales,Team Lead,80,22,4,2.03,70.0,34,4.14,1,0,1,0
+1781,HR,Team Lead,30,43,4,1.83,60.3,76,2.49,3,0,1,0
+1782,Engineering,Associate,107,30,3,3.2,96.7,54,3.39,2,0,0,0
+1783,Marketing,Associate,41,6,4,3.15,58.6,10,3.12,1,0,1,0
+1784,HR,Manager,45,21,2,1.17,76.1,70,2.31,5,0,2,1
+1785,HR,Associate,47,33,4,3.81,60.5,61,1.56,1,1,1,1
+1786,Finance,Manager,34,49,4,1.51,88.5,61,4.6,3,0,1,0
+1787,Finance,Manager,25,11,2,4.0,73.6,56,2.93,3,0,0,1
+1788,Operations,Manager,51,55,1,2.92,59.1,70,4.0,5,0,1,0
+1789,Engineering,Manager,21,29,2,2.0,57.1,1,1.18,5,0,2,0
+1790,Engineering,Manager,86,44,4,2.37,50.2,12,2.02,1,0,1,0
+1791,Marketing,Senior Associate,90,38,3,3.06,80.2,41,4.9,3,0,2,1
+1792,HR,Senior Associate,89,10,3,2.62,75.3,3,2.39,4,0,0,0
+1793,Marketing,Team Lead,64,12,4,3.52,60.4,30,3.82,2,1,1,1
+1794,Engineering,Associate,93,44,1,1.1,50.8,38,1.3,1,0,0,0
+1795,Engineering,Team Lead,40,56,1,2.75,91.2,6,2.85,4,0,2,0
+1796,Marketing,Manager,1,25,3,2.33,91.1,21,3.92,5,0,1,0
+1797,Marketing,Senior Associate,77,55,5,3.95,77.4,75,1.96,2,0,0,0
+1798,HR,Senior Associate,49,41,5,3.52,53.7,75,4.89,3,0,2,1
+1799,Marketing,Associate,113,22,1,1.43,55.1,36,2.78,1,0,4,0
+1800,Operations,Associate,116,41,3,1.36,57.1,64,3.72,2,0,0,0
+1801,Marketing,Team Lead,62,51,4,3.34,85.6,71,4.06,2,1,1,1
+1802,HR,Manager,116,59,1,4.73,99.7,1,3.26,5,0,3,0
+1803,Finance,Associate,2,25,5,3.71,55.4,61,3.49,5,0,1,0
+1804,Marketing,Associate,97,56,5,3.66,70.7,3,4.42,5,1,1,1
+1805,Finance,Senior Associate,103,55,3,2.94,76.3,77,1.28,4,0,1,1
+1806,Marketing,Team Lead,22,31,2,1.89,92.0,37,1.22,1,0,1,0
+1807,HR,Team Lead,57,58,5,1.46,85.9,47,3.54,1,0,1,0
+1808,Marketing,Team Lead,11,53,4,1.75,91.1,6,4.61,3,0,1,0
+1809,Sales,Manager,30,58,2,4.94,94.5,64,3.39,4,0,1,0
+1810,Sales,Team Lead,45,36,2,4.09,80.8,25,4.27,4,0,2,0
+1811,Finance,Senior Associate,19,10,5,1.3,91.6,73,4.59,5,0,1,0
+1812,Operations,Team Lead,98,49,4,2.16,74.5,9,1.04,1,1,1,0
+1813,Operations,Manager,73,38,5,3.94,52.7,37,2.07,5,0,0,0
+1814,Marketing,Senior Associate,37,45,2,2.18,60.9,69,1.52,1,0,0,0
+1815,Engineering,Manager,15,41,5,1.68,97.9,72,3.4,3,0,2,0
+1816,Sales,Senior Associate,66,28,4,4.68,69.6,41,1.51,4,0,1,0
+1817,Sales,Senior Associate,20,4,5,3.33,75.2,49,2.45,4,0,3,1
+1818,HR,Team Lead,26,37,2,1.05,98.4,31,3.25,4,0,1,1
+1819,Sales,Team Lead,13,7,2,1.44,84.8,41,3.53,1,0,0,0
+1820,Engineering,Team Lead,13,0,5,2.69,70.5,20,2.83,2,0,0,0
+1821,Sales,Senior Associate,31,42,2,3.71,84.4,46,1.6,4,0,2,1
+1822,Finance,Team Lead,9,35,5,4.25,77.4,33,3.76,2,0,1,1
+1823,Marketing,Manager,52,41,4,2.05,98.0,44,4.49,2,0,0,0
+1824,Operations,Senior Associate,5,50,5,4.31,50.5,62,2.61,4,1,3,1
+1825,Operations,Manager,119,55,1,1.77,74.4,3,2.96,3,0,1,0
+1826,Finance,Associate,104,19,3,1.6,84.7,10,2.43,1,1,0,0
+1827,Finance,Senior Associate,79,40,5,4.27,77.5,16,3.89,1,1,3,1
+1828,Operations,Manager,17,46,5,2.05,65.7,79,1.1,1,1,2,1
+1829,Engineering,Manager,32,44,1,3.3,79.6,3,2.13,3,0,0,0
+1830,Sales,Associate,21,3,5,3.98,51.3,66,3.75,3,0,0,0
+1831,Finance,Team Lead,47,45,5,1.86,87.7,8,3.84,2,0,0,0
+1832,HR,Team Lead,57,47,3,3.07,83.3,64,2.12,5,0,2,0
+1833,Finance,Senior Associate,79,46,3,4.99,67.2,2,4.88,3,0,1,0
+1834,Sales,Team Lead,50,41,1,1.06,94.5,27,2.14,5,0,1,0
+1835,Sales,Senior Associate,94,39,2,1.85,86.6,13,1.3,3,0,0,0
+1836,HR,Manager,31,3,5,4.64,61.7,17,1.29,1,0,0,0
+1837,Operations,Team Lead,114,6,1,3.73,68.1,31,3.94,3,0,2,0
+1838,Engineering,Senior Associate,50,27,4,3.77,53.3,16,1.17,4,0,1,0
+1839,HR,Team Lead,82,23,5,2.6,85.2,64,2.27,2,0,0,0
+1840,HR,Team Lead,33,50,1,1.95,60.5,64,3.35,4,0,2,0
+1841,Engineering,Associate,90,33,1,1.57,72.2,23,3.66,2,0,3,0
+1842,Finance,Team Lead,61,5,4,2.25,73.1,61,2.26,3,0,0,0
+1843,Operations,Senior Associate,44,34,3,3.52,66.9,49,2.27,3,0,0,1
+1844,Operations,Manager,105,11,2,4.92,83.9,1,4.47,3,1,1,1
+1845,Finance,Associate,102,40,5,4.01,98.5,49,3.8,2,0,1,0
+1846,Sales,Team Lead,31,14,2,3.7,56.0,16,2.46,3,1,2,0
+1847,HR,Team Lead,50,31,3,1.11,77.8,10,2.96,4,0,1,0
+1848,Finance,Senior Associate,91,48,3,4.84,57.5,73,2.54,4,0,1,0
+1849,Operations,Associate,72,38,1,4.0,61.1,7,3.51,4,0,2,0
+1850,Engineering,Team Lead,41,39,1,2.81,72.9,58,1.18,2,1,2,0
+1851,Finance,Team Lead,114,31,4,2.29,58.5,33,3.13,4,0,3,1
+1852,Sales,Senior Associate,108,42,4,1.74,56.6,26,1.9,1,1,1,0
+1853,Finance,Team Lead,11,4,1,3.96,81.5,30,2.36,4,0,1,0
+1854,Operations,Senior Associate,48,37,3,1.44,85.3,69,3.87,2,0,1,0
+1855,Finance,Senior Associate,96,41,1,3.3,94.1,33,1.95,1,1,0,0
+1856,Finance,Associate,115,29,5,2.85,65.1,18,3.05,1,0,2,0
+1857,HR,Associate,74,57,3,2.65,93.1,32,3.82,4,0,0,0
+1858,Sales,Senior Associate,78,52,2,1.8,50.6,0,1.87,3,1,2,0
+1859,Sales,Associate,67,55,4,3.48,67.1,4,1.2,1,0,1,0
+1860,Operations,Team Lead,115,20,1,4.87,62.4,62,4.52,1,1,2,0
+1861,Engineering,Team Lead,60,36,1,2.62,66.9,28,3.91,2,0,1,0
+1862,HR,Associate,77,28,2,4.25,86.5,72,2.19,5,0,2,1
+1863,Engineering,Senior Associate,86,18,1,4.05,96.2,7,4.36,5,0,1,0
+1864,Operations,Manager,19,56,5,2.27,63.1,67,2.65,5,0,2,0
+1865,HR,Associate,33,36,3,3.39,79.7,65,4.57,4,0,1,1
+1866,Finance,Associate,13,38,5,2.97,89.1,10,2.8,3,1,2,0
+1867,Marketing,Associate,61,50,3,4.55,83.3,44,2.97,4,0,4,1
+1868,Sales,Associate,74,54,4,1.05,68.2,49,1.88,2,0,0,0
+1869,Marketing,Associate,59,7,1,4.46,84.0,22,2.95,2,0,1,0
+1870,Marketing,Manager,50,18,2,1.34,54.3,77,4.18,4,1,1,0
+1871,Finance,Senior Associate,74,31,1,2.57,77.7,0,4.45,4,0,0,0
+1872,Operations,Manager,78,45,2,4.44,97.9,53,2.98,4,0,3,0
+1873,Finance,Senior Associate,22,24,4,2.73,67.0,10,1.64,4,0,4,0
+1874,Engineering,Associate,90,46,4,3.14,68.9,31,1.51,3,0,0,0
+1875,HR,Senior Associate,13,32,5,3.06,59.9,26,1.95,3,0,4,0
+1876,HR,Manager,44,52,3,1.98,68.2,48,3.98,5,1,1,1
+1877,Marketing,Senior Associate,71,59,3,3.62,54.8,46,4.51,2,0,1,1
+1878,Operations,Team Lead,102,49,3,1.81,57.4,23,4.88,4,1,2,1
+1879,Sales,Team Lead,114,15,4,2.53,82.6,28,1.54,4,0,1,0
+1880,HR,Associate,23,42,5,2.4,70.5,17,2.17,2,0,1,0
+1881,HR,Manager,32,29,4,4.2,80.3,1,2.72,2,0,0,0
+1882,Marketing,Manager,16,29,2,4.45,97.3,0,1.96,4,0,2,0
+1883,Engineering,Team Lead,28,53,2,1.44,72.0,20,3.48,4,0,1,0
+1884,Engineering,Team Lead,86,11,5,3.31,96.3,11,2.8,4,0,1,0
+1885,Finance,Team Lead,90,45,2,2.88,69.1,16,1.2,2,0,2,0
+1886,HR,Team Lead,108,11,5,2.23,79.5,52,3.94,3,0,2,0
+1887,Marketing,Team Lead,23,29,2,4.62,63.0,44,4.46,3,0,0,0
+1888,Engineering,Senior Associate,29,9,5,3.37,79.3,42,4.36,3,0,1,0
+1889,Marketing,Senior Associate,49,39,2,3.21,70.6,47,1.82,4,0,0,0
+1890,Operations,Team Lead,24,19,1,4.97,91.7,17,3.9,2,0,2,0
+1891,Sales,Senior Associate,59,55,4,3.58,53.1,9,3.1,2,0,1,0
+1892,Engineering,Associate,48,50,2,4.73,72.5,35,1.48,1,1,0,0
+1893,Engineering,Senior Associate,58,44,5,3.42,68.1,61,4.23,4,1,0,1
+1894,Sales,Manager,6,5,3,4.12,85.5,17,2.79,5,0,1,0
+1895,Marketing,Associate,118,8,2,2.12,55.9,52,1.79,3,0,2,0
+1896,Marketing,Senior Associate,29,28,1,2.09,60.6,67,2.48,4,0,1,1
+1897,Engineering,Associate,15,11,1,1.91,72.9,18,2.7,2,0,0,0
+1898,Engineering,Manager,40,23,2,3.91,92.0,58,4.76,2,0,2,0
+1899,Marketing,Team Lead,59,51,3,3.15,99.1,44,4.62,2,0,2,0
+1900,HR,Manager,90,52,1,4.78,84.7,16,3.98,1,0,2,0
+1901,Engineering,Associate,101,22,3,2.05,90.8,56,2.09,2,0,1,0
+1902,Marketing,Team Lead,68,28,3,4.23,86.1,74,4.59,3,1,2,1
+1903,HR,Senior Associate,43,48,3,4.63,54.8,61,1.06,1,0,0,0
+1904,Sales,Manager,74,20,2,3.89,86.8,25,2.84,2,0,0,0
+1905,HR,Senior Associate,41,56,3,1.46,88.4,1,4.57,3,0,1,0
+1906,Marketing,Team Lead,61,18,3,1.27,73.7,77,2.35,4,1,2,0
+1907,Finance,Team Lead,102,3,3,2.07,90.1,73,1.77,1,1,3,0
+1908,Engineering,Team Lead,103,57,4,3.08,96.7,10,3.32,5,0,2,0
+1909,Engineering,Team Lead,41,45,5,3.59,85.6,67,2.01,5,0,0,1
+1910,Marketing,Associate,94,1,1,1.27,69.5,51,1.93,5,0,1,0
+1911,Operations,Manager,55,3,4,4.39,68.1,37,4.28,4,0,0,0
+1912,HR,Team Lead,89,49,4,4.09,93.9,39,1.88,1,0,0,0
+1913,Engineering,Team Lead,41,14,5,2.35,50.1,35,1.44,3,0,1,0
+1914,Sales,Manager,61,54,3,2.79,82.6,60,3.53,4,1,1,0
+1915,HR,Manager,84,3,4,4.62,81.3,62,1.47,5,0,4,1
+1916,Engineering,Senior Associate,56,22,2,4.53,81.4,53,2.39,2,0,1,0
+1917,Marketing,Team Lead,51,10,3,2.41,65.8,24,1.91,4,0,2,1
+1918,Sales,Team Lead,29,26,1,1.53,78.0,2,2.22,1,0,1,0
+1919,Sales,Team Lead,97,59,5,4.37,76.3,33,4.15,4,1,1,1
+1920,Operations,Manager,89,34,1,3.46,93.9,77,4.4,2,0,3,0
+1921,Finance,Senior Associate,86,6,2,1.62,98.2,56,3.59,4,0,0,0
+1922,Sales,Senior Associate,96,17,3,1.18,69.9,51,1.21,4,1,0,0
+1923,Marketing,Manager,79,9,2,3.37,93.3,75,1.7,3,0,0,0
+1924,Operations,Team Lead,66,55,1,3.41,74.1,20,4.22,1,1,3,0
+1925,Engineering,Manager,114,47,4,4.94,91.5,41,3.86,3,0,4,1
+1926,Finance,Team Lead,118,19,4,3.06,62.4,59,4.51,5,0,0,1
+1927,Sales,Team Lead,77,33,3,3.58,79.6,63,3.38,2,0,0,0
+1928,Engineering,Associate,101,23,4,3.39,53.5,57,1.64,3,0,0,0
+1929,Operations,Senior Associate,98,32,1,3.78,58.0,77,2.95,3,0,0,1
+1930,Operations,Team Lead,39,37,5,4.21,83.0,61,1.26,4,1,2,1
+1931,Sales,Manager,16,43,3,4.4,55.8,54,2.15,4,0,5,0
+1932,HR,Associate,30,33,1,3.73,64.7,67,3.23,3,1,1,1
+1933,Engineering,Manager,26,2,2,2.02,51.1,63,2.02,2,1,1,1
+1934,Marketing,Associate,21,8,5,1.56,61.2,39,2.06,2,0,1,0
+1935,Marketing,Team Lead,52,19,2,4.31,73.9,69,3.52,3,0,0,0
+1936,HR,Team Lead,74,3,5,3.32,81.8,75,2.47,2,1,0,1
+1937,HR,Associate,58,54,1,2.49,62.8,1,1.64,3,0,2,0
+1938,Sales,Associate,110,42,4,3.03,54.1,79,4.8,5,1,0,1
+1939,Sales,Manager,27,17,2,4.33,97.2,78,4.28,3,1,2,0
+1940,Operations,Team Lead,60,26,3,1.37,85.5,5,4.15,4,0,1,0
+1941,Marketing,Team Lead,94,23,4,4.95,81.5,63,2.42,5,0,3,1
+1942,Marketing,Team Lead,69,11,1,2.57,70.5,25,3.8,3,0,0,0
+1943,HR,Associate,21,11,4,3.4,60.6,21,1.37,4,1,1,0
+1944,Finance,Team Lead,111,42,2,4.31,63.6,14,2.58,5,0,2,0
+1945,Marketing,Manager,65,38,2,1.07,72.0,62,1.73,5,0,3,0
+1946,Finance,Senior Associate,40,22,5,1.17,94.8,23,1.6,4,0,3,0
+1947,Marketing,Manager,96,49,2,3.84,88.9,28,3.77,3,1,2,0
+1948,Operations,Senior Associate,15,41,4,1.52,94.9,50,3.06,2,0,1,0
+1949,HR,Associate,75,2,3,1.41,53.8,75,2.62,5,0,2,1
+1950,HR,Associate,117,21,5,2.07,94.6,53,4.46,2,0,0,0
+1951,Marketing,Team Lead,89,8,5,3.89,79.5,54,3.81,1,1,3,1
+1952,HR,Associate,28,53,2,2.92,66.1,30,2.23,1,0,2,0
+1953,Operations,Manager,28,22,4,1.7,60.3,54,3.91,3,0,0,1
+1954,Finance,Team Lead,75,36,3,4.72,94.0,3,2.56,2,0,1,0
+1955,Marketing,Associate,105,33,4,3.46,61.7,46,2.76,5,1,4,0
+1956,Finance,Team Lead,111,53,4,2.83,64.3,26,2.3,1,0,1,0
+1957,Finance,Team Lead,56,15,3,2.96,87.5,44,4.77,4,0,3,1
+1958,Marketing,Associate,109,53,5,3.9,69.6,21,3.95,5,0,2,0
+1959,Marketing,Associate,108,1,1,3.73,57.3,12,2.76,5,0,1,0
+1960,HR,Manager,49,18,2,1.47,82.6,79,1.82,3,0,2,0
+1961,Engineering,Manager,8,54,4,3.81,54.4,23,1.41,1,0,0,0
+1962,Engineering,Associate,54,10,1,3.01,90.0,62,4.19,4,0,3,0
+1963,HR,Associate,103,33,2,4.41,51.9,66,1.7,5,0,1,0
+1964,Finance,Associate,75,11,3,2.89,65.7,36,4.21,5,0,1,0
+1965,Engineering,Associate,8,27,2,2.32,89.9,24,2.0,1,0,2,0
+1966,Engineering,Manager,101,21,5,3.21,75.6,36,2.63,2,0,5,0
+1967,Sales,Team Lead,56,55,2,2.63,98.1,67,3.99,5,1,2,1
+1968,Operations,Associate,8,43,4,4.8,80.7,9,2.53,1,0,1,0
+1969,Finance,Manager,85,16,4,3.07,82.0,70,3.27,1,0,0,0
+1970,Sales,Senior Associate,19,36,1,1.78,92.7,32,1.64,4,1,2,0
+1971,Engineering,Team Lead,48,13,2,4.44,96.8,10,1.54,2,0,1,0
+1972,Engineering,Team Lead,86,25,5,3.64,53.6,50,4.67,1,1,2,0
+1973,HR,Associate,11,45,4,4.73,94.1,44,2.83,1,0,1,1
+1974,Sales,Team Lead,65,11,5,1.32,88.3,77,3.13,2,1,0,1
+1975,Operations,Team Lead,15,47,1,4.6,92.4,38,3.2,3,0,2,0
+1976,Marketing,Associate,1,46,1,4.19,88.6,41,2.92,2,0,3,0
+1977,Sales,Team Lead,116,18,4,2.61,90.9,44,4.68,5,0,0,1
+1978,Sales,Associate,117,50,3,4.84,53.6,5,1.74,4,0,2,0
+1979,Sales,Associate,73,4,1,1.65,87.3,74,4.8,4,1,0,1
+1980,Operations,Associate,115,40,4,1.34,60.9,10,3.13,5,1,0,0
+1981,Engineering,Senior Associate,30,43,1,1.5,91.0,30,1.25,2,0,1,0
+1982,Marketing,Senior Associate,24,42,4,1.81,61.7,2,1.53,4,0,1,0
+1983,HR,Team Lead,61,1,5,2.81,71.2,62,2.31,4,0,2,1
+1984,Engineering,Associate,61,9,2,3.83,97.2,37,4.29,2,0,0,0
+1985,HR,Team Lead,22,35,1,3.68,79.3,32,3.25,3,0,0,0
+1986,Marketing,Team Lead,3,14,4,4.61,92.0,38,3.68,2,0,0,0
+1987,Finance,Associate,29,28,5,3.49,61.3,43,2.42,4,0,0,0
+1988,HR,Manager,29,25,3,1.63,80.2,36,4.91,2,0,2,0
+1989,Sales,Senior Associate,83,16,5,1.84,72.4,43,3.92,2,1,2,0
+1990,Finance,Associate,32,37,2,3.83,63.7,66,3.42,5,0,3,0
+1991,Marketing,Team Lead,30,59,2,2.63,53.9,77,3.07,4,0,0,0
+1992,Engineering,Manager,19,3,1,2.52,81.9,45,4.18,2,0,1,0
+1993,Sales,Associate,7,29,1,3.77,94.1,30,2.32,3,0,1,0
+1994,Marketing,Senior Associate,8,39,1,4.53,61.0,14,2.36,2,0,1,0
+1995,Sales,Senior Associate,25,4,3,3.87,52.0,63,2.04,2,0,0,0
+1996,Operations,Team Lead,12,53,5,3.67,52.9,79,1.05,2,1,0,0
+1997,Finance,Associate,39,40,2,4.42,77.0,3,1.0,1,1,1,0
+1998,Marketing,Associate,110,12,2,3.79,53.1,24,4.84,2,0,3,0
+1999,HR,Senior Associate,117,51,3,1.3,84.5,20,3.75,2,0,2,0
+2000,Marketing,Associate,84,24,3,3.17,78.3,13,1.42,3,0,2,0
+2001,Engineering,Manager,2,3,5,3.02,68.5,19,4.32,1,0,3,0
+2002,Finance,Senior Associate,34,19,3,3.17,66.8,2,1.94,2,1,1,0
+2003,Engineering,Senior Associate,81,55,2,4.8,91.5,0,3.62,1,0,1,0
+2004,Marketing,Team Lead,87,18,5,3.9,83.8,50,1.56,5,1,0,1
+2005,Engineering,Senior Associate,44,53,1,3.02,66.6,73,1.77,5,0,1,1
+2006,Operations,Manager,69,55,1,4.28,55.8,49,1.62,2,0,2,0
+2007,Sales,Team Lead,11,35,1,1.17,69.5,46,4.8,5,0,3,1
+2008,Sales,Senior Associate,111,3,4,4.01,69.9,58,1.73,4,0,1,1
+2009,Operations,Associate,91,44,2,2.53,56.8,44,4.61,5,0,0,1
+2010,Engineering,Team Lead,42,17,2,4.26,65.1,10,4.71,4,0,2,0
+2011,Sales,Associate,55,44,3,1.26,67.3,38,2.76,5,0,3,0
+2012,Operations,Senior Associate,69,59,1,4.74,71.6,34,2.57,1,1,0,0
+2013,Finance,Manager,28,53,5,4.23,85.0,37,3.44,3,0,1,0
+2014,HR,Associate,8,57,5,4.51,72.6,27,4.02,2,0,2,0
+2015,Marketing,Team Lead,40,36,2,3.69,78.5,29,1.09,4,0,4,0
+2016,Engineering,Associate,80,41,3,4.6,63.0,8,1.94,2,0,1,0
+2017,Marketing,Senior Associate,48,33,3,1.74,89.7,64,4.61,4,0,1,0
+2018,Engineering,Senior Associate,103,57,2,2.7,80.6,25,4.74,3,1,0,0
+2019,Sales,Senior Associate,63,55,4,2.95,83.8,76,3.43,2,0,0,0
+2020,Operations,Senior Associate,52,45,2,1.47,72.4,72,2.17,3,0,2,0
+2021,HR,Team Lead,47,14,5,3.76,53.6,64,3.23,1,0,0,0
+2022,HR,Senior Associate,91,51,4,2.35,81.5,43,3.27,1,1,3,1
+2023,HR,Associate,116,26,5,3.99,78.2,42,4.54,5,0,0,1
+2024,Sales,Senior Associate,86,22,3,2.02,90.7,48,4.02,1,0,1,0
+2025,Finance,Associate,59,0,2,4.65,79.4,52,1.87,3,0,2,0
+2026,HR,Manager,41,58,4,3.57,93.5,72,2.46,2,1,0,1
+2027,Finance,Manager,51,43,4,4.07,80.4,56,3.0,1,0,1,0
+2028,Operations,Senior Associate,79,44,4,3.51,60.0,49,4.08,3,0,1,0
+2029,Sales,Senior Associate,40,14,2,1.23,98.3,14,3.2,3,0,1,0
+2030,Sales,Associate,76,4,3,4.34,83.7,2,1.35,4,0,2,0
+2031,Finance,Manager,5,21,1,2.91,66.2,43,3.0,3,0,1,0
+2032,Finance,Senior Associate,43,5,1,4.72,63.7,32,2.19,1,0,1,0
+2033,Sales,Associate,97,42,3,3.11,97.3,28,4.21,3,0,1,0
+2034,Operations,Manager,43,2,2,4.7,97.8,19,3.9,5,0,0,0
+2035,Engineering,Associate,94,12,5,2.59,90.8,54,3.67,3,0,2,0
+2036,Engineering,Team Lead,79,41,2,3.44,67.0,61,1.79,2,0,2,0
+2037,Marketing,Manager,26,45,4,4.76,77.8,32,3.05,4,0,0,1
+2038,HR,Team Lead,29,13,5,4.77,95.5,64,3.67,2,0,0,1
+2039,Finance,Manager,114,2,5,3.2,71.8,42,4.42,5,1,2,1
+2040,HR,Senior Associate,71,6,4,2.01,87.3,63,4.06,1,0,0,0
+2041,HR,Team Lead,84,21,4,3.96,65.5,53,4.81,2,0,0,0
+2042,Engineering,Manager,2,54,3,2.57,56.9,44,4.35,5,0,0,0
+2043,Finance,Team Lead,60,13,5,2.42,75.9,42,2.31,4,0,2,0
+2044,Operations,Associate,58,38,3,2.72,84.9,25,2.36,5,1,0,0
+2045,Finance,Associate,44,8,3,1.06,72.3,5,3.03,3,1,0,0
+2046,Marketing,Associate,91,52,2,2.44,60.3,19,1.12,5,1,0,0
+2047,Engineering,Senior Associate,42,35,1,4.37,51.4,55,1.71,4,0,1,0
+2048,Engineering,Senior Associate,35,56,2,2.6,97.0,2,1.68,1,0,1,0
+2049,Sales,Associate,38,37,4,2.74,78.2,61,4.12,4,0,0,0
+2050,HR,Team Lead,42,5,2,2.34,63.0,79,3.7,5,0,4,0
+2051,HR,Team Lead,38,40,3,4.62,66.7,45,4.89,5,0,1,1
+2052,Operations,Senior Associate,83,43,5,1.9,92.0,17,3.92,2,0,2,0
+2053,Sales,Associate,6,9,2,3.13,91.8,30,2.57,1,0,2,0
+2054,Finance,Senior Associate,35,50,1,4.5,58.9,48,2.49,5,0,3,0
+2055,Finance,Senior Associate,73,38,1,3.59,83.7,44,1.21,5,0,3,0
+2056,Sales,Associate,26,19,2,4.28,60.5,34,2.15,4,0,1,1
+2057,Finance,Associate,26,7,2,1.45,71.7,38,1.77,5,0,1,0
+2058,Sales,Manager,51,41,4,1.57,73.7,65,4.8,4,0,0,0
+2059,Finance,Senior Associate,90,24,5,3.02,72.1,3,3.82,2,0,1,0
+2060,Sales,Team Lead,79,53,4,4.77,71.2,3,3.71,1,0,1,0
+2061,HR,Associate,112,39,2,1.13,96.1,44,3.81,1,0,2,0
+2062,Sales,Team Lead,100,57,3,2.74,71.2,42,2.62,2,0,1,0
+2063,HR,Associate,86,58,2,2.78,76.2,73,1.51,2,0,2,0
+2064,Sales,Associate,18,10,4,4.9,76.1,9,1.11,5,0,1,1
+2065,Operations,Team Lead,71,52,3,2.28,85.2,30,2.55,1,1,1,0
+2066,HR,Associate,35,50,2,4.57,88.2,70,4.29,5,1,2,1
+2067,Marketing,Associate,44,38,3,4.34,87.6,48,2.54,2,0,1,1
+2068,Engineering,Manager,38,41,1,2.59,69.7,57,4.53,4,0,2,1
+2069,HR,Associate,1,20,1,4.96,72.9,19,3.9,1,0,0,0
+2070,Sales,Associate,112,17,3,2.91,53.5,22,1.86,2,0,1,0
+2071,Engineering,Team Lead,69,40,3,2.68,86.7,30,4.47,3,1,0,0
+2072,Operations,Team Lead,82,59,1,3.79,59.3,47,2.64,2,0,0,0
+2073,Operations,Associate,42,35,2,3.32,65.0,45,1.86,3,1,4,0
+2074,Engineering,Manager,81,42,5,4.82,50.8,8,1.33,3,0,2,0
+2075,Sales,Team Lead,29,10,2,4.61,91.8,13,4.73,1,0,1,1
+2076,Finance,Associate,32,37,4,3.28,50.7,22,1.18,4,0,0,0
+2077,Marketing,Senior Associate,95,12,4,1.01,85.8,69,4.93,3,1,1,1
+2078,Sales,Team Lead,28,18,3,2.09,64.6,42,1.29,3,0,0,0
+2079,Marketing,Associate,115,7,3,2.7,97.2,1,4.34,1,1,0,0
+2080,HR,Associate,104,5,4,2.51,89.3,5,2.61,5,0,0,1
+2081,Engineering,Senior Associate,17,57,5,4.69,56.9,79,4.99,4,0,0,1
+2082,Marketing,Team Lead,48,40,5,1.17,86.2,53,4.92,1,0,1,1
+2083,Sales,Associate,23,3,1,4.58,73.1,62,4.32,1,0,0,0
+2084,HR,Associate,24,13,5,2.27,82.0,41,4.68,3,0,2,0
+2085,HR,Manager,118,0,5,2.84,69.9,31,2.16,1,1,0,0
+2086,Marketing,Senior Associate,38,44,2,3.27,66.3,22,2.11,1,0,1,0
+2087,Sales,Manager,10,53,2,4.97,96.8,40,1.55,4,0,0,0
+2088,Marketing,Associate,14,25,2,3.12,72.5,63,1.69,5,1,1,0
+2089,Sales,Team Lead,57,16,4,4.13,65.2,29,1.99,3,0,1,0
+2090,HR,Senior Associate,112,27,1,4.49,52.7,48,1.62,1,0,2,0
+2091,Engineering,Manager,61,47,5,4.87,58.5,0,1.2,5,0,2,1
+2092,Marketing,Team Lead,20,44,3,1.94,83.0,24,3.56,3,0,0,0
+2093,Engineering,Team Lead,26,39,5,4.29,71.2,17,3.67,5,0,1,1
+2094,HR,Associate,79,37,2,3.93,76.6,18,3.52,2,0,4,0
+2095,Finance,Manager,87,0,5,3.97,78.7,51,3.55,3,1,0,1
+2096,Finance,Team Lead,105,28,4,4.29,55.4,11,3.69,1,0,4,0
+2097,Operations,Team Lead,7,4,3,2.47,79.1,28,2.43,4,0,1,0
+2098,Sales,Manager,113,44,1,3.02,57.3,37,1.47,5,0,2,0
+2099,Sales,Senior Associate,114,28,2,4.28,86.4,0,1.08,5,0,2,0
+2100,Finance,Team Lead,94,13,5,1.01,75.6,60,4.98,3,0,1,1
+2101,Sales,Team Lead,27,12,2,2.83,90.4,2,4.81,3,0,0,0
+2102,Operations,Team Lead,81,32,2,1.27,57.3,47,4.56,4,0,3,0
+2103,HR,Associate,64,31,5,3.04,72.3,13,2.13,3,1,0,0
+2104,Operations,Associate,82,20,5,3.36,59.3,69,1.97,3,0,2,0
+2105,Marketing,Team Lead,117,17,5,3.11,80.3,14,1.46,3,0,2,0
+2106,Sales,Senior Associate,36,42,4,3.95,53.6,8,4.54,3,1,3,0
+2107,Engineering,Team Lead,81,18,1,2.71,70.3,60,4.57,4,0,0,0
+2108,Engineering,Associate,104,53,2,1.59,75.7,39,2.79,2,0,1,0
+2109,Marketing,Associate,30,24,1,3.24,99.9,59,2.87,1,1,0,0
+2110,Marketing,Associate,115,9,4,4.63,69.1,45,2.15,5,0,2,1
+2111,Sales,Manager,19,15,5,3.85,76.1,10,1.4,3,0,0,0
+2112,Engineering,Senior Associate,44,51,2,2.87,57.6,6,2.4,4,0,1,0
+2113,Finance,Associate,30,42,2,3.87,60.1,34,4.88,5,0,1,1
+2114,HR,Senior Associate,105,46,4,1.22,62.8,50,3.94,1,1,1,0
+2115,HR,Senior Associate,52,45,4,2.59,96.7,29,4.48,2,0,0,0
+2116,Engineering,Associate,73,9,3,2.41,97.8,20,1.1,3,0,4,1
+2117,Engineering,Senior Associate,22,54,2,1.02,86.4,61,2.88,4,0,3,0
+2118,HR,Senior Associate,119,30,1,3.12,97.0,46,4.12,5,1,3,1
+2119,Sales,Associate,61,3,5,3.07,93.5,37,2.81,3,0,2,0
+2120,HR,Manager,16,41,5,2.04,94.3,9,2.08,5,1,2,0
+2121,Operations,Manager,1,49,5,1.31,51.9,0,1.57,5,1,1,0
+2122,Operations,Associate,81,56,2,4.85,71.0,73,2.54,5,0,1,0
+2123,Sales,Team Lead,48,55,1,3.41,70.0,41,4.76,4,0,2,0
+2124,Sales,Senior Associate,71,44,3,2.96,93.4,57,2.14,5,0,2,0
+2125,Engineering,Senior Associate,20,59,2,3.05,72.8,76,1.18,3,0,3,0
+2126,Finance,Manager,112,10,1,3.19,98.1,62,4.54,4,0,0,1
+2127,Marketing,Manager,64,22,2,3.43,65.0,64,3.37,3,0,0,0
+2128,Sales,Associate,38,31,4,2.72,77.6,48,1.78,2,1,1,0
+2129,Engineering,Senior Associate,18,14,4,2.1,81.5,22,2.75,3,0,1,0
+2130,Sales,Senior Associate,5,21,4,4.14,77.8,70,2.57,3,0,1,0
+2131,Operations,Manager,72,53,3,4.43,66.4,74,3.13,2,0,2,1
+2132,Operations,Team Lead,48,14,5,3.9,50.8,79,2.23,4,0,1,1
+2133,Operations,Manager,66,34,4,1.28,75.0,22,4.38,5,1,0,0
+2134,HR,Team Lead,29,16,4,4.99,99.0,9,2.79,2,0,1,0
+2135,Marketing,Associate,63,0,1,2.41,53.1,62,1.19,4,0,1,0
+2136,Engineering,Senior Associate,17,25,4,4.3,91.6,17,2.47,3,0,1,0
+2137,Engineering,Senior Associate,48,6,3,3.94,71.5,57,2.57,2,0,1,0
+2138,Operations,Senior Associate,59,45,3,3.78,94.8,37,2.88,3,0,1,1
+2139,Marketing,Team Lead,42,1,5,2.75,75.4,64,2.33,5,1,0,1
+2140,Sales,Associate,54,35,5,3.2,94.8,64,2.55,1,0,0,1
+2141,HR,Associate,28,22,4,3.28,81.5,11,2.85,2,0,1,0
+2142,HR,Manager,27,33,4,2.91,62.4,19,1.63,2,0,1,0
+2143,Operations,Senior Associate,75,53,2,3.79,51.7,17,4.03,5,0,1,0
+2144,Engineering,Team Lead,68,41,2,2.91,83.5,79,3.45,5,0,4,0
+2145,Operations,Associate,117,45,5,2.37,77.2,53,4.54,3,0,2,0
+2146,Marketing,Associate,29,4,2,3.62,97.9,41,4.61,5,0,1,1
+2147,Marketing,Associate,78,8,3,3.7,56.1,17,3.69,5,0,1,1
+2148,HR,Associate,27,3,1,1.68,61.1,42,4.31,2,0,0,0
+2149,Operations,Senior Associate,105,57,1,1.82,64.2,8,1.83,1,1,1,0
+2150,Marketing,Manager,6,52,5,2.06,81.6,13,1.98,2,0,0,0
+2151,Finance,Senior Associate,76,22,3,3.89,74.4,62,4.58,4,0,1,1
+2152,HR,Team Lead,79,5,5,4.33,61.3,43,1.3,2,1,1,1
+2153,Finance,Associate,57,19,3,2.68,52.8,41,1.13,1,0,0,0
+2154,Engineering,Team Lead,44,8,1,1.34,62.2,7,3.39,1,0,1,0
+2155,Marketing,Associate,40,2,5,4.26,79.9,71,3.47,3,0,4,1
+2156,Operations,Associate,19,38,3,3.69,88.1,31,3.07,5,0,1,0
+2157,HR,Associate,117,9,3,3.97,87.9,17,4.7,3,0,0,0
+2158,Marketing,Associate,37,59,1,4.98,58.5,47,4.54,3,0,1,0
+2159,Finance,Associate,19,19,5,4.16,61.9,17,1.84,5,0,1,0
+2160,Finance,Manager,17,16,1,3.32,65.7,76,1.31,1,0,3,0
+2161,Operations,Associate,99,54,3,3.6,71.3,74,1.19,4,0,0,0
+2162,Sales,Manager,31,4,3,1.46,60.1,15,4.39,1,0,1,0
+2163,Finance,Senior Associate,111,11,2,1.52,94.7,27,3.2,3,1,1,0
+2164,Engineering,Senior Associate,18,21,4,3.68,82.0,69,3.8,4,0,2,1
+2165,HR,Manager,23,35,3,2.66,86.2,47,4.76,2,0,0,0
+2166,Sales,Manager,18,8,1,3.78,57.0,49,2.34,5,1,1,0
+2167,Marketing,Associate,75,5,4,4.78,57.8,4,4.88,5,0,0,1
+2168,Finance,Team Lead,93,35,2,1.24,76.6,39,3.06,2,0,2,0
+2169,Finance,Team Lead,81,53,1,1.58,79.3,20,4.21,1,0,1,0
+2170,Engineering,Senior Associate,46,42,1,4.67,88.6,0,4.33,2,0,0,0
+2171,HR,Manager,57,25,4,4.23,55.7,75,2.91,3,1,0,1
+2172,Finance,Associate,116,44,2,3.0,69.2,78,1.91,3,1,1,1
+2173,HR,Manager,56,56,5,3.06,85.1,19,2.57,5,0,2,1
+2174,HR,Associate,111,4,5,2.1,93.7,42,3.91,4,0,2,1
+2175,Marketing,Team Lead,42,9,1,1.01,79.6,20,3.78,1,0,0,0
+2176,HR,Senior Associate,37,29,4,3.87,60.7,72,2.14,2,1,1,1
+2177,Operations,Team Lead,97,49,2,1.57,54.7,49,4.19,2,1,2,0
+2178,Operations,Associate,63,23,4,4.56,83.5,35,1.91,3,0,0,0
+2179,Sales,Team Lead,92,59,1,1.92,69.7,41,2.94,2,0,1,0
+2180,Sales,Associate,32,18,1,3.1,68.3,23,4.9,1,1,1,0
+2181,Engineering,Manager,27,9,2,4.45,70.9,11,2.47,3,0,1,0
+2182,Finance,Senior Associate,96,20,2,1.69,68.9,16,4.45,2,0,2,0
+2183,Operations,Senior Associate,15,7,2,3.17,89.8,47,2.11,1,0,1,0
+2184,Operations,Manager,21,31,5,2.0,52.8,68,4.9,3,0,1,0
+2185,Sales,Manager,24,32,1,3.99,86.4,38,1.01,5,1,2,1
+2186,Finance,Manager,79,52,3,1.35,61.3,30,2.92,1,1,2,0
+2187,Operations,Senior Associate,20,36,1,4.89,95.0,47,4.79,2,1,0,0
+2188,Finance,Senior Associate,46,42,2,2.65,56.1,13,4.3,4,0,0,0
+2189,Finance,Senior Associate,106,7,5,3.68,97.4,28,1.05,4,0,2,0
+2190,Finance,Manager,91,49,1,2.57,90.8,71,2.9,5,0,1,0
+2191,Engineering,Manager,28,10,3,4.95,59.2,3,4.51,1,0,1,0
+2192,Finance,Associate,91,19,2,3.93,52.9,65,4.15,1,0,2,0
+2193,Engineering,Manager,61,1,5,4.48,99.5,41,3.27,3,0,1,1
+2194,Operations,Manager,106,53,4,4.03,99.4,56,2.72,5,0,1,1
+2195,Finance,Manager,45,50,2,4.46,59.2,72,3.36,5,0,1,0
+2196,HR,Team Lead,18,31,2,2.27,78.3,41,1.66,4,0,0,0
+2197,Finance,Associate,61,29,4,1.34,71.4,75,2.62,5,1,2,1
+2198,Operations,Team Lead,25,56,3,1.14,62.0,64,1.62,2,0,1,0
+2199,Engineering,Manager,28,22,2,3.81,80.6,13,4.89,3,0,1,0
+2200,Finance,Associate,112,53,1,1.42,94.8,5,4.3,4,0,1,0
+2201,Finance,Team Lead,96,46,5,3.19,87.3,75,4.51,4,0,0,1
+2202,Engineering,Senior Associate,2,7,2,2.86,61.6,6,1.8,3,1,0,0
+2203,Finance,Manager,61,48,1,1.01,78.6,45,3.22,1,0,1,0
+2204,Operations,Manager,62,56,3,3.46,57.0,24,1.41,3,0,3,0
+2205,HR,Manager,8,6,3,3.36,58.6,73,3.44,5,0,1,0
+2206,Sales,Senior Associate,65,45,2,2.76,96.9,67,2.89,1,1,2,0
+2207,Sales,Senior Associate,16,0,1,3.69,55.1,67,1.56,5,1,0,0
+2208,Marketing,Senior Associate,65,39,3,1.45,50.0,34,1.98,5,0,3,0
+2209,Finance,Associate,109,27,1,4.1,59.8,27,1.13,5,0,0,0
+2210,Marketing,Associate,60,24,5,3.91,66.6,22,4.58,5,0,0,0
+2211,HR,Team Lead,3,25,1,4.59,71.6,22,2.1,4,0,3,0
+2212,Marketing,Senior Associate,48,10,4,2.57,87.8,13,4.11,2,0,0,0
+2213,Operations,Manager,81,25,1,3.96,84.3,18,2.26,1,0,0,0
+2214,Finance,Associate,47,52,5,2.68,52.1,15,1.78,3,0,1,0
+2215,Operations,Team Lead,56,11,5,1.06,66.2,19,2.29,3,0,2,0
+2216,Sales,Team Lead,58,42,1,3.08,74.8,79,2.74,2,0,2,0
+2217,Marketing,Manager,21,16,1,3.71,79.3,67,1.69,4,0,4,1
+2218,Engineering,Manager,86,37,3,2.72,60.8,70,3.01,5,0,1,1
+2219,Operations,Manager,92,48,5,2.34,73.7,59,3.87,5,0,1,1
+2220,Engineering,Manager,53,17,1,1.77,88.3,56,2.19,5,0,2,0
+2221,Marketing,Senior Associate,95,28,5,4.67,87.8,55,2.29,3,1,4,1
+2222,Engineering,Associate,73,7,3,2.21,55.0,44,1.75,3,0,0,0
+2223,Sales,Manager,76,52,2,2.34,67.6,54,2.88,3,0,0,0
+2224,HR,Manager,86,44,5,1.01,84.3,72,2.97,3,0,2,0
+2225,HR,Senior Associate,54,8,2,1.67,96.9,2,3.34,2,0,2,0
+2226,Finance,Team Lead,19,51,5,1.41,58.5,19,3.79,5,0,1,0
+2227,Finance,Team Lead,64,59,1,3.53,68.6,3,1.56,3,0,1,0
+2228,Operations,Associate,102,32,1,3.77,59.2,11,2.22,4,0,2,0
+2229,Operations,Associate,75,35,5,2.86,87.7,55,1.97,4,0,0,0
+2230,Marketing,Associate,73,36,4,4.97,96.4,38,1.86,3,0,1,0
+2231,Operations,Team Lead,52,42,3,3.73,90.3,18,1.83,1,0,2,0
+2232,Operations,Manager,95,0,2,2.63,63.8,40,1.37,5,1,1,1
+2233,Finance,Senior Associate,82,30,2,4.77,83.9,22,4.74,5,0,0,0
+2234,Operations,Senior Associate,16,4,1,3.78,51.9,71,1.04,5,0,0,0
+2235,Finance,Manager,52,50,4,1.88,99.0,10,3.23,1,1,0,0
+2236,Operations,Senior Associate,104,19,1,4.77,60.4,13,4.79,4,0,2,0
+2237,Sales,Manager,20,29,1,4.57,88.4,63,2.03,1,1,1,1
+2238,Operations,Associate,99,5,1,1.3,82.6,9,4.26,3,0,0,0
+2239,Operations,Associate,47,3,3,4.13,62.7,59,2.56,4,0,3,1
+2240,Finance,Associate,55,31,3,4.84,80.1,6,1.79,3,0,0,0
+2241,Marketing,Associate,46,28,4,1.65,84.2,6,4.88,2,0,0,0
+2242,Finance,Manager,98,15,5,4.25,86.4,43,3.17,1,0,4,1
+2243,Finance,Associate,107,14,5,2.61,64.1,42,2.59,2,1,2,0
+2244,Engineering,Senior Associate,37,59,4,4.06,96.0,31,3.75,2,0,0,0
+2245,HR,Senior Associate,23,24,4,1.24,95.4,75,2.25,5,0,0,0
+2246,Finance,Senior Associate,2,2,3,4.66,65.2,17,1.95,1,0,1,0
+2247,Marketing,Team Lead,4,40,5,4.75,51.9,14,3.14,4,1,2,0
+2248,Sales,Senior Associate,27,6,1,2.25,89.3,28,2.67,1,0,3,0
+2249,Operations,Associate,64,13,2,2.11,71.2,62,1.7,2,1,0,0
+2250,HR,Senior Associate,2,8,4,1.57,97.2,24,2.52,3,0,0,0
+2251,HR,Team Lead,101,18,4,2.89,66.4,20,2.07,2,0,4,0
+2252,Sales,Manager,38,19,5,2.54,56.6,32,2.62,4,0,2,0
+2253,HR,Senior Associate,91,12,4,3.85,67.0,35,4.0,5,1,0,1
+2254,Engineering,Manager,82,14,5,2.03,52.6,34,1.41,5,1,1,0
+2255,Sales,Associate,38,13,3,3.54,85.2,10,4.08,3,0,1,0
+2256,Sales,Associate,89,46,5,4.46,71.8,73,4.85,3,0,2,1
+2257,Operations,Associate,64,41,4,2.29,54.4,36,3.74,5,1,2,0
+2258,Sales,Associate,47,30,4,3.29,60.0,41,3.67,2,1,1,1
+2259,Sales,Manager,113,34,2,3.65,70.5,6,3.42,4,0,1,1
+2260,Marketing,Associate,38,43,3,2.63,53.3,17,2.49,3,0,1,0
+2261,Operations,Associate,95,31,5,3.58,88.6,40,3.19,1,0,2,1
+2262,HR,Associate,71,57,3,3.72,58.0,26,3.9,5,0,0,0
+2263,Operations,Associate,91,26,5,4.88,66.7,23,2.49,3,0,0,1
+2264,Engineering,Senior Associate,20,32,2,3.82,50.4,49,4.1,5,0,1,0
+2265,Marketing,Manager,112,13,4,4.14,55.3,4,4.38,5,0,2,1
+2266,Marketing,Team Lead,92,55,5,2.3,72.6,61,2.09,5,0,1,0
+2267,Operations,Associate,14,14,5,3.29,78.5,46,4.22,4,0,0,1
+2268,Operations,Team Lead,76,52,3,1.96,82.1,43,2.09,2,0,0,0
+2269,Operations,Associate,92,47,4,3.79,75.8,0,1.91,4,0,2,0
+2270,Sales,Team Lead,65,32,2,3.28,50.2,25,4.92,1,0,0,0
+2271,Sales,Team Lead,111,53,1,1.73,85.2,21,3.21,3,0,1,0
+2272,HR,Manager,39,32,5,4.38,81.4,72,3.66,4,0,3,1
+2273,Finance,Associate,75,36,4,4.17,60.4,29,4.22,4,0,3,0
+2274,Marketing,Senior Associate,103,0,2,1.68,69.1,52,4.55,1,0,2,0
+2275,Engineering,Manager,112,6,4,1.12,70.4,60,2.53,2,0,1,1
+2276,Marketing,Manager,46,10,1,1.32,50.8,17,3.82,4,0,1,0
+2277,Sales,Senior Associate,68,39,4,3.34,93.8,38,1.54,1,1,2,0
+2278,Operations,Team Lead,81,43,2,2.88,87.6,0,2.78,4,0,0,0
+2279,Sales,Senior Associate,73,20,5,1.52,69.1,32,1.02,3,0,1,0
+2280,Finance,Manager,41,20,4,1.59,78.4,34,3.89,2,0,0,0
+2281,Engineering,Team Lead,110,16,1,3.38,81.1,46,1.34,5,0,1,0
+2282,Marketing,Manager,39,39,3,1.77,62.3,0,2.42,1,0,1,0
+2283,Marketing,Senior Associate,85,8,5,1.35,63.4,60,1.69,3,1,2,1
+2284,Finance,Associate,64,51,4,2.83,59.3,66,4.59,5,0,3,1
+2285,Sales,Senior Associate,31,18,5,4.69,81.9,3,3.59,4,0,1,0
+2286,HR,Manager,13,8,3,3.79,79.5,2,4.69,2,0,1,1
+2287,Engineering,Associate,108,52,4,1.28,69.4,67,1.35,5,0,1,1
+2288,Engineering,Associate,55,34,1,3.48,60.0,12,3.89,4,0,2,0
+2289,Finance,Manager,38,30,3,4.21,50.8,59,2.19,1,0,2,0
+2290,Engineering,Associate,113,29,3,3.84,75.2,68,4.76,5,0,2,0
+2291,Operations,Senior Associate,82,19,5,4.74,53.2,1,1.54,2,0,4,0
+2292,Sales,Senior Associate,99,4,1,1.28,57.5,72,3.83,4,0,0,0
+2293,Finance,Associate,80,53,4,2.28,76.7,65,4.13,4,0,2,0
+2294,Sales,Associate,87,3,3,2.57,92.8,57,4.1,4,0,1,1
+2295,Engineering,Associate,36,44,4,3.62,75.9,14,3.82,2,0,2,0
+2296,Sales,Associate,84,40,2,4.05,71.2,26,1.95,3,0,1,0
+2297,Finance,Manager,32,51,1,1.59,63.6,76,2.89,1,0,0,0
+2298,Finance,Manager,111,39,3,4.13,60.7,36,3.94,1,0,0,0
+2299,Sales,Team Lead,26,18,1,4.74,74.0,68,2.14,4,0,3,0
+2300,Operations,Team Lead,99,43,2,1.86,95.2,16,4.16,1,0,1,0
+2301,Finance,Manager,111,42,2,4.44,70.7,76,2.75,3,0,2,0
+2302,Marketing,Associate,49,13,2,3.0,63.3,55,2.44,2,0,2,0
+2303,HR,Senior Associate,114,11,1,4.03,67.8,52,4.42,3,0,3,0
+2304,Finance,Senior Associate,48,19,2,3.42,99.8,9,2.71,4,0,1,0
+2305,Marketing,Team Lead,61,59,3,4.39,69.8,70,3.16,1,0,2,0
+2306,Engineering,Senior Associate,15,53,2,2.2,77.1,72,3.72,5,0,0,1
+2307,Marketing,Associate,81,45,4,2.19,93.5,38,4.27,1,0,0,0
+2308,Engineering,Senior Associate,106,54,4,3.36,91.3,63,1.29,1,0,2,0
+2309,Engineering,Associate,10,24,2,1.96,83.2,37,2.56,5,1,1,0
+2310,Sales,Team Lead,94,44,4,4.28,61.1,37,1.99,4,0,3,1
+2311,Sales,Senior Associate,23,28,1,4.04,60.3,68,2.06,2,0,4,0
+2312,Engineering,Senior Associate,19,29,3,3.17,70.6,50,1.58,4,0,2,0
+2313,Marketing,Senior Associate,106,8,5,4.91,62.9,74,4.34,1,0,0,0
+2314,Finance,Associate,81,30,1,3.79,89.3,29,2.02,1,1,1,0
+2315,HR,Associate,40,5,2,1.78,56.7,29,1.86,3,0,1,0
+2316,Finance,Associate,51,36,1,3.53,91.4,12,3.12,2,0,1,0
+2317,Sales,Associate,30,18,4,1.09,77.4,47,4.72,4,0,1,1
+2318,HR,Team Lead,10,10,3,1.29,69.0,4,1.13,4,0,1,0
+2319,Sales,Senior Associate,92,37,5,3.22,59.8,36,1.85,2,0,3,0
+2320,HR,Associate,28,39,1,3.42,50.8,28,4.22,1,0,0,0
+2321,HR,Associate,105,37,2,2.23,73.1,66,2.52,4,1,1,0
+2322,Operations,Team Lead,105,9,4,1.35,74.2,19,4.51,2,0,2,0
+2323,Marketing,Associate,109,57,4,1.02,51.1,70,1.59,1,0,0,0
+2324,Marketing,Associate,99,55,4,4.5,90.7,42,1.79,3,0,1,0
+2325,Operations,Team Lead,86,4,3,4.37,64.9,70,4.24,3,0,1,1
+2326,Marketing,Team Lead,47,46,3,4.02,94.7,55,2.22,2,0,1,0
+2327,Engineering,Senior Associate,115,59,3,1.55,50.8,22,1.15,1,0,1,0
+2328,Sales,Senior Associate,12,22,1,1.75,50.9,39,2.13,5,1,2,0
+2329,Finance,Manager,95,1,3,1.59,79.4,49,4.24,3,0,1,0
+2330,Finance,Manager,2,17,4,1.21,85.3,0,4.72,5,0,3,0
+2331,Sales,Manager,119,47,3,3.97,90.6,26,2.83,1,0,1,0
+2332,Marketing,Team Lead,17,28,1,4.83,73.0,62,2.06,5,1,1,0
+2333,Finance,Associate,17,42,3,1.89,59.3,76,4.31,2,0,1,0
+2334,Marketing,Team Lead,16,48,2,2.05,79.7,16,3.47,2,0,0,0
+2335,Sales,Manager,58,23,4,3.0,62.8,32,3.9,1,0,1,0
+2336,Engineering,Team Lead,73,37,2,4.7,70.7,56,4.32,4,1,1,1
+2337,Finance,Manager,28,18,1,1.0,80.8,1,4.76,1,0,0,0
+2338,Sales,Team Lead,77,28,3,1.21,74.6,39,1.73,2,0,3,0
+2339,Operations,Manager,25,33,4,2.9,85.0,23,4.75,5,0,0,1
+2340,HR,Manager,26,29,3,4.28,96.7,56,3.52,2,0,0,0
+2341,Engineering,Associate,49,14,2,1.18,96.4,75,4.65,1,1,1,0
+2342,Marketing,Associate,67,15,2,1.61,96.8,2,1.9,1,0,2,0
+2343,Operations,Team Lead,115,32,5,3.69,65.1,47,1.39,3,0,2,1
+2344,HR,Manager,108,9,2,2.56,91.7,77,1.77,2,0,0,1
+2345,Operations,Manager,29,34,1,1.48,90.3,62,4.82,2,0,2,0
+2346,Sales,Associate,3,42,2,4.95,80.0,50,3.29,2,1,1,1
+2347,Operations,Manager,24,28,3,2.11,57.4,27,3.91,4,1,1,0
+2348,Operations,Team Lead,65,3,1,2.53,73.8,68,1.41,4,0,0,0
+2349,HR,Associate,51,27,3,1.14,86.5,33,1.36,2,0,0,0
+2350,Engineering,Manager,62,12,4,2.07,54.9,54,2.6,3,1,2,0
+2351,Finance,Team Lead,95,4,2,1.13,54.2,20,1.16,2,1,2,0
+2352,Finance,Manager,26,5,1,2.26,59.3,61,2.58,4,0,0,0
+2353,Sales,Team Lead,19,34,3,1.22,69.5,4,1.66,5,0,1,0
+2354,Operations,Team Lead,60,7,4,4.07,69.2,61,2.81,5,0,1,0
+2355,Engineering,Manager,70,48,1,3.78,65.8,64,2.76,4,1,3,0
+2356,Sales,Associate,60,12,4,4.9,50.7,3,3.5,1,0,0,0
+2357,Marketing,Team Lead,89,53,4,1.98,68.0,8,2.81,4,0,1,0
+2358,Engineering,Senior Associate,96,16,5,3.99,96.9,59,4.84,4,1,1,1
+2359,Engineering,Associate,55,18,3,4.74,92.4,79,2.6,1,0,2,1
+2360,Operations,Associate,94,14,4,3.14,91.3,22,3.67,2,0,0,0
+2361,Sales,Associate,19,46,1,3.07,65.7,71,2.84,1,0,0,0
+2362,Finance,Manager,119,31,4,3.55,51.8,44,1.59,2,0,1,0
+2363,Finance,Manager,41,18,3,4.8,97.0,2,4.95,3,0,1,0
+2364,Sales,Team Lead,15,22,1,3.49,96.6,12,2.01,4,1,2,0
+2365,Sales,Team Lead,38,52,2,2.39,80.1,53,4.34,4,1,1,1
+2366,Finance,Manager,15,55,3,4.84,77.9,66,3.12,5,0,1,1
+2367,Finance,Team Lead,36,30,2,1.33,66.4,64,1.08,3,0,1,0
+2368,Engineering,Associate,99,58,5,2.46,88.7,38,2.67,1,1,0,0
+2369,Marketing,Manager,42,57,1,2.56,76.3,36,1.49,4,1,3,0
+2370,Engineering,Manager,59,19,2,1.77,60.5,77,1.97,1,1,5,0
+2371,Operations,Senior Associate,18,18,2,2.58,63.5,22,3.33,3,0,0,0
+2372,Marketing,Manager,8,44,4,1.4,51.9,37,3.66,4,0,1,0
+2373,Operations,Manager,51,6,3,1.56,69.3,59,3.65,1,0,4,0
+2374,Sales,Senior Associate,52,53,3,3.74,77.6,22,4.72,1,0,1,0
+2375,Finance,Team Lead,24,39,3,4.21,86.9,46,3.42,5,0,0,0
+2376,Finance,Team Lead,2,32,2,2.4,88.1,75,1.39,3,0,0,0
+2377,HR,Team Lead,46,30,3,3.25,55.7,77,3.88,3,0,0,0
+2378,Marketing,Team Lead,18,42,1,3.28,79.9,17,3.5,4,0,2,1
+2379,Engineering,Senior Associate,107,39,1,3.2,99.8,72,4.54,4,0,0,0
+2380,Sales,Associate,87,18,2,2.75,62.3,36,1.75,4,0,3,0
+2381,Marketing,Team Lead,12,53,2,2.84,70.4,37,2.72,3,0,1,0
+2382,Engineering,Senior Associate,38,13,3,3.06,91.7,34,4.27,3,0,1,1
+2383,HR,Associate,33,34,1,2.96,60.8,57,2.44,2,0,1,0
+2384,Engineering,Associate,106,57,2,3.69,89.6,37,1.11,5,0,0,0
+2385,Finance,Manager,84,39,2,2.24,76.8,62,4.85,1,0,1,0
+2386,Marketing,Team Lead,74,0,4,4.5,77.0,59,2.15,4,0,2,0
+2387,HR,Senior Associate,36,40,2,2.0,81.2,5,4.47,2,0,4,0
+2388,HR,Team Lead,86,37,3,2.69,99.4,19,2.81,1,0,2,0
+2389,Finance,Manager,9,27,2,2.76,91.3,33,4.23,1,1,1,1
+2390,Engineering,Team Lead,100,30,3,3.25,77.5,74,1.09,4,0,4,0
+2391,HR,Team Lead,96,27,1,4.39,59.9,61,2.41,4,0,0,0
+2392,Engineering,Manager,110,51,1,4.76,86.3,54,3.31,1,0,0,0
+2393,Finance,Team Lead,43,1,5,2.11,70.1,19,1.86,1,0,0,0
+2394,Engineering,Senior Associate,81,22,1,4.33,70.6,47,2.73,3,0,1,0
+2395,Finance,Associate,64,2,4,4.88,95.9,4,4.58,2,0,0,1
+2396,Finance,Manager,28,34,5,4.66,94.3,0,2.86,5,1,3,1
+2397,HR,Senior Associate,62,48,3,1.83,89.0,42,3.28,2,0,1,0
+2398,Engineering,Associate,76,13,4,2.29,72.9,43,1.65,5,1,0,1
+2399,Marketing,Manager,5,37,5,1.93,80.8,25,4.39,1,1,2,0
+2400,Finance,Team Lead,91,54,2,2.28,71.9,72,1.57,1,0,0,0
+2401,Sales,Associate,20,12,2,1.56,74.4,13,4.7,5,1,0,1
+2402,Engineering,Team Lead,46,18,1,1.89,74.3,77,1.01,5,0,2,0
+2403,Finance,Manager,54,56,5,3.59,75.5,68,4.17,5,0,0,0
+2404,Sales,Manager,32,19,5,2.04,67.5,19,3.47,5,0,1,0
+2405,Operations,Manager,80,6,3,3.65,89.6,51,4.74,3,0,1,1
+2406,Marketing,Team Lead,46,42,4,4.11,78.1,41,4.93,5,0,2,1
+2407,Finance,Associate,99,54,4,4.65,93.4,28,3.89,1,1,0,0
+2408,Sales,Associate,71,4,3,2.06,98.4,57,4.92,5,1,0,1
+2409,HR,Associate,53,34,4,2.2,77.8,49,4.48,5,1,1,1
+2410,Engineering,Team Lead,14,22,1,3.81,82.0,20,1.65,1,0,2,0
+2411,HR,Senior Associate,5,20,4,2.03,83.9,53,3.94,1,0,2,0
+2412,Marketing,Manager,35,57,2,4.01,93.4,56,4.45,4,0,1,1
+2413,Operations,Team Lead,58,26,4,3.31,93.0,44,3.81,3,0,0,0
+2414,Sales,Manager,45,24,4,4.59,52.8,40,1.05,2,0,0,0
+2415,Operations,Team Lead,61,42,4,2.11,81.5,43,2.04,2,0,0,0
+2416,HR,Associate,59,20,4,4.36,55.1,30,2.0,5,0,2,0
+2417,HR,Associate,59,51,1,1.94,72.6,42,2.93,2,1,0,0
+2418,HR,Senior Associate,13,43,4,4.31,77.3,4,2.58,1,0,1,0
+2419,Finance,Team Lead,1,28,5,1.67,66.7,78,2.35,5,0,0,0
+2420,HR,Manager,1,3,1,2.32,93.8,12,4.73,2,1,1,1
+2421,Engineering,Senior Associate,55,34,3,4.61,85.1,1,4.93,2,0,0,0
+2422,Marketing,Manager,103,21,5,2.68,91.6,21,4.78,2,0,0,0
+2423,Sales,Manager,56,47,1,2.9,52.1,76,2.09,3,1,1,0
+2424,Marketing,Associate,59,35,5,4.0,90.8,18,4.76,1,0,2,1
+2425,Operations,Team Lead,110,37,4,4.89,86.4,2,1.14,5,0,1,0
+2426,Engineering,Team Lead,6,9,4,1.66,80.7,37,1.81,3,0,1,0
+2427,Sales,Manager,30,8,5,2.78,55.5,61,2.99,5,1,1,1
+2428,Operations,Manager,55,52,4,3.96,88.8,61,2.99,5,1,1,1
+2429,Finance,Senior Associate,106,47,4,1.79,99.4,11,1.01,4,0,2,0
+2430,Engineering,Manager,55,23,1,1.73,54.6,33,3.66,4,0,1,0
+2431,Engineering,Team Lead,117,24,1,3.47,85.1,21,1.86,3,0,1,0
+2432,HR,Associate,95,50,2,4.19,62.1,22,3.31,3,0,1,1
+2433,HR,Team Lead,104,9,5,3.08,54.7,7,1.62,5,1,1,0
+2434,Marketing,Associate,103,13,5,3.98,92.5,33,2.68,4,0,0,1
+2435,Operations,Team Lead,5,6,1,2.12,60.9,10,3.39,1,0,2,0
+2436,Operations,Team Lead,34,49,1,3.99,61.8,48,4.34,5,0,1,0
+2437,Operations,Associate,7,27,5,1.34,93.7,17,2.82,4,0,1,0
+2438,Operations,Senior Associate,21,24,2,2.97,98.9,56,1.43,3,1,0,0
+2439,Sales,Senior Associate,110,11,4,3.35,85.8,35,1.54,3,0,2,0
+2440,Finance,Team Lead,9,11,2,4.94,72.7,20,1.04,2,0,0,0
+2441,HR,Senior Associate,86,17,3,2.13,53.8,78,4.12,2,0,1,1
+2442,Operations,Manager,35,56,5,1.18,83.9,46,1.38,1,0,4,0
+2443,Engineering,Associate,10,41,5,1.26,90.7,13,2.98,3,0,1,0
+2444,Operations,Senior Associate,81,34,2,4.48,70.9,41,1.89,5,0,1,0
+2445,Operations,Senior Associate,110,22,3,3.64,54.0,72,2.85,2,0,1,0
+2446,Marketing,Senior Associate,78,15,2,3.38,71.8,20,1.47,2,0,2,0
+2447,Marketing,Team Lead,75,32,4,2.63,53.6,35,1.62,3,0,1,0
+2448,Finance,Associate,42,53,1,3.6,57.6,23,3.38,5,0,2,0
+2449,Finance,Associate,57,59,4,2.84,61.6,3,1.12,1,0,1,0
+2450,Engineering,Associate,38,39,4,1.33,83.5,61,2.35,5,1,0,1
+2451,Marketing,Manager,43,20,2,1.27,73.1,72,1.35,1,1,0,0
+2452,Marketing,Associate,11,10,2,1.85,86.7,38,3.9,5,1,3,0
+2453,Engineering,Manager,57,33,3,3.75,90.7,5,1.17,3,0,0,0
+2454,Sales,Team Lead,40,21,5,2.64,84.8,46,3.31,3,0,0,0
+2455,HR,Manager,104,40,2,1.55,61.3,78,2.52,3,0,0,0
+2456,Marketing,Senior Associate,20,2,3,4.91,72.5,17,3.25,1,0,1,0
+2457,Sales,Associate,3,29,2,4.11,92.2,45,1.18,4,0,1,0
+2458,Sales,Manager,116,56,2,1.87,52.2,31,1.66,1,0,3,0
+2459,HR,Manager,118,36,5,2.2,81.1,40,1.58,1,0,3,0
+2460,Sales,Senior Associate,116,32,2,4.63,54.5,8,4.69,2,0,2,0
+2461,Operations,Manager,21,19,4,3.96,89.9,67,4.49,4,0,1,1
+2462,Marketing,Senior Associate,100,33,3,4.39,52.0,11,4.51,3,0,1,0
+2463,Marketing,Manager,98,52,1,4.43,85.0,1,4.11,5,0,0,0
+2464,Marketing,Senior Associate,85,26,5,2.52,59.3,76,1.49,4,0,2,0
+2465,Sales,Senior Associate,60,4,4,3.21,56.7,10,2.44,5,0,4,1
+2466,Operations,Team Lead,74,34,1,1.45,80.3,67,4.44,4,0,0,1
+2467,Sales,Senior Associate,103,8,2,2.19,82.8,61,1.19,5,1,5,1
+2468,Marketing,Manager,32,23,3,2.41,68.7,44,1.3,1,0,0,0
+2469,Marketing,Manager,66,25,5,4.61,56.3,43,1.91,2,0,1,0
+2470,Marketing,Manager,58,37,1,4.32,67.5,63,2.41,5,0,2,0
+2471,Engineering,Associate,77,15,4,3.38,77.7,47,3.41,1,1,2,1
+2472,Engineering,Associate,30,55,5,2.84,62.9,18,4.98,1,1,0,0
+2473,Marketing,Associate,54,13,2,4.26,60.0,1,3.31,5,0,1,0
+2474,Marketing,Senior Associate,64,34,5,2.2,69.1,1,1.93,3,0,1,0
+2475,Engineering,Senior Associate,50,48,4,1.68,72.6,43,3.67,1,0,0,0
+2476,Finance,Senior Associate,33,53,5,4.05,95.0,68,4.25,1,1,2,1
+2477,Sales,Associate,81,25,1,3.83,92.8,50,1.7,2,0,1,0
+2478,Marketing,Associate,67,0,5,4.6,55.9,1,1.08,2,1,1,1
+2479,HR,Associate,21,8,3,4.51,77.0,52,3.28,5,0,0,0
+2480,Sales,Senior Associate,99,28,3,2.23,68.0,8,1.05,2,0,2,0
+2481,Sales,Senior Associate,60,42,5,1.19,94.9,11,4.52,4,1,1,1
+2482,Sales,Senior Associate,60,17,2,1.31,62.3,23,3.51,2,0,1,0
+2483,Engineering,Senior Associate,51,5,3,1.08,54.3,29,4.74,2,1,1,0
+2484,Engineering,Team Lead,33,47,3,1.95,66.5,70,2.0,2,0,1,0
+2485,HR,Team Lead,37,59,3,3.94,92.4,38,1.57,2,0,2,0
+2486,Sales,Manager,26,14,3,4.64,57.5,40,2.96,5,0,3,0
+2487,Sales,Manager,113,53,2,1.36,52.1,71,1.61,1,1,0,0
+2488,Engineering,Senior Associate,25,3,3,2.26,99.2,5,3.13,4,0,0,0
+2489,Operations,Associate,41,38,3,4.74,93.2,47,3.69,5,0,1,0
+2490,Sales,Team Lead,89,36,2,4.52,84.4,47,1.98,2,0,2,0
+2491,Marketing,Team Lead,4,8,4,1.0,83.6,78,4.44,5,1,1,1
+2492,Engineering,Senior Associate,103,48,2,4.89,94.2,55,2.75,3,0,3,0
+2493,Marketing,Senior Associate,91,15,5,2.92,98.0,54,2.08,3,0,1,1
+2494,Sales,Associate,30,7,3,3.23,68.5,7,1.45,5,1,3,0
+2495,Operations,Team Lead,97,54,2,4.5,78.3,61,3.48,1,0,1,0
+2496,Sales,Manager,39,45,5,2.82,77.5,56,2.92,3,0,1,1
+2497,Engineering,Senior Associate,94,44,5,2.23,78.4,2,1.58,3,0,0,0
+2498,HR,Team Lead,78,23,5,2.77,91.8,53,4.9,5,1,0,1
+2499,Finance,Senior Associate,67,55,4,3.16,87.0,48,4.58,5,0,0,1
+2500,Finance,Manager,83,48,5,2.87,63.4,70,4.53,3,0,2,1
+2501,Sales,Team Lead,112,38,4,3.14,78.3,52,4.45,4,0,0,0
+2502,Operations,Associate,98,29,4,3.59,51.9,29,1.77,3,0,3,0
+2503,Engineering,Senior Associate,90,58,2,1.07,61.9,52,3.95,5,0,1,0
+2504,Finance,Senior Associate,110,43,5,1.81,96.0,58,2.73,4,0,1,0
+2505,Operations,Manager,13,6,1,1.69,66.6,36,3.82,3,0,0,1
+2506,Operations,Senior Associate,114,37,5,3.93,78.2,1,1.67,4,0,0,1
+2507,HR,Associate,26,19,4,1.95,76.1,15,2.78,1,0,1,0
+2508,Sales,Senior Associate,91,15,3,2.65,96.0,54,2.35,5,1,2,1
+2509,Sales,Senior Associate,44,59,2,2.17,99.5,48,3.29,3,0,1,0
+2510,Marketing,Senior Associate,106,35,5,3.55,64.5,57,4.35,5,0,4,1
+2511,Engineering,Associate,103,12,3,4.28,55.2,76,1.59,5,1,2,1
+2512,Operations,Senior Associate,5,19,5,2.21,87.4,76,4.19,5,1,2,1
+2513,Finance,Senior Associate,97,38,4,2.78,82.8,5,4.22,3,0,2,0
+2514,Marketing,Manager,17,59,3,1.99,59.8,43,3.62,2,0,1,0
+2515,Engineering,Associate,25,11,3,3.41,64.8,67,1.75,1,0,1,0
+2516,Engineering,Team Lead,33,47,2,4.26,96.4,37,2.39,4,1,0,0
+2517,Engineering,Associate,19,18,4,2.9,92.0,10,2.88,5,0,2,0
+2518,Finance,Team Lead,27,20,5,3.45,54.1,71,3.13,3,0,3,1
+2519,Engineering,Team Lead,56,42,5,3.67,94.7,73,3.7,5,1,1,1
+2520,Marketing,Senior Associate,50,6,4,4.75,94.3,50,4.22,4,0,3,1
+2521,HR,Senior Associate,66,0,1,4.4,74.4,31,3.76,5,1,0,0
+2522,Finance,Manager,38,30,3,4.43,58.3,44,2.34,4,0,2,0
+2523,Operations,Manager,78,29,1,4.59,56.6,13,4.93,3,0,0,0
+2524,Finance,Associate,64,39,1,4.58,53.9,0,1.21,2,0,0,0
+2525,Sales,Associate,1,49,4,2.53,76.7,46,2.73,3,0,1,0
+2526,Sales,Senior Associate,45,35,1,2.22,99.0,36,4.35,3,0,2,0
+2527,Operations,Senior Associate,53,42,2,4.08,63.1,71,3.66,1,1,0,0
+2528,Operations,Associate,1,52,3,3.57,72.5,46,5.0,1,1,3,0
+2529,Sales,Team Lead,21,26,3,2.88,57.2,74,4.17,4,0,0,0
+2530,Engineering,Team Lead,6,8,3,3.43,70.5,79,2.38,5,0,1,0
+2531,Finance,Senior Associate,58,40,1,2.7,57.1,72,3.65,4,0,0,0
+2532,Finance,Associate,39,8,1,1.39,74.4,11,2.31,2,0,3,0
+2533,HR,Senior Associate,13,50,4,4.62,68.9,18,3.41,3,0,1,0
+2534,Engineering,Manager,89,41,1,2.54,97.6,45,1.78,4,0,0,0
+2535,Sales,Team Lead,97,38,5,1.57,67.3,5,4.16,5,0,0,1
+2536,Engineering,Senior Associate,84,10,5,1.57,78.5,29,4.95,2,0,1,0
+2537,Marketing,Senior Associate,86,51,4,1.2,75.9,62,2.26,2,0,0,0
+2538,Engineering,Team Lead,2,8,3,4.2,52.6,70,4.14,2,0,2,0
+2539,HR,Manager,30,25,5,4.18,86.2,34,3.96,2,0,1,0
+2540,Operations,Associate,116,51,4,1.86,89.2,6,4.32,1,0,1,0
+2541,HR,Senior Associate,50,19,2,4.66,66.0,28,3.76,2,1,0,1
+2542,Operations,Senior Associate,57,22,4,4.61,69.4,62,3.4,3,0,1,1
+2543,Operations,Senior Associate,31,10,4,3.69,97.2,51,4.65,3,0,1,0
+2544,Sales,Associate,14,52,2,4.79,71.1,25,2.98,5,0,1,0
+2545,Marketing,Senior Associate,96,27,5,3.36,51.5,26,4.2,2,0,0,0
+2546,Operations,Senior Associate,100,24,3,1.25,50.9,41,3.72,2,1,2,0
+2547,Finance,Team Lead,88,54,4,3.93,81.2,18,1.33,1,0,1,0
+2548,Marketing,Senior Associate,116,38,4,2.51,68.1,38,3.06,1,0,0,0
+2549,Engineering,Senior Associate,113,43,3,3.16,82.1,48,1.24,4,1,1,0
+2550,Marketing,Team Lead,108,1,2,2.52,54.0,53,3.94,1,0,1,0
+2551,Finance,Manager,98,42,1,4.93,96.3,15,3.01,2,0,1,0
+2552,Operations,Team Lead,99,10,1,3.63,77.0,15,2.7,4,0,0,0
+2553,HR,Associate,116,34,5,1.31,76.2,47,3.43,3,0,2,0
+2554,HR,Team Lead,45,20,3,4.94,94.0,62,4.0,4,0,2,1
+2555,HR,Manager,45,1,3,4.04,93.3,45,2.03,4,1,0,1
+2556,Engineering,Associate,22,14,2,2.78,87.2,64,3.81,5,1,0,1
+2557,Operations,Manager,24,39,3,1.09,70.5,2,3.16,2,1,0,0
+2558,Sales,Manager,21,28,4,4.48,68.4,3,1.27,3,0,1,0
+2559,Sales,Team Lead,7,20,1,1.9,99.3,16,4.55,1,1,1,0
+2560,HR,Associate,61,21,5,3.7,89.7,4,4.83,2,0,1,1
+2561,Finance,Manager,45,9,4,1.89,68.1,5,3.82,5,0,1,0
+2562,HR,Manager,110,15,4,1.57,94.1,11,2.87,5,0,1,0
+2563,Finance,Senior Associate,40,57,2,4.66,72.2,17,4.54,5,0,2,1
+2564,Engineering,Team Lead,5,48,1,2.51,57.3,46,2.92,5,0,2,0
+2565,Sales,Team Lead,19,17,5,4.97,50.1,22,3.16,2,0,1,0
+2566,Marketing,Senior Associate,81,9,1,3.45,86.1,15,4.11,2,0,2,0
+2567,Engineering,Associate,24,27,5,4.18,89.2,21,3.48,2,0,1,0
+2568,Finance,Team Lead,78,22,1,1.17,80.6,6,2.02,5,0,1,0
+2569,HR,Team Lead,105,32,2,1.48,79.6,33,4.19,1,0,2,0
+2570,Marketing,Team Lead,14,33,1,1.69,50.6,4,3.71,5,0,4,0
+2571,Marketing,Team Lead,68,26,5,3.41,70.9,53,2.08,1,0,2,0
+2572,Operations,Senior Associate,29,33,5,3.71,51.5,18,2.13,5,0,1,0
+2573,Operations,Senior Associate,115,55,3,4.14,51.0,8,4.92,2,1,2,0
+2574,Sales,Manager,107,53,1,1.25,88.1,42,4.67,4,0,1,0
+2575,Marketing,Senior Associate,96,55,2,3.02,56.3,0,1.69,5,0,1,0
+2576,Operations,Manager,83,29,4,2.79,56.0,8,2.5,3,0,2,0
+2577,Engineering,Team Lead,74,14,4,3.72,83.7,6,1.09,4,0,0,0
+2578,Operations,Manager,9,19,1,3.95,58.7,50,2.66,4,0,0,0
+2579,HR,Senior Associate,101,20,2,1.06,62.8,24,4.88,2,0,0,0
+2580,Operations,Team Lead,71,17,1,1.24,74.9,16,3.42,1,0,0,0
+2581,Sales,Manager,102,22,4,2.96,86.6,20,3.47,5,0,1,0
+2582,Engineering,Senior Associate,73,1,1,3.22,77.9,17,3.41,5,0,1,1
+2583,HR,Senior Associate,92,24,2,4.68,55.6,61,2.0,1,0,1,1
+2584,Marketing,Manager,77,28,2,3.24,71.6,45,1.78,5,1,1,1
+2585,Operations,Manager,94,43,1,2.75,86.1,19,2.95,4,0,1,0
+2586,Engineering,Team Lead,48,44,4,4.42,81.8,73,3.97,1,1,4,1
+2587,Sales,Associate,96,51,2,2.66,51.4,24,4.7,4,0,0,0
+2588,Finance,Senior Associate,110,35,1,2.54,93.9,10,1.47,2,0,2,0
+2589,Marketing,Manager,92,58,1,3.35,81.6,79,4.36,3,0,0,0
+2590,Finance,Team Lead,70,16,5,3.9,96.3,3,1.43,5,1,1,0
+2591,Sales,Team Lead,6,4,3,1.94,53.1,20,4.37,3,0,2,0
+2592,Sales,Manager,72,23,4,3.28,50.9,6,3.76,1,0,2,0
+2593,Finance,Associate,29,8,5,2.43,63.1,39,1.52,3,0,1,0
+2594,HR,Associate,27,6,4,1.43,56.1,78,4.35,4,0,1,0
+2595,HR,Manager,11,17,5,3.35,74.5,7,1.26,3,0,3,1
+2596,Marketing,Senior Associate,6,11,2,1.35,95.9,59,2.53,2,0,2,0
+2597,Marketing,Senior Associate,53,32,5,1.8,73.5,54,3.93,5,0,2,0
+2598,Marketing,Senior Associate,32,27,2,4.12,83.9,55,2.33,2,0,1,0
+2599,Engineering,Team Lead,114,8,4,4.31,78.7,72,1.84,4,0,3,1
+2600,Engineering,Associate,35,44,5,2.69,66.2,28,4.78,5,0,3,0
+2601,Engineering,Team Lead,17,28,4,2.74,88.6,37,1.52,3,0,1,1
+2602,HR,Manager,56,30,2,2.19,91.1,48,3.97,3,0,1,0
+2603,HR,Manager,19,46,5,1.85,53.5,56,3.27,1,0,0,0
+2604,Marketing,Associate,39,17,5,2.25,99.4,63,4.48,1,1,2,0
+2605,Finance,Associate,67,25,3,2.66,65.4,0,1.24,5,1,1,0
+2606,Finance,Manager,63,19,2,3.01,90.5,9,1.83,5,0,4,0
+2607,HR,Manager,92,4,3,1.09,79.6,31,2.1,1,0,2,0
+2608,Operations,Manager,14,23,2,3.75,81.3,47,1.04,5,0,2,0
+2609,Engineering,Senior Associate,36,12,3,3.34,95.3,4,4.3,4,1,0,0
+2610,Operations,Team Lead,1,18,3,1.02,93.4,66,2.08,4,0,2,0
+2611,HR,Team Lead,1,56,3,3.68,88.9,2,1.77,5,0,2,1
+2612,HR,Team Lead,9,13,5,1.66,65.0,7,4.69,1,0,2,0
+2613,Engineering,Associate,90,59,3,3.18,61.1,53,1.37,5,0,2,0
+2614,Operations,Associate,51,53,2,3.55,85.5,15,3.32,2,0,1,0
+2615,Marketing,Team Lead,108,41,3,3.1,53.1,61,3.64,2,1,1,1
+2616,Sales,Associate,50,59,1,2.31,81.4,66,2.91,1,1,0,0
+2617,Operations,Associate,110,25,2,3.91,88.2,19,2.6,5,0,0,1
+2618,Finance,Senior Associate,21,41,2,2.95,71.4,10,1.68,2,1,2,0
+2619,Operations,Team Lead,44,29,3,3.64,83.1,12,1.05,1,1,0,0
+2620,Engineering,Senior Associate,104,43,3,4.33,78.8,23,1.32,3,0,0,0
+2621,Marketing,Associate,39,17,5,3.07,84.7,7,3.08,2,1,1,0
+2622,Engineering,Team Lead,20,7,2,4.52,92.4,2,1.3,4,0,1,0
+2623,Sales,Senior Associate,7,54,5,1.39,69.1,55,4.12,2,0,1,0
+2624,Marketing,Associate,67,11,3,4.76,50.9,61,4.88,5,0,0,1
+2625,Finance,Senior Associate,112,53,2,4.13,71.6,43,4.61,3,0,1,0
+2626,Sales,Senior Associate,63,23,3,4.52,56.9,28,1.75,2,0,0,0
+2627,HR,Associate,4,30,5,1.76,80.6,0,1.71,5,0,0,0
+2628,HR,Manager,48,32,3,1.05,68.6,2,4.07,2,0,3,0
+2629,HR,Team Lead,117,31,5,1.48,56.5,58,3.2,3,0,1,0
+2630,Marketing,Team Lead,119,42,2,2.37,87.0,16,3.02,2,0,1,0
+2631,Engineering,Associate,79,55,5,3.29,93.1,3,2.8,2,0,1,0
+2632,HR,Team Lead,82,6,1,4.08,61.1,21,3.22,1,0,3,0
+2633,Sales,Senior Associate,10,36,4,4.54,90.1,60,4.01,1,0,0,0
+2634,Sales,Associate,33,40,4,4.29,62.4,69,4.82,1,0,2,0
+2635,Finance,Manager,111,52,4,3.74,55.1,19,2.72,1,1,3,0
+2636,Engineering,Manager,41,43,1,3.17,63.7,19,3.82,3,1,0,0
+2637,Marketing,Senior Associate,6,40,4,1.06,60.3,64,3.82,3,0,0,0
+2638,Engineering,Team Lead,20,19,1,1.7,87.8,17,1.92,3,0,3,0
+2639,Operations,Senior Associate,5,31,3,4.78,85.5,68,3.45,4,1,1,1
+2640,HR,Manager,47,39,3,2.03,73.0,33,4.34,3,0,1,0
+2641,Operations,Associate,111,18,3,2.54,63.2,65,3.62,2,1,0,1
+2642,Marketing,Senior Associate,45,21,3,1.19,58.0,64,2.57,5,1,1,1
+2643,Engineering,Associate,35,18,1,1.91,69.6,42,2.82,1,0,1,0
+2644,Sales,Senior Associate,38,21,3,3.15,59.8,19,4.35,4,0,0,0
+2645,Sales,Associate,106,13,3,3.34,65.3,65,3.46,2,0,2,0
+2646,Finance,Manager,10,46,3,4.75,63.9,51,3.61,4,0,1,0
+2647,Engineering,Manager,15,31,4,2.31,78.7,38,2.08,3,0,3,0
+2648,Sales,Manager,87,24,3,1.84,75.5,33,1.16,2,1,0,0
+2649,Finance,Team Lead,3,25,5,3.5,79.9,2,1.91,2,0,3,0
+2650,HR,Manager,58,33,1,3.03,69.3,18,2.66,5,0,1,0
+2651,Operations,Manager,13,18,3,1.99,68.2,22,1.46,3,0,1,0
+2652,HR,Associate,4,32,5,3.06,52.9,53,2.0,3,0,2,0
+2653,Operations,Senior Associate,42,14,2,2.95,73.4,58,3.62,1,0,3,0
+2654,Marketing,Team Lead,31,10,2,4.82,95.8,62,1.72,1,0,3,0
+2655,Marketing,Associate,113,57,4,2.34,75.1,6,4.17,2,0,1,0
+2656,Sales,Manager,114,25,3,1.91,66.9,43,2.67,4,0,0,0
+2657,Finance,Senior Associate,89,39,3,4.8,80.6,20,4.09,5,0,2,0
+2658,HR,Associate,118,23,1,2.49,81.5,78,4.04,4,0,3,0
+2659,Marketing,Associate,100,5,1,1.86,53.4,43,1.02,2,0,1,0
+2660,HR,Senior Associate,115,31,4,3.06,82.6,6,4.78,3,0,0,0
+2661,Sales,Senior Associate,38,1,2,1.56,60.4,79,3.75,3,1,1,1
+2662,Finance,Senior Associate,19,20,4,3.02,60.6,19,2.66,2,0,3,1
+2663,Operations,Manager,82,23,3,1.4,95.5,24,1.18,3,0,1,0
+2664,Finance,Associate,42,13,4,2.96,84.5,15,4.32,5,0,1,0
+2665,Engineering,Manager,55,1,2,4.4,79.8,62,2.61,3,0,0,0
+2666,Marketing,Team Lead,109,46,5,3.36,87.7,20,1.98,1,1,1,0
+2667,Marketing,Manager,69,43,5,1.6,77.3,62,1.61,4,1,2,1
+2668,HR,Senior Associate,113,3,4,2.45,83.0,73,2.22,5,1,0,1
+2669,Sales,Manager,89,31,4,2.37,59.6,24,1.45,2,1,1,0
+2670,Sales,Senior Associate,53,22,4,4.37,86.7,66,2.27,5,0,0,1
+2671,Sales,Manager,56,31,5,1.08,85.7,36,4.68,4,0,1,1
+2672,Engineering,Senior Associate,36,44,2,2.65,75.3,37,1.45,3,1,3,0
+2673,Finance,Team Lead,91,39,3,4.78,85.9,29,2.13,4,0,1,0
+2674,HR,Senior Associate,29,18,1,1.85,69.0,77,4.62,1,1,0,0
+2675,HR,Senior Associate,35,58,1,4.71,54.5,51,2.44,2,0,0,0
+2676,Marketing,Team Lead,88,5,4,2.13,98.2,12,4.39,4,0,0,0
+2677,Engineering,Associate,4,37,3,4.6,88.4,58,2.48,1,0,1,0
+2678,Engineering,Team Lead,41,12,5,3.32,90.1,64,2.97,2,0,0,0
+2679,Sales,Team Lead,15,52,5,4.54,94.9,50,3.58,1,0,0,0
+2680,Finance,Team Lead,104,11,1,3.19,69.7,68,2.54,5,1,0,0
+2681,Engineering,Senior Associate,83,3,3,1.22,70.4,8,3.49,1,0,0,0
+2682,Finance,Team Lead,43,12,4,3.01,68.1,18,4.54,3,0,2,0
+2683,HR,Associate,70,26,4,3.54,93.0,37,2.28,2,0,1,0
+2684,HR,Manager,11,7,2,2.22,73.1,22,1.64,4,1,1,0
+2685,HR,Associate,22,50,3,2.16,86.9,46,3.8,2,0,1,0
+2686,Operations,Senior Associate,112,7,2,3.17,97.9,77,3.28,5,0,0,0
+2687,Sales,Manager,1,32,2,2.97,93.9,12,3.08,2,0,0,0
+2688,Engineering,Manager,46,10,2,4.99,72.4,49,1.54,3,0,1,0
+2689,Sales,Associate,59,26,3,3.78,94.3,53,1.58,3,1,0,0
+2690,Engineering,Team Lead,70,19,3,1.12,67.2,23,2.52,3,0,2,0
+2691,Operations,Manager,71,18,4,4.56,71.8,24,4.96,1,0,0,1
+2692,Operations,Manager,57,3,4,3.44,96.8,10,1.01,4,0,3,0
+2693,Operations,Associate,11,53,1,2.6,94.8,75,2.7,1,0,0,0
+2694,Marketing,Team Lead,88,38,5,2.75,89.1,8,1.15,3,1,0,0
+2695,Finance,Associate,17,14,4,4.44,82.3,31,2.21,3,0,1,1
+2696,Marketing,Senior Associate,100,39,4,1.47,78.7,39,1.94,5,0,1,0
+2697,Operations,Team Lead,12,5,1,3.02,55.4,22,3.74,3,1,1,0
+2698,Engineering,Manager,32,43,1,3.69,81.0,26,2.0,1,0,1,0
+2699,Operations,Associate,11,2,2,3.63,81.9,39,1.87,5,0,0,1
+2700,Finance,Senior Associate,50,9,5,3.03,70.6,62,1.24,3,0,0,0
+2701,Marketing,Associate,48,28,5,2.05,58.4,66,4.44,4,0,3,0
+2702,Finance,Associate,55,7,1,4.99,99.4,63,3.98,1,0,2,0
+2703,Operations,Manager,90,15,2,4.5,94.3,7,3.14,1,0,0,0
+2704,Sales,Team Lead,112,4,4,1.39,71.9,34,3.47,1,0,1,0
+2705,Marketing,Team Lead,38,32,3,1.55,84.5,68,3.21,1,0,3,0
+2706,Marketing,Senior Associate,57,1,3,3.53,81.4,4,4.6,1,1,0,0
+2707,Sales,Senior Associate,96,27,4,2.11,58.4,50,1.1,5,1,1,1
+2708,Operations,Manager,91,24,1,4.15,68.6,35,1.17,2,0,1,0
+2709,Marketing,Team Lead,48,43,5,3.84,95.8,61,4.12,4,1,1,1
+2710,Marketing,Manager,21,8,5,4.74,86.1,17,4.6,5,0,2,1
+2711,Marketing,Associate,16,19,4,4.81,87.3,37,3.87,5,0,2,1
+2712,Engineering,Associate,57,49,4,4.97,51.0,67,3.07,4,0,1,1
+2713,HR,Manager,119,25,4,2.98,55.6,16,3.98,2,1,3,0
+2714,Operations,Senior Associate,37,45,4,1.13,54.2,40,3.43,1,0,0,0
+2715,Sales,Senior Associate,7,22,4,3.41,66.8,44,3.52,2,0,0,0
+2716,HR,Team Lead,23,11,1,1.77,99.7,70,2.55,4,1,0,1
+2717,Sales,Team Lead,19,44,1,2.22,98.0,51,1.46,5,0,1,0
+2718,Sales,Manager,89,13,5,3.62,84.0,33,1.32,5,0,0,0
+2719,Operations,Manager,29,34,4,1.36,70.3,51,2.01,4,0,1,0
+2720,Engineering,Manager,34,19,3,2.66,70.9,17,1.38,4,0,0,0
+2721,Marketing,Associate,101,2,5,1.7,97.1,72,3.67,2,0,3,1
+2722,Sales,Manager,39,2,4,1.83,57.8,63,1.81,4,0,0,0
+2723,Engineering,Manager,71,7,5,1.7,93.6,24,1.37,5,1,1,1
+2724,HR,Team Lead,78,56,2,3.12,57.5,37,3.46,4,0,1,0
+2725,Finance,Team Lead,70,8,5,3.71,57.4,64,3.95,4,0,3,1
+2726,HR,Manager,83,12,1,3.88,51.8,71,3.98,5,1,3,1
+2727,Sales,Manager,88,38,1,3.24,51.5,65,3.94,5,1,1,1
+2728,Marketing,Manager,53,2,4,4.78,83.1,6,3.96,5,0,1,0
+2729,Sales,Manager,83,40,3,2.72,87.6,32,1.2,5,1,1,0
+2730,Marketing,Associate,15,14,1,4.53,86.7,41,3.77,4,0,2,0
+2731,Engineering,Associate,60,57,2,2.12,71.1,73,2.06,4,0,3,0
+2732,Marketing,Senior Associate,6,27,5,2.39,81.9,19,1.84,2,0,0,0
+2733,Operations,Team Lead,96,26,3,4.32,51.8,56,4.76,5,0,0,1
+2734,HR,Manager,57,48,5,2.24,80.9,4,5.0,5,0,4,1
+2735,Engineering,Associate,39,42,4,4.12,69.4,65,3.76,1,1,0,0
+2736,HR,Team Lead,68,22,5,3.55,72.3,55,3.73,3,0,1,1
+2737,Sales,Team Lead,40,49,3,2.81,82.6,54,2.75,2,0,1,0
+2738,Sales,Manager,106,18,2,2.55,91.5,70,4.75,2,0,1,0
+2739,Finance,Associate,28,30,3,1.99,91.9,50,4.33,3,0,1,0
+2740,Engineering,Team Lead,62,52,5,3.89,74.4,43,3.52,2,1,2,0
+2741,Marketing,Manager,94,15,5,1.95,51.9,3,2.38,2,1,1,0
+2742,Operations,Team Lead,113,48,2,2.1,92.5,27,4.87,1,1,0,0
+2743,Marketing,Senior Associate,106,10,2,3.37,53.0,49,1.67,1,0,1,0
+2744,Finance,Associate,34,26,1,3.87,78.8,25,3.1,2,1,0,0
+2745,Finance,Senior Associate,76,30,5,2.26,54.0,25,1.34,2,0,1,0
+2746,Finance,Manager,42,41,2,1.71,75.0,79,1.82,4,0,2,0
+2747,Operations,Associate,107,51,5,2.45,91.8,34,1.16,4,0,1,0
+2748,Operations,Team Lead,28,24,3,4.38,80.3,24,1.97,3,1,0,1
+2749,Operations,Associate,93,3,3,2.96,59.2,39,3.76,1,0,0,0
+2750,Finance,Team Lead,15,52,3,4.67,85.2,51,4.4,5,0,0,0
+2751,Engineering,Senior Associate,32,29,1,2.0,93.7,26,2.03,5,1,2,0
+2752,Finance,Manager,59,13,2,1.36,87.5,65,2.62,2,0,1,0
+2753,Operations,Senior Associate,81,59,5,3.99,69.8,0,2.75,2,0,0,0
+2754,Sales,Senior Associate,59,26,1,4.53,95.8,15,3.99,1,0,1,0
+2755,HR,Associate,1,47,5,2.11,86.9,44,1.12,4,0,2,0
+2756,Sales,Team Lead,62,15,2,2.73,74.8,0,1.51,4,0,0,0
+2757,Sales,Senior Associate,28,54,4,2.91,58.3,39,4.4,3,0,3,0
+2758,Finance,Senior Associate,2,47,5,1.17,93.2,11,1.21,1,0,1,0
+2759,Engineering,Associate,89,43,5,3.72,99.9,8,1.01,1,0,1,0
+2760,Sales,Associate,110,41,1,1.75,50.2,35,4.45,5,0,2,0
+2761,HR,Associate,77,23,1,3.54,83.7,71,3.58,2,1,1,0
+2762,Sales,Manager,4,3,2,1.71,72.4,27,3.32,1,0,0,0
+2763,HR,Team Lead,18,42,3,4.74,70.7,44,4.01,2,0,3,1
+2764,HR,Manager,40,14,5,1.03,96.2,54,1.29,1,1,1,0
+2765,HR,Senior Associate,108,21,2,3.46,96.1,10,1.23,1,0,1,0
+2766,Operations,Team Lead,108,10,4,2.71,53.5,67,4.37,1,0,0,0
+2767,Finance,Manager,54,47,1,4.08,66.2,47,3.41,3,0,0,0
+2768,Operations,Senior Associate,28,7,5,1.42,83.0,74,1.68,1,0,1,0
+2769,Sales,Senior Associate,116,21,2,1.8,76.1,15,1.44,1,0,2,0
+2770,Sales,Senior Associate,114,15,5,3.49,63.1,69,4.78,2,0,1,0
+2771,Sales,Associate,67,22,4,1.09,71.7,51,3.33,1,0,4,0
+2772,Marketing,Team Lead,58,38,1,1.21,86.3,64,4.92,4,0,1,0
+2773,Marketing,Team Lead,20,37,2,2.09,98.4,21,1.36,5,1,2,1
+2774,HR,Associate,8,18,3,2.46,53.0,50,3.0,2,1,2,1
+2775,HR,Associate,10,6,4,3.6,79.8,70,2.65,2,1,1,1
+2776,Engineering,Senior Associate,64,32,4,1.42,52.8,22,2.0,3,0,1,0
+2777,Finance,Associate,31,7,1,1.18,74.4,24,2.14,4,0,1,0
+2778,HR,Senior Associate,79,58,2,4.07,75.4,52,1.19,2,1,3,0
+2779,HR,Manager,2,9,2,1.75,55.7,23,3.8,3,0,0,0
+2780,Sales,Team Lead,76,15,1,4.32,93.5,26,4.09,5,0,1,0
+2781,HR,Senior Associate,94,9,1,2.18,84.2,68,1.29,4,0,2,0
+2782,HR,Team Lead,74,34,4,2.74,52.8,56,3.33,2,0,3,1
+2783,Engineering,Associate,30,26,2,4.94,53.7,27,3.34,3,0,0,0
+2784,Marketing,Senior Associate,103,0,5,1.36,73.8,58,3.93,1,0,2,1
+2785,Engineering,Associate,96,8,4,1.2,92.1,58,4.82,1,0,0,0
+2786,Engineering,Manager,31,19,4,1.77,83.6,45,3.55,1,1,2,0
+2787,Sales,Team Lead,62,4,3,2.88,88.4,66,3.25,2,0,0,1
+2788,HR,Manager,72,58,1,3.57,79.7,3,2.13,5,0,1,0
+2789,Finance,Associate,98,3,1,3.86,95.5,48,3.06,2,0,1,0
+2790,Finance,Senior Associate,59,53,2,2.65,54.9,54,3.5,1,1,1,0
+2791,Sales,Associate,52,18,2,1.11,59.2,60,1.82,3,0,0,0
+2792,Engineering,Manager,112,48,4,2.28,92.2,69,4.03,5,0,0,1
+2793,HR,Team Lead,33,20,4,4.91,66.1,74,1.17,1,0,5,0
+2794,Operations,Senior Associate,17,39,5,4.42,86.7,50,4.05,4,0,2,1
+2795,Engineering,Team Lead,64,39,2,4.8,79.7,35,4.69,2,0,2,1
+2796,Marketing,Senior Associate,53,40,1,3.48,99.8,46,2.23,2,0,0,0
+2797,Marketing,Manager,83,16,4,3.56,87.6,74,2.97,4,0,2,0
+2798,HR,Associate,19,34,1,2.2,97.3,51,4.3,2,1,1,1
+2799,Engineering,Senior Associate,66,2,5,4.6,71.0,40,4.27,4,0,2,1
+2800,Engineering,Senior Associate,3,30,5,3.29,70.1,32,2.23,4,0,1,0
+2801,Operations,Manager,116,59,4,2.04,74.7,32,4.56,5,0,3,1
+2802,HR,Associate,95,54,3,2.91,82.4,26,4.7,3,0,1,0
+2803,Operations,Senior Associate,57,14,4,3.44,67.6,29,4.46,2,0,2,0
+2804,Finance,Senior Associate,74,35,5,2.77,51.8,62,4.38,2,0,4,1
+2805,HR,Manager,29,10,1,1.63,68.5,36,1.93,3,0,2,1
+2806,Marketing,Associate,106,42,1,4.41,75.2,37,2.89,3,0,0,0
+2807,Marketing,Team Lead,88,56,4,3.77,68.6,49,2.3,1,0,2,0
+2808,Engineering,Manager,57,48,5,3.36,70.3,32,4.19,1,0,1,0
+2809,Operations,Team Lead,60,38,5,4.9,80.7,6,2.71,5,0,0,0
+2810,Finance,Associate,20,7,5,4.98,95.2,72,3.46,2,0,2,1
+2811,Engineering,Team Lead,98,31,4,4.92,63.7,2,3.4,1,0,1,0
+2812,Marketing,Manager,52,17,4,1.17,75.6,75,1.17,3,1,2,0
+2813,Sales,Team Lead,26,8,4,4.79,79.1,64,2.72,2,1,1,1
+2814,Marketing,Team Lead,75,58,2,2.26,59.2,53,4.63,4,0,1,0
+2815,HR,Manager,58,46,3,3.61,67.7,70,3.47,5,1,3,1
+2816,Marketing,Manager,103,59,4,4.99,80.7,39,2.71,3,0,1,0
+2817,Sales,Manager,78,23,3,4.52,93.6,15,2.98,1,0,0,0
+2818,Finance,Manager,60,41,1,1.69,69.5,24,1.66,4,0,4,0
+2819,Finance,Associate,118,51,2,2.92,73.0,41,4.29,2,0,1,0
+2820,Marketing,Associate,86,9,3,1.37,68.3,15,2.63,2,1,1,0
+2821,Engineering,Manager,16,48,2,1.08,84.2,79,2.25,5,0,5,0
+2822,Finance,Senior Associate,17,21,5,4.58,63.8,43,1.35,4,0,2,0
+2823,Sales,Associate,61,42,2,2.71,63.4,23,4.75,2,0,1,1
+2824,Marketing,Team Lead,58,52,5,2.43,68.8,3,1.31,5,0,0,0
+2825,Marketing,Team Lead,39,46,2,4.59,64.0,57,2.25,5,1,2,1
+2826,Engineering,Senior Associate,50,14,2,2.97,61.7,33,3.36,3,0,1,0
+2827,Engineering,Team Lead,21,15,5,4.93,58.5,2,1.07,1,0,1,0
+2828,Operations,Team Lead,56,45,1,1.58,50.7,23,3.69,4,0,2,0
+2829,Engineering,Team Lead,84,21,4,3.19,69.0,10,1.77,1,0,2,0
+2830,Operations,Senior Associate,70,59,1,2.42,93.9,51,1.93,2,0,3,0
+2831,Marketing,Associate,30,41,5,1.02,76.2,13,2.71,1,0,1,0
+2832,Operations,Manager,45,35,2,4.23,83.9,31,4.5,1,0,3,0
+2833,Engineering,Manager,112,22,2,2.74,63.4,34,4.4,4,1,2,1
+2834,Marketing,Team Lead,5,26,1,2.94,95.5,72,2.2,2,0,2,0
+2835,Marketing,Team Lead,91,54,5,4.55,70.5,60,2.05,1,0,1,1
+2836,Sales,Senior Associate,92,57,1,1.27,61.0,6,3.27,1,0,1,0
+2837,HR,Manager,49,2,1,3.52,71.0,16,4.66,1,0,3,0
+2838,Marketing,Team Lead,48,16,4,4.27,51.4,2,3.1,2,0,1,0
+2839,HR,Senior Associate,53,43,1,3.14,56.1,46,1.08,3,0,2,0
+2840,Sales,Associate,10,25,1,4.8,79.3,54,1.13,4,0,1,0
+2841,Marketing,Manager,23,14,3,1.35,58.6,8,2.11,1,0,2,0
+2842,HR,Manager,28,41,4,3.95,91.8,34,1.89,5,0,2,0
+2843,Marketing,Manager,108,1,3,4.45,93.5,56,1.56,2,0,2,1
+2844,Marketing,Manager,101,33,4,1.69,74.1,17,3.59,2,0,0,0
+2845,Finance,Senior Associate,110,32,3,1.86,56.8,12,4.74,4,0,4,0
+2846,HR,Associate,113,39,2,3.0,74.0,44,1.1,5,0,1,1
+2847,Marketing,Associate,88,30,3,2.78,57.1,61,2.41,3,0,2,0
+2848,Finance,Team Lead,56,36,5,3.55,82.9,50,4.49,5,0,3,0
+2849,Finance,Team Lead,4,37,1,4.12,82.9,59,2.12,2,0,3,0
+2850,Finance,Team Lead,35,19,3,2.83,95.2,18,4.77,3,0,1,0
+2851,Engineering,Team Lead,79,51,5,1.39,56.7,26,2.46,3,0,2,0
+2852,HR,Team Lead,58,25,4,2.0,97.6,5,3.38,5,0,0,1
+2853,Finance,Associate,91,15,2,1.7,58.9,50,2.49,4,0,3,0
+2854,Operations,Manager,83,48,3,3.65,72.9,12,1.68,4,0,1,0
+2855,HR,Manager,47,15,2,3.93,90.5,13,2.49,4,1,1,1
+2856,Marketing,Senior Associate,83,37,2,2.9,88.4,4,3.98,2,0,1,0
+2857,Finance,Senior Associate,96,13,5,4.37,67.9,37,3.59,5,0,0,1
+2858,Sales,Senior Associate,58,51,2,2.55,76.1,51,4.11,2,0,2,0
+2859,Finance,Team Lead,16,2,4,3.48,96.1,64,4.7,4,1,2,1
+2860,Sales,Associate,24,41,5,4.92,90.3,13,3.68,1,0,3,0
+2861,Engineering,Associate,25,22,1,3.65,90.0,27,4.13,2,0,1,0
+2862,Sales,Senior Associate,78,8,3,2.91,87.7,3,1.19,5,0,1,1
+2863,HR,Senior Associate,106,52,3,4.43,90.4,54,2.15,1,0,1,0
+2864,Engineering,Associate,24,7,1,1.61,74.7,22,2.74,2,0,2,0
+2865,Engineering,Manager,98,14,5,3.67,73.2,73,4.13,1,0,2,1
+2866,Marketing,Team Lead,110,11,5,4.33,80.8,36,4.15,1,0,2,0
+2867,HR,Associate,38,13,4,3.76,64.2,7,3.71,1,0,0,0
+2868,HR,Manager,12,46,1,1.99,70.2,68,2.43,2,0,4,0
+2869,Finance,Manager,38,26,3,1.41,69.0,25,3.26,3,0,3,0
+2870,Finance,Team Lead,104,19,5,3.11,54.1,58,2.44,3,1,1,1
+2871,Operations,Associate,99,27,1,1.81,67.2,57,3.01,3,0,0,0
+2872,Sales,Senior Associate,67,23,2,4.09,95.9,64,3.87,1,0,0,0
+2873,Operations,Associate,44,21,5,1.96,55.2,59,4.14,3,0,0,0
+2874,Sales,Manager,15,47,5,3.41,75.7,30,1.8,2,1,0,0
+2875,Engineering,Senior Associate,70,10,4,4.71,98.5,54,2.63,3,0,0,1
+2876,Engineering,Associate,97,4,2,4.02,67.6,66,1.83,4,1,1,0
+2877,Marketing,Team Lead,37,22,3,2.89,80.7,27,2.26,5,0,0,0
+2878,Finance,Manager,94,20,4,3.99,62.9,3,4.12,2,0,3,1
+2879,Finance,Associate,115,28,1,3.12,50.0,47,1.07,4,0,1,0
+2880,Sales,Manager,107,54,1,4.85,52.3,57,4.95,2,0,1,0
+2881,HR,Associate,111,44,4,3.57,97.1,64,1.1,3,0,1,1
+2882,Operations,Associate,92,15,2,1.9,74.5,69,2.75,5,0,1,0
+2883,Finance,Manager,101,50,4,1.32,63.4,42,4.9,1,0,1,0
+2884,Operations,Associate,10,31,1,2.04,69.8,46,2.63,2,0,1,0
+2885,Operations,Senior Associate,106,55,3,2.17,73.2,10,3.72,3,0,0,0
+2886,Finance,Team Lead,59,54,2,1.58,56.8,31,4.27,4,1,1,0
+2887,Operations,Team Lead,47,23,2,4.55,63.3,78,4.77,5,0,0,1
+2888,HR,Team Lead,19,51,4,3.24,53.2,61,3.36,3,0,0,1
+2889,Engineering,Manager,19,7,2,2.64,99.7,48,2.74,3,0,0,0
+2890,Engineering,Team Lead,93,21,2,4.6,94.6,7,2.13,2,0,0,0
+2891,Engineering,Associate,108,39,2,1.45,86.3,62,2.55,3,1,1,0
+2892,Marketing,Associate,37,15,1,2.59,70.1,26,1.19,5,0,2,0
+2893,Marketing,Senior Associate,32,21,5,2.76,99.0,42,1.5,2,1,2,1
+2894,Engineering,Team Lead,55,1,5,1.35,98.6,17,3.96,3,1,0,1
+2895,HR,Team Lead,113,59,5,3.82,77.3,64,3.36,1,0,0,0
+2896,Finance,Associate,58,34,3,2.43,72.0,21,4.88,1,0,0,0
+2897,Operations,Manager,41,6,2,2.67,81.4,78,3.29,5,1,1,1
+2898,HR,Manager,62,31,3,1.97,87.1,40,1.95,2,1,0,0
+2899,HR,Team Lead,82,14,2,2.32,74.3,52,4.15,2,0,2,0
+2900,Finance,Manager,103,55,4,1.21,66.5,23,4.66,5,0,2,0
+2901,Finance,Manager,101,15,4,4.23,78.6,5,3.15,1,0,2,0
+2902,Marketing,Team Lead,1,7,3,4.55,70.2,35,2.04,1,1,0,0
+2903,Engineering,Team Lead,67,35,2,3.97,73.2,39,4.76,3,1,1,0
+2904,Marketing,Manager,57,27,4,1.55,61.7,75,4.65,3,0,2,0
+2905,HR,Team Lead,62,53,4,1.4,67.0,13,4.21,1,1,0,0
+2906,Marketing,Senior Associate,58,46,1,1.25,82.2,33,3.75,5,0,2,1
+2907,Marketing,Associate,100,49,4,3.61,79.4,53,2.84,2,0,0,1
+2908,Finance,Team Lead,72,31,4,3.84,80.3,46,2.42,3,0,0,0
+2909,Marketing,Manager,19,50,2,1.9,83.8,4,2.21,3,0,0,0
+2910,Engineering,Manager,56,55,3,3.17,97.8,1,1.76,3,0,2,0
+2911,Sales,Manager,99,19,3,1.94,71.5,4,1.22,5,0,0,0
+2912,Engineering,Manager,9,57,2,2.86,96.8,26,4.93,1,0,1,0
+2913,Operations,Team Lead,62,2,1,1.69,65.2,42,3.97,3,0,1,0
+2914,Engineering,Associate,90,6,2,2.27,75.6,10,1.58,3,1,2,0
+2915,Operations,Associate,47,46,5,2.0,81.1,38,2.14,2,0,2,0
+2916,Operations,Team Lead,57,42,4,2.83,72.9,48,4.51,3,0,1,0
+2917,HR,Team Lead,3,47,4,4.45,89.1,14,2.14,3,0,2,0
+2918,Operations,Manager,59,17,1,2.17,51.1,55,1.12,4,0,2,0
+2919,Sales,Senior Associate,86,57,5,1.15,85.0,1,4.94,3,0,1,0
+2920,Finance,Team Lead,21,30,3,3.58,56.1,9,2.68,3,0,2,0
+2921,Marketing,Manager,75,7,4,4.2,52.6,37,3.37,2,0,1,0
+2922,Finance,Associate,93,20,2,4.41,67.7,75,2.09,4,0,0,1
+2923,Marketing,Senior Associate,54,22,5,1.91,74.3,62,2.49,2,1,2,1
+2924,Sales,Associate,73,24,2,3.79,51.6,22,1.2,3,0,2,0
+2925,Sales,Team Lead,75,52,5,1.96,82.1,1,3.19,1,0,1,0
+2926,Marketing,Manager,72,1,5,2.82,82.0,53,2.21,1,0,1,0
+2927,Engineering,Senior Associate,84,0,5,2.94,80.9,42,1.6,5,0,3,1
+2928,Sales,Associate,64,0,2,2.95,94.5,57,1.47,5,1,0,1
+2929,Marketing,Senior Associate,88,1,2,4.58,92.8,76,3.59,3,0,0,1
+2930,Operations,Senior Associate,68,24,2,2.89,62.3,5,1.68,1,0,1,0
+2931,Sales,Team Lead,48,43,1,1.92,79.2,55,2.99,1,1,0,0
+2932,Marketing,Associate,83,27,1,1.57,92.4,74,2.96,2,0,2,0
+2933,Marketing,Senior Associate,11,55,1,4.15,50.3,50,4.02,3,1,0,0
+2934,HR,Associate,39,32,3,4.43,84.7,21,3.39,4,0,2,0
+2935,Marketing,Team Lead,29,56,5,1.6,74.9,44,3.29,3,0,0,0
+2936,Sales,Associate,43,3,2,3.46,83.8,71,1.87,4,1,3,1
+2937,Finance,Team Lead,30,15,3,3.09,83.9,21,3.12,3,0,2,0
+2938,Sales,Manager,37,0,1,4.41,93.2,48,4.47,1,0,2,0
+2939,Engineering,Team Lead,68,10,1,3.56,98.9,24,1.36,3,1,0,0
+2940,Sales,Senior Associate,70,14,2,3.69,95.5,64,4.36,5,0,0,1
+2941,Operations,Manager,40,29,3,1.39,96.5,1,4.99,1,0,3,1
+2942,Operations,Team Lead,6,38,2,1.32,85.5,7,1.66,5,0,1,0
+2943,Operations,Manager,41,34,1,4.39,90.5,48,3.56,2,0,2,0
+2944,Sales,Team Lead,17,44,4,3.22,64.1,21,1.94,1,1,2,0
+2945,Sales,Associate,11,6,5,4.41,82.9,71,4.07,1,0,0,1
+2946,HR,Team Lead,49,55,2,4.04,55.6,11,3.98,2,1,1,0
+2947,Finance,Associate,89,44,4,4.83,99.5,22,4.48,5,0,1,0
+2948,Engineering,Senior Associate,54,50,2,3.27,81.4,72,1.19,5,1,1,0
+2949,Marketing,Manager,19,23,1,2.28,55.6,42,4.17,2,0,0,0
+2950,Engineering,Team Lead,28,7,3,3.75,51.3,39,1.45,5,0,1,0
+2951,Marketing,Team Lead,106,56,3,4.95,64.0,27,1.44,5,0,1,0
+2952,Sales,Team Lead,103,34,5,4.07,58.0,23,3.48,4,0,2,0
+2953,HR,Associate,110,5,3,4.55,88.6,48,2.53,1,0,0,0
+2954,HR,Team Lead,21,20,2,1.31,58.0,63,2.94,1,0,1,0
+2955,Marketing,Team Lead,1,22,2,3.04,88.6,36,3.19,3,0,1,0
+2956,HR,Manager,108,41,2,3.47,59.9,29,1.4,5,0,0,0
+2957,Sales,Team Lead,2,59,4,2.14,94.3,2,2.93,4,0,2,0
+2958,Engineering,Associate,104,53,1,3.55,83.5,1,4.33,4,0,3,0
+2959,HR,Manager,34,17,4,2.75,88.7,26,4.53,2,0,2,1
+2960,Marketing,Associate,117,0,3,4.87,57.2,23,4.33,2,0,2,0
+2961,HR,Manager,49,54,2,3.11,87.5,79,4.49,2,0,2,0
+2962,Sales,Senior Associate,29,4,3,3.99,76.8,6,4.43,5,0,1,0
+2963,Engineering,Team Lead,51,46,1,3.77,95.1,65,3.71,4,0,1,0
+2964,Finance,Senior Associate,91,11,2,4.64,81.2,26,4.75,4,0,0,0
+2965,Marketing,Senior Associate,35,46,5,4.47,87.2,67,1.76,1,0,1,0
+2966,Finance,Associate,20,0,1,1.17,74.3,62,1.8,4,0,2,0
+2967,Operations,Senior Associate,80,6,5,2.19,85.6,27,3.84,1,0,6,0
+2968,Engineering,Senior Associate,68,5,5,4.82,95.9,61,4.28,2,1,3,1
+2969,HR,Associate,21,2,1,3.56,58.1,4,1.38,2,0,1,0
+2970,Marketing,Team Lead,97,58,2,2.62,74.7,78,2.96,5,0,4,0
+2971,Sales,Team Lead,114,13,2,2.85,68.9,70,2.26,2,0,3,0
+2972,Operations,Team Lead,70,31,1,1.78,52.0,25,4.72,5,0,0,0
+2973,Finance,Manager,107,7,3,1.99,57.0,8,2.73,4,0,1,0
+2974,Engineering,Team Lead,70,36,5,4.07,91.6,26,3.22,4,0,0,1
+2975,Sales,Team Lead,44,53,5,4.41,51.7,60,4.06,2,0,0,1
+2976,HR,Senior Associate,27,32,3,1.96,67.9,76,3.44,5,0,2,1
+2977,Sales,Team Lead,66,37,1,4.65,78.4,61,1.14,3,0,1,0
+2978,HR,Associate,87,26,1,4.38,78.6,18,3.67,1,0,0,0
+2979,Operations,Senior Associate,20,45,4,3.21,83.3,19,1.22,5,1,1,1
+2980,Finance,Senior Associate,105,27,3,3.24,91.2,47,4.03,4,0,1,0
+2981,HR,Manager,9,31,3,2.69,96.4,37,1.61,1,0,0,0
+2982,Operations,Team Lead,71,4,1,3.57,69.0,56,2.0,3,0,0,0
+2983,Sales,Senior Associate,79,52,1,2.15,97.5,60,2.38,4,0,2,0
+2984,Finance,Senior Associate,49,55,4,3.54,54.3,64,1.64,3,0,0,0
+2985,Engineering,Team Lead,79,13,2,4.14,77.7,10,4.85,2,0,2,0
+2986,Marketing,Manager,41,34,2,3.68,97.8,42,4.72,5,0,1,0
+2987,HR,Associate,111,20,2,1.74,66.0,56,3.78,2,0,3,0
+2988,Engineering,Senior Associate,38,7,5,1.57,61.5,31,1.24,5,1,1,1
+2989,Sales,Manager,27,22,3,3.74,66.3,16,4.08,1,0,0,0
+2990,Finance,Manager,4,26,2,3.77,58.3,59,4.11,1,0,0,0
+2991,Sales,Senior Associate,21,41,2,2.36,92.0,6,1.2,4,1,0,0
+2992,Finance,Associate,29,14,4,4.56,59.0,60,1.76,3,1,0,0
+2993,Marketing,Manager,73,39,1,3.83,85.9,35,3.49,3,0,0,0
+2994,HR,Senior Associate,9,15,5,3.91,82.2,39,2.62,2,0,2,1
+2995,HR,Associate,90,22,5,1.5,52.0,65,2.56,3,0,1,0
+2996,Operations,Manager,71,17,4,1.16,62.0,74,3.63,4,0,0,0
+2997,HR,Manager,34,59,2,2.71,71.1,32,3.92,3,0,1,0
+2998,Engineering,Associate,9,30,1,4.36,59.9,29,4.09,5,0,1,0
+2999,Marketing,Team Lead,8,19,3,1.31,59.7,0,3.42,4,0,1,0
+3000,Sales,Manager,61,2,3,3.06,65.1,59,3.96,3,0,2,1
