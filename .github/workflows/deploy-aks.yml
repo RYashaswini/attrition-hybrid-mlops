@@ -1,0 +1,39 @@
+name: Build and Deploy Serving API to AKS
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "app/api/**"
+      - "Dockerfile.api"
+      - "requirements-api.txt"
+      - "k8s/rollout.yaml"
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Azure login
+        uses: azure/login@v2
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: ACR login
+        run: az acr login --name attritionhybridacr
+
+      - name: Build and push image
+        run: |
+          IMAGE_TAG="v${{ github.run_number }}"
+          docker build -t ${{ secrets.ACR_LOGIN_SERVER }}/serving-api:$IMAGE_TAG -f Dockerfile.api .
+          docker push ${{ secrets.ACR_LOGIN_SERVER }}/serving-api:$IMAGE_TAG
+          echo "IMAGE_TAG=$IMAGE_TAG" >> $GITHUB_ENV
+
+      - name: Get AKS credentials
+        run: az aks get-credentials --resource-group attrition-hybrid-rg --name attrition-hybrid-aks --overwrite-existing
+
+      - name: Update rollout image
+        run: |
+          kubectl set image rollout/serving-api serving-api=${{ secrets.ACR_LOGIN_SERVER }}/serving-api:${{ env.IMAGE_TAG }} -n serving
