@@ -1,0 +1,41 @@
+images:
+  airflow:
+    repository: attritionhybridacr.azurecr.io/airflow-custom
+    tag: "3.2.2-dind"
+dags:
+  gitSync:
+    enabled: true
+    repo: https://github.com/RYashaswini/attrition-hybrid-mlops.git
+    branch: main
+    subPath: "dags"
+extraEnvFrom: |
+  - secretRef:
+      name: aws-creds
+workers:
+  extraContainers:
+    - name: dind
+      image: docker:24-dind
+      securityContext:
+        privileged: true
+        runAsUser: 0
+        runAsNonRoot: false
+      volumeMounts:
+        - name: docker-sock
+          mountPath: /var/run
+  extraContainers:
+    - name: dind
+      image: docker:24-dind
+      securityContext:
+        privileged: true
+      volumeMounts:
+        - name: docker-sock
+          mountPath: /var/run
+  extraVolumes:
+    - name: docker-sock
+      emptyDir: {}
+  extraVolumeMounts:
+    - name: docker-sock
+      mountPath: /var/run
+  env:
+    - name: DOCKER_HOST
+      value: "unix:///var/run/docker.sock"
