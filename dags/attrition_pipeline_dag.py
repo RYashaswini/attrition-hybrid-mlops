@@ -18,13 +18,13 @@ with DAG(
 ) as dag:
 
     train_register = BashOperator(
-        task_id="train_register_both_models",
-        bash_command="cd /opt/airflow/dags/repo && python pipeline_train_register.py",
-    )
+    task_id="train_register_both_models",
+    bash_command="cd /opt/airflow/dags/repo/app/models && python pipeline_train_register.py",
+)
 
     batch_transform = BashOperator(
         task_id="batch_transform_both_models",
-        bash_command="cd /opt/airflow/dags/repo && python deploy_batch_transform.py",
+        bash_command="cd /opt/airflow/dags/repo/app/models && python deploy_batch_transform.py",
     )
 
     train_register >> batch_transform
