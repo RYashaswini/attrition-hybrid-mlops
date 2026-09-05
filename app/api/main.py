@@ -114,4 +114,4 @@ def predict_promotion(req: PredictRequest, _: None = Depends(verify_api_key)):
 @app.post("/reload-models")
 def reload_models():
     load_all_models()
-    return {"status": "reloaded", "models_loaded": list(_loaded_models.keys())}
+    return {"status": "reloaded", "models_loaded": list(_loaded_models.keys())}# ci/cd test
