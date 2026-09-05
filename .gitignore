@@ -7,3 +7,4 @@ mlartifacts/
 *.db
 .env
 app/data/*.csv
+k8s/rollout.yaml
